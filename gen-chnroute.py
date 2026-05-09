@@ -7,6 +7,30 @@ URLs = {
     "CT": "https://ispip.clang.cn/chinatelecom.txt",
     "CU": "https://ispip.clang.cn/unicom_cnc.txt",
     "CM": "https://ispip.clang.cn/cmcc.txt",
+    "CBN": "https://ispip.clang.cn/chinabtn.txt",
+    "CERNET": "https://ispip.clang.cn/cernet.txt",
+    "GWBN": "https://ispip.clang.cn/gwbn.txt",
+    "CNOther": "https://ispip.clang.cn/othernet.txt",
+}
+
+OUTPUT_FILES = {
+    "CT": "fortios_isp_CT.conf.txt",
+    "CU": "fortios_isp_CU.conf.txt",
+    "CM": "fortios_isp_CM.conf.txt",
+    "CBN": "fortios_isp_CBN.conf.txt",
+    "CERNET": "fortios_isp_CERNET.conf.txt",
+    "GWBN": "fortios_isp_GWBN.conf.txt",
+    "CNOther": "fortios_isp_CNOther.conf.txt",
+}
+
+ISP_PREFIXES = {
+    "CT": "zzz_ISP_CT",
+    "CU": "zzz_ISP_CU",
+    "CM": "zzz_ISP_CM",
+    "CBN": "zzz_ISP_CBN",
+    "CERNET": "zzz_ISP_CERNET",
+    "GWBN": "zzz_ISP_GWBN",
+    "CNOther": "zzz_ISP_CNOther",
 }
 
 CHUNK_SIZE = 600
@@ -82,7 +106,8 @@ def main():
             print(f"  No routes found for {isp}")
             continue
         config = generate_config(isp, lines)
-        outfile = SCRIPT_DIR / f"fortios_isp_{isp}.conf.txt"
+        output_filename = OUTPUT_FILES[isp]
+        outfile = SCRIPT_DIR / output_filename
         with open(outfile, 'w', encoding='utf-8') as f:
             f.write(config)
         print(f"OK: {outfile} ({len(lines)} routes)")
