@@ -2,6 +2,7 @@
 import requests
 from datetime import datetime
 from pathlib import Path
+import ipaddress
 
 URLs = {
     "CT": "https://ispip.clang.cn/chinatelecom.txt",
@@ -13,6 +14,16 @@ URLs = {
     "CNOther": "https://ispip.clang.cn/othernet.txt",
 }
 
+IPv6_URLs = {
+    "v6_CT": "https://ispip.clang.cn/chinatelecom_ipv6.txt",
+    "v6_CU": "https://ispip.clang.cn/unicom_cnc_ipv6.txt",
+    "v6_CM": "https://ispip.clang.cn/cmcc_ipv6.txt",
+    "v6_CBN": "https://ispip.clang.cn/chinabtn_ipv6.txt",
+    "v6_CERNET": "https://ispip.clang.cn/cernet_ipv6.txt",
+    "v6_GWBN": "https://ispip.clang.cn/gwbn_ipv6.txt",
+    "v6_CNOther": "https://ispip.clang.cn/othernet_ipv6.txt",
+}
+
 OUTPUT_FILES = {
     "CT": "fortios_isp_CT.conf.txt",
     "CU": "fortios_isp_CU.conf.txt",
@@ -21,6 +32,13 @@ OUTPUT_FILES = {
     "CERNET": "fortios_isp_CERNET.conf.txt",
     "GWBN": "fortios_isp_GWBN.conf.txt",
     "CNOther": "fortios_isp_CNOther.conf.txt",
+    "v6_CT": "fortios_isp_v6_CT.conf.txt",
+    "v6_CU": "fortios_isp_v6_CU.conf.txt",
+    "v6_CM": "fortios_isp_v6_CM.conf.txt",
+    "v6_CBN": "fortios_isp_v6_CBN.conf.txt",
+    "v6_CERNET": "fortios_isp_v6_CERNET.conf.txt",
+    "v6_GWBN": "fortios_isp_v6_GWBN.conf.txt",
+    "v6_CNOther": "fortios_isp_v6_CNOther.conf.txt",
 }
 
 ISP_PREFIXES = {
@@ -31,6 +49,13 @@ ISP_PREFIXES = {
     "CERNET": "zzz_ISP_CERNET",
     "GWBN": "zzz_ISP_GWBN",
     "CNOther": "zzz_ISP_CNOther",
+    "v6_CT": "zzz_ISP_v6_CT",
+    "v6_CU": "zzz_ISP_v6_CU",
+    "v6_CM": "zzz_ISP_v6_CM",
+    "v6_CBN": "zzz_ISP_v6_CBN",
+    "v6_CERNET": "zzz_ISP_v6_CERNET",
+    "v6_GWBN": "zzz_ISP_v6_GWBN",
+    "v6_CNOther": "zzz_ISP_v6_CNOther",
 }
 
 CHUNK_SIZE = 600
@@ -47,10 +72,24 @@ def fetch_routes(url):
         print(f"Error fetching {url}: {e}")
         return []
 
+def is_ipv6(ip_string):
+    try:
+        ipaddress.IPv6Address(ip_string)
+        return True
+    except:
+        return False
+
 def generate_config(isp, lines):
     output = []
     AG = f"zzz_ISPAG_{isp}"
-    output.append("config firewall address")
+    
+    # Determine if IPv6
+    is_v6 = is_ipv6(lines[0].split('/')[0]) if lines else False
+    
+    if is_v6:
+        output.append("config firewall address6")
+    else:
+        output.append("config firewall address")
     
     members = []
     for index, line in enumerate(lines):
@@ -61,8 +100,12 @@ def generate_config(isp, lines):
         bg_num = (index // CHUNK_SIZE) + 1
         obj_name = f"zzz_ISP_{isp}_{bg_num}_{ip}_{mask}"
         members.append(obj_name)
+        
         output.append(f'edit "{obj_name}"')
-        output.append(f'    set subnet {ip}/{mask}')
+        if is_v6:
+            output.append(f'    set ip6 {ip}/{mask}')
+        else:
+            output.append(f'    set subnet {ip}/{mask}')
         output.append('    set allow-routing enable')
         output.append(f'    set comment "update-date: {TODAY}"')
         output.append('next')
@@ -99,7 +142,9 @@ def generate_config(isp, lines):
     return '\n'.join(output)
 
 def main():
-    for isp, url in URLs.items():
+    all_urls = {**URLs, **IPv6_URLs}
+    
+    for isp, url in all_urls.items():
         print(f"Fetching {isp} routes...")
         lines = fetch_routes(url)
         if not lines:
