@@ -2,7 +2,7 @@ name: Daily CHN Route Generation
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '30 16 * * *'   # 每天 UTC 16:30 = UTC+8 00:30
   workflow_dispatch:
 
 jobs:
