@@ -1,0 +1,23 @@
+config firewall address6
+edit "zzz_ISP_v6_GWBN_1_2001:4510:400::_40"
+    set ip6 2001:4510:400::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+end
+
+config firewall addrgrp
+    edit "zzz_ISPBG_v6_GWBN_1"
+        unset member
+        set member "zzz_ISP_v6_GWBN_1_2001:4510:400::_40"
+        set allow-routing enable
+    next
+end
+
+config firewall addrgrp
+    edit "zzz_ISPAG_v6_GWBN"
+        unset member
+        set member "zzz_ISPBG_v6_GWBN_1"
+        set allow-routing enable
+    next
+end
