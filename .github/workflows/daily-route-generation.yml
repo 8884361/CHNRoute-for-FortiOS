@@ -1,0 +1,45 @@
+name: Daily CHN Route Generation
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - run: pip install requests
+
+      - run: python3 gen-chnroute.py
+
+      - run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add fortios_isp_*.conf.txt
+          git diff --quiet && git diff --staged --quiet || (
+            git commit -m "chore: Auto-generate routes - $(date -u +'%Y-%m-%d %H:%M:%S')"
+            git push
+          )
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: generated-routes
+          path: fortios_isp_*.conf.txt
+          retention-days: 30
+
+      - run: |
+          echo "## Route Generation Complete" >> $GITHUB_STEP_SUMMARY
+          echo "**Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          ls -lh fortios_isp_*.conf.txt 2>/dev/null | awk '{print "- " $9 " (" $5 ")"}' >> $GITHUB_STEP_SUMMARY || true
+        if: always()
