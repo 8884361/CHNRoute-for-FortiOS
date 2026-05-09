@@ -1,0 +1,1653 @@
+config firewall address
+edit "zzz_ISP_CM_1_27.0.160.0_22"
+    set subnet 27.0.160.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_36.128.0.0_10"
+    set subnet 36.128.0.0/10
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_36.192.0.0_16"
+    set subnet 36.192.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_36.206.0.0_16"
+    set subnet 36.206.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_36.212.0.0_15"
+    set subnet 36.212.0.0/15
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_36.214.0.0_16"
+    set subnet 36.214.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_36.221.0.0_17"
+    set subnet 36.221.0.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_39.128.0.0_10"
+    set subnet 39.128.0.0/10
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_42.62.0.0_17"
+    set subnet 42.62.0.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_42.157.192.0_21"
+    set subnet 42.157.192.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.228.116.0_22"
+    set subnet 43.228.116.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.231.32.0_22"
+    set subnet 43.231.32.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.231.96.0_23"
+    set subnet 43.231.96.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.231.98.0_24"
+    set subnet 43.231.98.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.231.103.0_24"
+    set subnet 43.231.103.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.239.172.0_24"
+    set subnet 43.239.172.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.240.72.0_23"
+    set subnet 43.240.72.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.241.49.0_24"
+    set subnet 43.241.49.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.241.50.0_24"
+    set subnet 43.241.50.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.243.12.0_22"
+    set subnet 43.243.12.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.243.128.0_22"
+    set subnet 43.243.128.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.247.88.0_22"
+    set subnet 43.247.88.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.248.96.0_21"
+    set subnet 43.248.96.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.248.116.0_22"
+    set subnet 43.248.116.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.248.128.0_20"
+    set subnet 43.248.128.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.248.184.0_21"
+    set subnet 43.248.184.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.248.196.0_22"
+    set subnet 43.248.196.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.248.200.0_21"
+    set subnet 43.248.200.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.251.244.0_22"
+    set subnet 43.251.244.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.254.88.0_22"
+    set subnet 43.254.88.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.254.136.0_22"
+    set subnet 43.254.136.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.255.84.0_24"
+    set subnet 43.255.84.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_43.255.228.0_22"
+    set subnet 43.255.228.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_45.65.24.0_22"
+    set subnet 45.65.24.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_45.113.200.0_23"
+    set subnet 45.113.200.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_45.113.202.0_24"
+    set subnet 45.113.202.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_45.116.32.0_22"
+    set subnet 45.116.32.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_45.116.140.0_22"
+    set subnet 45.116.140.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_45.117.8.0_24"
+    set subnet 45.117.8.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_45.117.10.0_23"
+    set subnet 45.117.10.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_45.119.64.0_22"
+    set subnet 45.119.64.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_45.120.100.0_22"
+    set subnet 45.120.100.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_45.248.8.0_22"
+    set subnet 45.248.8.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_45.248.204.0_22"
+    set subnet 45.248.204.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_45.250.28.0_22"
+    set subnet 45.250.28.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_45.250.40.0_22"
+    set subnet 45.250.40.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_45.251.96.0_22"
+    set subnet 45.251.96.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_54.222.46.0_23"
+    set subnet 54.222.46.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_58.67.192.0_19"
+    set subnet 58.67.192.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_58.83.0.0_17"
+    set subnet 58.83.0.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_58.83.160.0_23"
+    set subnet 58.83.160.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_58.83.176.0_23"
+    set subnet 58.83.176.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_58.83.192.0_18"
+    set subnet 58.83.192.0/18
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_59.151.0.0_19"
+    set subnet 59.151.0.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_59.151.64.0_18"
+    set subnet 59.151.64.0/18
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_59.191.0.0_17"
+    set subnet 59.191.0.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_61.232.0.0_14"
+    set subnet 61.232.0.0/14
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_61.237.0.0_16"
+    set subnet 61.237.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_69.235.184.0_21"
+    set subnet 69.235.184.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_101.36.128.0_17"
+    set subnet 101.36.128.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_101.125.130.0_24"
+    set subnet 101.125.130.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_101.144.0.0_12"
+    set subnet 101.144.0.0/12
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_101.251.192.0_21"
+    set subnet 101.251.192.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_101.251.200.0_22"
+    set subnet 101.251.200.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_101.251.224.0_20"
+    set subnet 101.251.224.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_101.251.240.0_21"
+    set subnet 101.251.240.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_101.251.248.0_22"
+    set subnet 101.251.248.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.1.10.0_23"
+    set subnet 103.1.10.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.3.128.0_22"
+    set subnet 103.3.128.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.8.220.0_23"
+    set subnet 103.8.220.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.8.222.0_24"
+    set subnet 103.8.222.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.19.232.0_23"
+    set subnet 103.19.232.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.20.112.0_22"
+    set subnet 103.20.112.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.21.176.0_22"
+    set subnet 103.21.176.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.35.104.0_22"
+    set subnet 103.35.104.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.37.46.0_23"
+    set subnet 103.37.46.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.37.72.0_24"
+    set subnet 103.37.72.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.40.12.0_22"
+    set subnet 103.40.12.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.40.192.0_23"
+    set subnet 103.40.192.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.45.161.0_24"
+    set subnet 103.45.161.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.45.162.0_23"
+    set subnet 103.45.162.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.46.171.0_24"
+    set subnet 103.46.171.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.52.176.0_23"
+    set subnet 103.52.176.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.53.124.0_22"
+    set subnet 103.53.124.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.56.76.0_22"
+    set subnet 103.56.76.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.56.184.0_22"
+    set subnet 103.56.184.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.59.116.0_22"
+    set subnet 103.59.116.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.60.164.0_22"
+    set subnet 103.60.164.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.78.228.0_22"
+    set subnet 103.78.228.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.82.224.0_22"
+    set subnet 103.82.224.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.83.72.0_22"
+    set subnet 103.83.72.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.84.170.0_23"
+    set subnet 103.84.170.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.85.84.0_22"
+    set subnet 103.85.84.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.85.174.0_23"
+    set subnet 103.85.174.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.85.178.0_24"
+    set subnet 103.85.178.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.87.180.0_22"
+    set subnet 103.87.180.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.91.177.0_24"
+    set subnet 103.91.177.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.95.68.0_22"
+    set subnet 103.95.68.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.101.180.0_22"
+    set subnet 103.101.180.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.110.132.0_22"
+    set subnet 103.110.132.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.130.160.0_23"
+    set subnet 103.130.160.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.143.228.0_23"
+    set subnet 103.143.228.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.152.29.0_24"
+    set subnet 103.152.29.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.192.0.0_22"
+    set subnet 103.192.0.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.205.189.0_24"
+    set subnet 103.205.189.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.205.252.0_22"
+    set subnet 103.205.252.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.208.12.0_22"
+    set subnet 103.208.12.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.213.96.0_22"
+    set subnet 103.213.96.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.215.36.0_22"
+    set subnet 103.215.36.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.216.4.0_22"
+    set subnet 103.216.4.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.216.152.0_22"
+    set subnet 103.216.152.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.219.24.0_21"
+    set subnet 103.219.24.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.219.32.0_21"
+    set subnet 103.219.32.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.220.60.0_22"
+    set subnet 103.220.60.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.229.212.0_22"
+    set subnet 103.229.212.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.230.236.0_23"
+    set subnet 103.230.236.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.232.166.0_23"
+    set subnet 103.232.166.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.233.52.0_22"
+    set subnet 103.233.52.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.238.132.0_22"
+    set subnet 103.238.132.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.238.160.0_23"
+    set subnet 103.238.160.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.239.152.0_22"
+    set subnet 103.239.152.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.239.204.0_22"
+    set subnet 103.239.204.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.239.244.0_23"
+    set subnet 103.239.244.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.239.247.0_24"
+    set subnet 103.239.247.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.252.36.0_22"
+    set subnet 103.252.36.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_103.253.232.0_22"
+    set subnet 103.253.232.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_106.3.144.0_21"
+    set subnet 106.3.144.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_106.13.252.0_22"
+    set subnet 106.13.252.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_106.75.0.0_17"
+    set subnet 106.75.0.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.42.0.0_21"
+    set subnet 110.42.0.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.42.8.0_22"
+    set subnet 110.42.8.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.42.12.0_23"
+    set subnet 110.42.12.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.42.14.0_24"
+    set subnet 110.42.14.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.56.0.0_13"
+    set subnet 110.56.0.0/13
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.96.0.0_16"
+    set subnet 110.96.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.100.0.0_16"
+    set subnet 110.100.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.112.0.0_15"
+    set subnet 110.112.0.0/15
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.114.0.0_16"
+    set subnet 110.114.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.115.128.0_17"
+    set subnet 110.115.128.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.116.0.0_16"
+    set subnet 110.116.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.120.0.0_16"
+    set subnet 110.120.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.124.0.0_16"
+    set subnet 110.124.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.125.128.0_17"
+    set subnet 110.125.128.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.172.200.0_21"
+    set subnet 110.172.200.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.199.0.0_16"
+    set subnet 110.199.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.203.0.0_23"
+    set subnet 110.203.0.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.211.0.0_16"
+    set subnet 110.211.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.218.0.0_15"
+    set subnet 110.218.0.0/15
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_110.236.0.0_15"
+    set subnet 110.236.0.0/15
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_111.0.0.0_10"
+    set subnet 111.0.0.0/10
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_111.128.0.0_16"
+    set subnet 111.128.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_111.132.0.0_16"
+    set subnet 111.132.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_111.142.0.0_15"
+    set subnet 111.142.0.0/15
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_111.144.0.0_14"
+    set subnet 111.144.0.0/14
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_111.148.0.0_16"
+    set subnet 111.148.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_111.149.0.0_24"
+    set subnet 111.149.0.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_111.223.12.0_22"
+    set subnet 111.223.12.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_112.0.0.0_10"
+    set subnet 112.0.0.0/10
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_113.18.0.0_16"
+    set subnet 113.18.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_114.112.80.0_20"
+    set subnet 114.112.80.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_114.118.104.0_21"
+    set subnet 114.118.104.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_114.118.112.0_20"
+    set subnet 114.118.112.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_115.180.0.0_17"
+    set subnet 115.180.0.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_116.85.16.0_22"
+    set subnet 116.85.16.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_117.48.0.0_18"
+    set subnet 117.48.0.0/18
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_117.48.64.0_19"
+    set subnet 117.48.64.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_117.48.144.0_20"
+    set subnet 117.48.144.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_117.48.193.0_24"
+    set subnet 117.48.193.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_117.48.194.0_24"
+    set subnet 117.48.194.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_117.48.219.0_24"
+    set subnet 117.48.219.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_117.48.232.0_22"
+    set subnet 117.48.232.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_117.50.0.0_17"
+    set subnet 117.50.0.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_117.128.0.0_10"
+    set subnet 117.128.0.0/10
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_118.26.197.0_24"
+    set subnet 118.26.197.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_118.26.198.0_23"
+    set subnet 118.26.198.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_118.26.200.0_21"
+    set subnet 118.26.200.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_118.26.224.0_20"
+    set subnet 118.26.224.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_118.30.0.0_16"
+    set subnet 118.30.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_118.193.127.0_24"
+    set subnet 118.193.127.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_118.195.0.0_17"
+    set subnet 118.195.0.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_118.204.0.0_17"
+    set subnet 118.204.0.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_119.44.205.0_24"
+    set subnet 119.44.205.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_119.161.183.0_24"
+    set subnet 119.161.183.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_120.132.0.0_19"
+    set subnet 120.132.0.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_120.132.96.0_20"
+    set subnet 120.132.96.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_120.132.116.0_24"
+    set subnet 120.132.116.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_120.132.120.0_21"
+    set subnet 120.132.120.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_120.132.128.0_19"
+    set subnet 120.132.128.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_120.132.176.0_20"
+    set subnet 120.132.176.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_120.132.192.0_23"
+    set subnet 120.132.192.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_120.132.208.0_20"
+    set subnet 120.132.208.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_120.132.224.0_19"
+    set subnet 120.132.224.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_120.133.0.0_19"
+    set subnet 120.133.0.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_120.133.48.0_20"
+    set subnet 120.133.48.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_120.133.96.0_19"
+    set subnet 120.133.96.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_120.133.224.0_22"
+    set subnet 120.133.224.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_120.192.0.0_10"
+    set subnet 120.192.0.0/10
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_121.46.16.0_20"
+    set subnet 121.46.16.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_121.46.192.0_22"
+    set subnet 121.46.192.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_121.70.0.0_17"
+    set subnet 121.70.0.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_121.255.0.0_16"
+    set subnet 121.255.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_122.14.192.0_18"
+    set subnet 122.14.192.0/18
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_122.70.0.0_15"
+    set subnet 122.70.0.0/15
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_122.72.3.0_24"
+    set subnet 122.72.3.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_122.72.16.0_24"
+    set subnet 122.72.16.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_122.72.38.0_24"
+    set subnet 122.72.38.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_122.72.112.0_24"
+    set subnet 122.72.112.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_122.84.0.0_16"
+    set subnet 122.84.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_122.90.0.0_16"
+    set subnet 122.90.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_122.91.0.0_17"
+    set subnet 122.91.0.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_122.94.0.0_16"
+    set subnet 122.94.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_123.58.0.0_20"
+    set subnet 123.58.0.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_123.61.0.0_16"
+    set subnet 123.61.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_123.64.0.0_15"
+    set subnet 123.64.0.0/15
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_123.66.0.0_16"
+    set subnet 123.66.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_123.77.0.0_16"
+    set subnet 123.77.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_123.82.0.0_17"
+    set subnet 123.82.0.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_123.88.0.0_15"
+    set subnet 123.88.0.0/15
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_123.90.0.0_16"
+    set subnet 123.90.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_123.99.192.0_20"
+    set subnet 123.99.192.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_123.103.14.0_24"
+    set subnet 123.103.14.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_124.201.0.0_17"
+    set subnet 124.201.0.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_124.243.192.0_18"
+    set subnet 124.243.192.0/18
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_124.250.16.0_20"
+    set subnet 124.250.16.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_124.250.61.0_24"
+    set subnet 124.250.61.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_124.250.120.0_23"
+    set subnet 124.250.120.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_124.250.128.0_17"
+    set subnet 124.250.128.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_124.251.0.0_19"
+    set subnet 124.251.0.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_124.251.56.0_22"
+    set subnet 124.251.56.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_124.251.96.0_23"
+    set subnet 124.251.96.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_124.251.126.0_23"
+    set subnet 124.251.126.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_124.251.128.0_17"
+    set subnet 124.251.128.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_125.254.128.0_19"
+    set subnet 125.254.128.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_125.254.160.0_21"
+    set subnet 125.254.160.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_125.254.176.0_21"
+    set subnet 125.254.176.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_125.254.184.0_22"
+    set subnet 125.254.184.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_125.254.188.0_23"
+    set subnet 125.254.188.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_125.254.190.0_24"
+    set subnet 125.254.190.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_139.159.32.0_20"
+    set subnet 139.159.32.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_139.220.128.0_17"
+    set subnet 139.220.128.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_140.179.224.0_19"
+    set subnet 140.179.224.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_140.210.16.0_21"
+    set subnet 140.210.16.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_140.210.24.0_22"
+    set subnet 140.210.24.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_140.210.28.0_23"
+    set subnet 140.210.28.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_140.210.30.0_24"
+    set subnet 140.210.30.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_140.210.64.0_19"
+    set subnet 140.210.64.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_157.15.104.0_23"
+    set subnet 157.15.104.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_157.20.246.0_23"
+    set subnet 157.20.246.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_157.66.164.0_23"
+    set subnet 157.66.164.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_160.19.76.0_23"
+    set subnet 160.19.76.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_160.202.212.0_22"
+    set subnet 160.202.212.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_161.207.18.0_23"
+    set subnet 161.207.18.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_167.189.0.0_16"
+    set subnet 167.189.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_180.188.16.0_20"
+    set subnet 180.188.16.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_182.50.112.0_20"
+    set subnet 182.50.112.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_182.157.0.0_16"
+    set subnet 182.157.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_182.175.244.0_22"
+    set subnet 182.175.244.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_183.84.4.0_22"
+    set subnet 183.84.4.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_183.192.0.0_10"
+    set subnet 183.192.0.0/10
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_192.140.209.0_24"
+    set subnet 192.140.209.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_192.140.210.0_23"
+    set subnet 192.140.210.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_192.140.212.0_22"
+    set subnet 192.140.212.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_202.46.224.0_22"
+    set subnet 202.46.224.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_202.123.120.0_22"
+    set subnet 202.123.120.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_202.141.176.0_20"
+    set subnet 202.141.176.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_203.76.240.0_22"
+    set subnet 203.76.240.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_203.130.32.0_22"
+    set subnet 203.130.32.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_203.135.104.0_21"
+    set subnet 203.135.104.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_203.196.0.0_22"
+    set subnet 203.196.0.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_203.196.4.0_24"
+    set subnet 203.196.4.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_203.212.12.0_22"
+    set subnet 203.212.12.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_211.98.0.0_16"
+    set subnet 211.98.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_211.99.117.0_24"
+    set subnet 211.99.117.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_211.99.118.0_23"
+    set subnet 211.99.118.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_211.99.120.0_23"
+    set subnet 211.99.120.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_211.99.160.0_22"
+    set subnet 211.99.160.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_211.99.188.0_22"
+    set subnet 211.99.188.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_211.103.0.0_17"
+    set subnet 211.103.0.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_211.136.0.0_13"
+    set subnet 211.136.0.0/13
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_211.148.224.0_19"
+    set subnet 211.148.224.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_211.151.4.0_23"
+    set subnet 211.151.4.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_211.151.32.0_19"
+    set subnet 211.151.32.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_211.151.64.0_18"
+    set subnet 211.151.64.0/18
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_211.151.128.0_17"
+    set subnet 211.151.128.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_211.152.0.0_19"
+    set subnet 211.152.0.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_211.155.236.0_24"
+    set subnet 211.155.236.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_218.98.96.0_23"
+    set subnet 218.98.96.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_218.98.98.0_24"
+    set subnet 218.98.98.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_218.98.100.0_24"
+    set subnet 218.98.100.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_218.98.111.0_24"
+    set subnet 218.98.111.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_218.98.112.0_23"
+    set subnet 218.98.112.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_218.200.0.0_13"
+    set subnet 218.200.0.0/13
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_218.245.0.0_21"
+    set subnet 218.245.0.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_219.83.160.0_21"
+    set subnet 219.83.160.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_221.122.0.0_19"
+    set subnet 221.122.0.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_221.122.32.0_20"
+    set subnet 221.122.32.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_221.122.128.0_17"
+    set subnet 221.122.128.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_221.123.128.0_18"
+    set subnet 221.123.128.0/18
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_221.130.0.0_15"
+    set subnet 221.130.0.0/15
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_221.172.0.0_16"
+    set subnet 221.172.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_221.174.0.0_16"
+    set subnet 221.174.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_221.176.0.0_13"
+    set subnet 221.176.0.0/13
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_222.35.0.0_16"
+    set subnet 222.35.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_222.42.115.0_24"
+    set subnet 222.42.115.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_222.44.0.0_15"
+    set subnet 222.44.0.0/15
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_222.49.128.0_17"
+    set subnet 222.49.128.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_222.50.0.0_16"
+    set subnet 222.50.0.0/16
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_222.59.128.0_17"
+    set subnet 222.59.128.0/17
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.64.0.0_10"
+    set subnet 223.64.0.0/10
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.160.0.0_20"
+    set subnet 223.160.0.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.160.16.0_21"
+    set subnet 223.160.16.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.160.112.0_20"
+    set subnet 223.160.112.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.160.128.0_22"
+    set subnet 223.160.128.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.160.134.0_23"
+    set subnet 223.160.134.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.160.136.0_21"
+    set subnet 223.160.136.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.160.144.0_20"
+    set subnet 223.160.144.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.160.160.0_19"
+    set subnet 223.160.160.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.160.192.0_19"
+    set subnet 223.160.192.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.160.224.0_21"
+    set subnet 223.160.224.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.160.232.0_22"
+    set subnet 223.160.232.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.160.236.0_23"
+    set subnet 223.160.236.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.161.194.0_23"
+    set subnet 223.161.194.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.161.196.0_22"
+    set subnet 223.161.196.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.161.200.0_21"
+    set subnet 223.161.200.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.161.208.0_20"
+    set subnet 223.161.208.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.161.224.0_19"
+    set subnet 223.161.224.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+edit "zzz_ISP_CM_1_223.223.192.0_20"
+    set subnet 223.223.192.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-09"
+next
+end
+
+config firewall addrgrp
+    edit "zzz_ISPBG_CM_1"
+        unset member
+        set member "zzz_ISP_CM_1_27.0.160.0_22" "zzz_ISP_CM_1_36.128.0.0_10" "zzz_ISP_CM_1_36.192.0.0_16" "zzz_ISP_CM_1_36.206.0.0_16" "zzz_ISP_CM_1_36.212.0.0_15" "zzz_ISP_CM_1_36.214.0.0_16" "zzz_ISP_CM_1_36.221.0.0_17" "zzz_ISP_CM_1_39.128.0.0_10" "zzz_ISP_CM_1_42.62.0.0_17" "zzz_ISP_CM_1_42.157.192.0_21" "zzz_ISP_CM_1_43.228.116.0_22" "zzz_ISP_CM_1_43.231.32.0_22" "zzz_ISP_CM_1_43.231.96.0_23" "zzz_ISP_CM_1_43.231.98.0_24" "zzz_ISP_CM_1_43.231.103.0_24" "zzz_ISP_CM_1_43.239.172.0_24" "zzz_ISP_CM_1_43.240.72.0_23" "zzz_ISP_CM_1_43.241.49.0_24" "zzz_ISP_CM_1_43.241.50.0_24" "zzz_ISP_CM_1_43.243.12.0_22" "zzz_ISP_CM_1_43.243.128.0_22" "zzz_ISP_CM_1_43.247.88.0_22" "zzz_ISP_CM_1_43.248.96.0_21" "zzz_ISP_CM_1_43.248.116.0_22" "zzz_ISP_CM_1_43.248.128.0_20" "zzz_ISP_CM_1_43.248.184.0_21" "zzz_ISP_CM_1_43.248.196.0_22" "zzz_ISP_CM_1_43.248.200.0_21" "zzz_ISP_CM_1_43.251.244.0_22" "zzz_ISP_CM_1_43.254.88.0_22" "zzz_ISP_CM_1_43.254.136.0_22" "zzz_ISP_CM_1_43.255.84.0_24" "zzz_ISP_CM_1_43.255.228.0_22" "zzz_ISP_CM_1_45.65.24.0_22" "zzz_ISP_CM_1_45.113.200.0_23" "zzz_ISP_CM_1_45.113.202.0_24" "zzz_ISP_CM_1_45.116.32.0_22" "zzz_ISP_CM_1_45.116.140.0_22" "zzz_ISP_CM_1_45.117.8.0_24" "zzz_ISP_CM_1_45.117.10.0_23" "zzz_ISP_CM_1_45.119.64.0_22" "zzz_ISP_CM_1_45.120.100.0_22" "zzz_ISP_CM_1_45.248.8.0_22" "zzz_ISP_CM_1_45.248.204.0_22" "zzz_ISP_CM_1_45.250.28.0_22" "zzz_ISP_CM_1_45.250.40.0_22" "zzz_ISP_CM_1_45.251.96.0_22" "zzz_ISP_CM_1_54.222.46.0_23" "zzz_ISP_CM_1_58.67.192.0_19" "zzz_ISP_CM_1_58.83.0.0_17" "zzz_ISP_CM_1_58.83.160.0_23" "zzz_ISP_CM_1_58.83.176.0_23" "zzz_ISP_CM_1_58.83.192.0_18" "zzz_ISP_CM_1_59.151.0.0_19" "zzz_ISP_CM_1_59.151.64.0_18" "zzz_ISP_CM_1_59.191.0.0_17" "zzz_ISP_CM_1_61.232.0.0_14" "zzz_ISP_CM_1_61.237.0.0_16" "zzz_ISP_CM_1_69.235.184.0_21" "zzz_ISP_CM_1_101.36.128.0_17" "zzz_ISP_CM_1_101.125.130.0_24" "zzz_ISP_CM_1_101.144.0.0_12" "zzz_ISP_CM_1_101.251.192.0_21" "zzz_ISP_CM_1_101.251.200.0_22" "zzz_ISP_CM_1_101.251.224.0_20" "zzz_ISP_CM_1_101.251.240.0_21" "zzz_ISP_CM_1_101.251.248.0_22" "zzz_ISP_CM_1_103.1.10.0_23" "zzz_ISP_CM_1_103.3.128.0_22" "zzz_ISP_CM_1_103.8.220.0_23" "zzz_ISP_CM_1_103.8.222.0_24" "zzz_ISP_CM_1_103.19.232.0_23" "zzz_ISP_CM_1_103.20.112.0_22" "zzz_ISP_CM_1_103.21.176.0_22" "zzz_ISP_CM_1_103.35.104.0_22" "zzz_ISP_CM_1_103.37.46.0_23" "zzz_ISP_CM_1_103.37.72.0_24" "zzz_ISP_CM_1_103.40.12.0_22" "zzz_ISP_CM_1_103.40.192.0_23" "zzz_ISP_CM_1_103.45.161.0_24" "zzz_ISP_CM_1_103.45.162.0_23" "zzz_ISP_CM_1_103.46.171.0_24" "zzz_ISP_CM_1_103.52.176.0_23" "zzz_ISP_CM_1_103.53.124.0_22" "zzz_ISP_CM_1_103.56.76.0_22" "zzz_ISP_CM_1_103.56.184.0_22" "zzz_ISP_CM_1_103.59.116.0_22" "zzz_ISP_CM_1_103.60.164.0_22" "zzz_ISP_CM_1_103.78.228.0_22" "zzz_ISP_CM_1_103.82.224.0_22" "zzz_ISP_CM_1_103.83.72.0_22" "zzz_ISP_CM_1_103.84.170.0_23" "zzz_ISP_CM_1_103.85.84.0_22" "zzz_ISP_CM_1_103.85.174.0_23" "zzz_ISP_CM_1_103.85.178.0_24" "zzz_ISP_CM_1_103.87.180.0_22" "zzz_ISP_CM_1_103.91.177.0_24" "zzz_ISP_CM_1_103.95.68.0_22" "zzz_ISP_CM_1_103.101.180.0_22" "zzz_ISP_CM_1_103.110.132.0_22" "zzz_ISP_CM_1_103.130.160.0_23" "zzz_ISP_CM_1_103.143.228.0_23" "zzz_ISP_CM_1_103.152.29.0_24" "zzz_ISP_CM_1_103.192.0.0_22" "zzz_ISP_CM_1_103.205.189.0_24" "zzz_ISP_CM_1_103.205.252.0_22" "zzz_ISP_CM_1_103.208.12.0_22" "zzz_ISP_CM_1_103.213.96.0_22" "zzz_ISP_CM_1_103.215.36.0_22" "zzz_ISP_CM_1_103.216.4.0_22" "zzz_ISP_CM_1_103.216.152.0_22" "zzz_ISP_CM_1_103.219.24.0_21" "zzz_ISP_CM_1_103.219.32.0_21" "zzz_ISP_CM_1_103.220.60.0_22" "zzz_ISP_CM_1_103.229.212.0_22" "zzz_ISP_CM_1_103.230.236.0_23" "zzz_ISP_CM_1_103.232.166.0_23" "zzz_ISP_CM_1_103.233.52.0_22" "zzz_ISP_CM_1_103.238.132.0_22" "zzz_ISP_CM_1_103.238.160.0_23" "zzz_ISP_CM_1_103.239.152.0_22" "zzz_ISP_CM_1_103.239.204.0_22" "zzz_ISP_CM_1_103.239.244.0_23" "zzz_ISP_CM_1_103.239.247.0_24" "zzz_ISP_CM_1_103.252.36.0_22" "zzz_ISP_CM_1_103.253.232.0_22" "zzz_ISP_CM_1_106.3.144.0_21" "zzz_ISP_CM_1_106.13.252.0_22" "zzz_ISP_CM_1_106.75.0.0_17" "zzz_ISP_CM_1_110.42.0.0_21" "zzz_ISP_CM_1_110.42.8.0_22" "zzz_ISP_CM_1_110.42.12.0_23" "zzz_ISP_CM_1_110.42.14.0_24" "zzz_ISP_CM_1_110.56.0.0_13" "zzz_ISP_CM_1_110.96.0.0_16" "zzz_ISP_CM_1_110.100.0.0_16" "zzz_ISP_CM_1_110.112.0.0_15" "zzz_ISP_CM_1_110.114.0.0_16" "zzz_ISP_CM_1_110.115.128.0_17" "zzz_ISP_CM_1_110.116.0.0_16" "zzz_ISP_CM_1_110.120.0.0_16" "zzz_ISP_CM_1_110.124.0.0_16" "zzz_ISP_CM_1_110.125.128.0_17" "zzz_ISP_CM_1_110.172.200.0_21" "zzz_ISP_CM_1_110.199.0.0_16" "zzz_ISP_CM_1_110.203.0.0_23" "zzz_ISP_CM_1_110.211.0.0_16" "zzz_ISP_CM_1_110.218.0.0_15" "zzz_ISP_CM_1_110.236.0.0_15" "zzz_ISP_CM_1_111.0.0.0_10" "zzz_ISP_CM_1_111.128.0.0_16" "zzz_ISP_CM_1_111.132.0.0_16" "zzz_ISP_CM_1_111.142.0.0_15" "zzz_ISP_CM_1_111.144.0.0_14" "zzz_ISP_CM_1_111.148.0.0_16" "zzz_ISP_CM_1_111.149.0.0_24" "zzz_ISP_CM_1_111.223.12.0_22" "zzz_ISP_CM_1_112.0.0.0_10" "zzz_ISP_CM_1_113.18.0.0_16" "zzz_ISP_CM_1_114.112.80.0_20" "zzz_ISP_CM_1_114.118.104.0_21" "zzz_ISP_CM_1_114.118.112.0_20" "zzz_ISP_CM_1_115.180.0.0_17" "zzz_ISP_CM_1_116.85.16.0_22" "zzz_ISP_CM_1_117.48.0.0_18" "zzz_ISP_CM_1_117.48.64.0_19" "zzz_ISP_CM_1_117.48.144.0_20" "zzz_ISP_CM_1_117.48.193.0_24" "zzz_ISP_CM_1_117.48.194.0_24" "zzz_ISP_CM_1_117.48.219.0_24" "zzz_ISP_CM_1_117.48.232.0_22" "zzz_ISP_CM_1_117.50.0.0_17" "zzz_ISP_CM_1_117.128.0.0_10" "zzz_ISP_CM_1_118.26.197.0_24" "zzz_ISP_CM_1_118.26.198.0_23" "zzz_ISP_CM_1_118.26.200.0_21" "zzz_ISP_CM_1_118.26.224.0_20" "zzz_ISP_CM_1_118.30.0.0_16" "zzz_ISP_CM_1_118.193.127.0_24" "zzz_ISP_CM_1_118.195.0.0_17" "zzz_ISP_CM_1_118.204.0.0_17" "zzz_ISP_CM_1_119.44.205.0_24" "zzz_ISP_CM_1_119.161.183.0_24" "zzz_ISP_CM_1_120.132.0.0_19" "zzz_ISP_CM_1_120.132.96.0_20" "zzz_ISP_CM_1_120.132.116.0_24" "zzz_ISP_CM_1_120.132.120.0_21" "zzz_ISP_CM_1_120.132.128.0_19" "zzz_ISP_CM_1_120.132.176.0_20" "zzz_ISP_CM_1_120.132.192.0_23" "zzz_ISP_CM_1_120.132.208.0_20" "zzz_ISP_CM_1_120.132.224.0_19" "zzz_ISP_CM_1_120.133.0.0_19" "zzz_ISP_CM_1_120.133.48.0_20" "zzz_ISP_CM_1_120.133.96.0_19" "zzz_ISP_CM_1_120.133.224.0_22" "zzz_ISP_CM_1_120.192.0.0_10" "zzz_ISP_CM_1_121.46.16.0_20" "zzz_ISP_CM_1_121.46.192.0_22" "zzz_ISP_CM_1_121.70.0.0_17" "zzz_ISP_CM_1_121.255.0.0_16" "zzz_ISP_CM_1_122.14.192.0_18" "zzz_ISP_CM_1_122.70.0.0_15" "zzz_ISP_CM_1_122.72.3.0_24" "zzz_ISP_CM_1_122.72.16.0_24" "zzz_ISP_CM_1_122.72.38.0_24" "zzz_ISP_CM_1_122.72.112.0_24" "zzz_ISP_CM_1_122.84.0.0_16" "zzz_ISP_CM_1_122.90.0.0_16" "zzz_ISP_CM_1_122.91.0.0_17" "zzz_ISP_CM_1_122.94.0.0_16" "zzz_ISP_CM_1_123.58.0.0_20" "zzz_ISP_CM_1_123.61.0.0_16" "zzz_ISP_CM_1_123.64.0.0_15" "zzz_ISP_CM_1_123.66.0.0_16" "zzz_ISP_CM_1_123.77.0.0_16" "zzz_ISP_CM_1_123.82.0.0_17" "zzz_ISP_CM_1_123.88.0.0_15" "zzz_ISP_CM_1_123.90.0.0_16" "zzz_ISP_CM_1_123.99.192.0_20" "zzz_ISP_CM_1_123.103.14.0_24" "zzz_ISP_CM_1_124.201.0.0_17" "zzz_ISP_CM_1_124.243.192.0_18" "zzz_ISP_CM_1_124.250.16.0_20" "zzz_ISP_CM_1_124.250.61.0_24" "zzz_ISP_CM_1_124.250.120.0_23" "zzz_ISP_CM_1_124.250.128.0_17" "zzz_ISP_CM_1_124.251.0.0_19" "zzz_ISP_CM_1_124.251.56.0_22" "zzz_ISP_CM_1_124.251.96.0_23" "zzz_ISP_CM_1_124.251.126.0_23" "zzz_ISP_CM_1_124.251.128.0_17" "zzz_ISP_CM_1_125.254.128.0_19" "zzz_ISP_CM_1_125.254.160.0_21" "zzz_ISP_CM_1_125.254.176.0_21" "zzz_ISP_CM_1_125.254.184.0_22" "zzz_ISP_CM_1_125.254.188.0_23" "zzz_ISP_CM_1_125.254.190.0_24" "zzz_ISP_CM_1_139.159.32.0_20" "zzz_ISP_CM_1_139.220.128.0_17" "zzz_ISP_CM_1_140.179.224.0_19" "zzz_ISP_CM_1_140.210.16.0_21" "zzz_ISP_CM_1_140.210.24.0_22" "zzz_ISP_CM_1_140.210.28.0_23" "zzz_ISP_CM_1_140.210.30.0_24" "zzz_ISP_CM_1_140.210.64.0_19" "zzz_ISP_CM_1_157.15.104.0_23" "zzz_ISP_CM_1_157.20.246.0_23" "zzz_ISP_CM_1_157.66.164.0_23" "zzz_ISP_CM_1_160.19.76.0_23" "zzz_ISP_CM_1_160.202.212.0_22" "zzz_ISP_CM_1_161.207.18.0_23" "zzz_ISP_CM_1_167.189.0.0_16" "zzz_ISP_CM_1_180.188.16.0_20" "zzz_ISP_CM_1_182.50.112.0_20" "zzz_ISP_CM_1_182.157.0.0_16" "zzz_ISP_CM_1_182.175.244.0_22" "zzz_ISP_CM_1_183.84.4.0_22" "zzz_ISP_CM_1_183.192.0.0_10" "zzz_ISP_CM_1_192.140.209.0_24" "zzz_ISP_CM_1_192.140.210.0_23" "zzz_ISP_CM_1_192.140.212.0_22" "zzz_ISP_CM_1_202.46.224.0_22" "zzz_ISP_CM_1_202.123.120.0_22" "zzz_ISP_CM_1_202.141.176.0_20" "zzz_ISP_CM_1_203.76.240.0_22" "zzz_ISP_CM_1_203.130.32.0_22" "zzz_ISP_CM_1_203.135.104.0_21" "zzz_ISP_CM_1_203.196.0.0_22" "zzz_ISP_CM_1_203.196.4.0_24" "zzz_ISP_CM_1_203.212.12.0_22" "zzz_ISP_CM_1_211.98.0.0_16" "zzz_ISP_CM_1_211.99.117.0_24" "zzz_ISP_CM_1_211.99.118.0_23" "zzz_ISP_CM_1_211.99.120.0_23" "zzz_ISP_CM_1_211.99.160.0_22" "zzz_ISP_CM_1_211.99.188.0_22" "zzz_ISP_CM_1_211.103.0.0_17" "zzz_ISP_CM_1_211.136.0.0_13" "zzz_ISP_CM_1_211.148.224.0_19" "zzz_ISP_CM_1_211.151.4.0_23" "zzz_ISP_CM_1_211.151.32.0_19" "zzz_ISP_CM_1_211.151.64.0_18" "zzz_ISP_CM_1_211.151.128.0_17" "zzz_ISP_CM_1_211.152.0.0_19" "zzz_ISP_CM_1_211.155.236.0_24" "zzz_ISP_CM_1_218.98.96.0_23" "zzz_ISP_CM_1_218.98.98.0_24" "zzz_ISP_CM_1_218.98.100.0_24" "zzz_ISP_CM_1_218.98.111.0_24" "zzz_ISP_CM_1_218.98.112.0_23" "zzz_ISP_CM_1_218.200.0.0_13" "zzz_ISP_CM_1_218.245.0.0_21" "zzz_ISP_CM_1_219.83.160.0_21" "zzz_ISP_CM_1_221.122.0.0_19" "zzz_ISP_CM_1_221.122.32.0_20" "zzz_ISP_CM_1_221.122.128.0_17" "zzz_ISP_CM_1_221.123.128.0_18" "zzz_ISP_CM_1_221.130.0.0_15" "zzz_ISP_CM_1_221.172.0.0_16" "zzz_ISP_CM_1_221.174.0.0_16" "zzz_ISP_CM_1_221.176.0.0_13" "zzz_ISP_CM_1_222.35.0.0_16" "zzz_ISP_CM_1_222.42.115.0_24" "zzz_ISP_CM_1_222.44.0.0_15" "zzz_ISP_CM_1_222.49.128.0_17" "zzz_ISP_CM_1_222.50.0.0_16" "zzz_ISP_CM_1_222.59.128.0_17" "zzz_ISP_CM_1_223.64.0.0_10" "zzz_ISP_CM_1_223.160.0.0_20" "zzz_ISP_CM_1_223.160.16.0_21" "zzz_ISP_CM_1_223.160.112.0_20" "zzz_ISP_CM_1_223.160.128.0_22" "zzz_ISP_CM_1_223.160.134.0_23" "zzz_ISP_CM_1_223.160.136.0_21" "zzz_ISP_CM_1_223.160.144.0_20" "zzz_ISP_CM_1_223.160.160.0_19" "zzz_ISP_CM_1_223.160.192.0_19" "zzz_ISP_CM_1_223.160.224.0_21" "zzz_ISP_CM_1_223.160.232.0_22" "zzz_ISP_CM_1_223.160.236.0_23" "zzz_ISP_CM_1_223.161.194.0_23" "zzz_ISP_CM_1_223.161.196.0_22" "zzz_ISP_CM_1_223.161.200.0_21" "zzz_ISP_CM_1_223.161.208.0_20" "zzz_ISP_CM_1_223.161.224.0_19" "zzz_ISP_CM_1_223.223.192.0_20"
+        set allow-routing enable
+    next
+end
+
+config firewall addrgrp
+    edit "zzz_ISPAG_CM"
+        unset member
+        set member "zzz_ISPBG_CM_1"
+        set allow-routing enable
+    next
+end
