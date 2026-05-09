@@ -41,23 +41,6 @@ OUTPUT_FILES = {
     "v6_CNOther": "fortios_isp_v6_CNOther.conf.txt",
 }
 
-ISP_PREFIXES = {
-    "CT": "zzz_ISP_CT",
-    "CU": "zzz_ISP_CU",
-    "CM": "zzz_ISP_CM",
-    "CBN": "zzz_ISP_CBN",
-    "CERNET": "zzz_ISP_CERNET",
-    "GWBN": "zzz_ISP_GWBN",
-    "CNOther": "zzz_ISP_CNOther",
-    "v6_CT": "zzz_ISP_v6_CT",
-    "v6_CU": "zzz_ISP_v6_CU",
-    "v6_CM": "zzz_ISP_v6_CM",
-    "v6_CBN": "zzz_ISP_v6_CBN",
-    "v6_CERNET": "zzz_ISP_v6_CERNET",
-    "v6_GWBN": "zzz_ISP_v6_GWBN",
-    "v6_CNOther": "zzz_ISP_v6_CNOther",
-}
-
 CHUNK_SIZE = 600
 TODAY = datetime.now().strftime("%Y-%m-%d")
 SCRIPT_DIR = Path(__file__).parent
@@ -92,6 +75,8 @@ def generate_config(isp, lines):
         output.append("config firewall address")
     
     members = []
+    member_bg_map = {}
+    
     for index, line in enumerate(lines):
         parts = line.split('/')
         if len(parts) != 2:
@@ -100,6 +85,7 @@ def generate_config(isp, lines):
         bg_num = (index // CHUNK_SIZE) + 1
         obj_name = f"zzz_ISP_{isp}_{bg_num}_{ip}_{mask}"
         members.append(obj_name)
+        member_bg_map[obj_name] = bg_num
         
         output.append(f'edit "{obj_name}"')
         if is_v6:
@@ -118,7 +104,7 @@ def generate_config(isp, lines):
     for g in range(1, bg_count + 1):
         bg_name = f"zzz_ISPBG_{isp}_{g}"
         bg_list.append(bg_name)
-        chunk_members = [m for m in members if int(m.split('_')[3]) == g]
+        chunk_members = [m for m in members if member_bg_map[m] == g]
         if chunk_members:
             output.append("config firewall addrgrp")
             output.append(f'    edit "{bg_name}"')
