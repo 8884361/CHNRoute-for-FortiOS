@@ -2,187 +2,187 @@ config firewall address6
 edit "zzz_ISP_v6_CERNET_1_2001:250::_30"
     set ip6 2001:250::/30
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2001:254::_31"
     set ip6 2001:254::/31
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2001:256:100::_48"
     set ip6 2001:256:100::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2001:da8::_32"
     set ip6 2001:da8::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2001:daa:1::_48"
     set ip6 2001:daa:1::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2001:daa:2::_47"
     set ip6 2001:daa:2::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2001:daa:4::_47"
     set ip6 2001:daa:4::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2001:daa:6::_48"
     set ip6 2001:daa:6::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2001:dd9::_48"
     set ip6 2001:dd9::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2400:6000::_32"
     set ip6 2400:6000::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2400:a980::_29"
     set ip6 2400:a980::/29
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2400:b600::_32"
     set ip6 2400:b600::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2401:34a0::_31"
     set ip6 2401:34a0::/31
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2401:cc00::_32"
     set ip6 2401:cc00::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2401:ec00::_32"
     set ip6 2401:ec00::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2402:2000::_32"
     set ip6 2402:2000::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2402:4b80::_32"
     set ip6 2402:4b80::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2402:7d80:240::_48"
     set ip6 2402:7d80:240::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2402:e480::_32"
     set ip6 2402:e480::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2402:e740::_32"
     set ip6 2402:e740::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2402:f000::_32"
     set ip6 2402:f000::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2403:3140::_32"
     set ip6 2403:3140::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2403:8c00::_32"
     set ip6 2403:8c00::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2403:a200:9999::_48"
     set ip6 2403:a200:9999::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2403:ac00::_32"
     set ip6 2403:ac00::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2403:d400::_32"
     set ip6 2403:d400::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2406:280::_32"
     set ip6 2406:280::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_240a:a000::_20"
     set ip6 240a:a000::/20
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_240b:e001::_32"
     set ip6 240b:e001::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_240b:e002::_31"
     set ip6 240b:e002::/31
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_240b:e004::_30"
     set ip6 240b:e004::/30
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_240b:e008::_29"
     set ip6 240b:e008::/29
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_240b:e010::_32"
     set ip6 240b:e010::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_240c:c000::_20"
     set ip6 240c:c000::/20
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_240d:4000::_21"
     set ip6 240d:4000::/21
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2a0e:aa06:49f::_48"
     set ip6 2a0e:aa06:49f::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_v6_CERNET_1_2a0e:b107:740::_44"
     set ip6 2a0e:b107:740::/44
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 end
 

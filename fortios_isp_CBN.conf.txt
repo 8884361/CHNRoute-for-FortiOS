@@ -2,117 +2,117 @@ config firewall address
 edit "zzz_ISP_CBN_1_45.253.60.0_22"
     set subnet 45.253.60.0/22
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_103.1.20.0_22"
     set subnet 103.1.20.0/22
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_103.1.168.0_22"
     set subnet 103.1.168.0/22
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_103.89.184.0_21"
     set subnet 103.89.184.0/21
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_103.89.192.0_19"
     set subnet 103.89.192.0/19
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_103.89.224.0_21"
     set subnet 103.89.224.0/21
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_103.222.184.0_22"
     set subnet 103.222.184.0/22
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_111.31.196.0_24"
     set subnet 111.31.196.0/24
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_111.31.239.0_24"
     set subnet 111.31.239.0/24
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_117.124.237.0_24"
     set subnet 117.124.237.0/24
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_117.126.0.0_16"
     set subnet 117.126.0.0/16
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_163.61.202.0_23"
     set subnet 163.61.202.0/23
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_182.51.114.0_23"
     set subnet 182.51.114.0/23
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_182.51.116.0_23"
     set subnet 182.51.116.0/23
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_182.51.118.0_24"
     set subnet 182.51.118.0/24
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_182.51.122.0_23"
     set subnet 182.51.122.0/23
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_182.51.124.0_24"
     set subnet 182.51.124.0/24
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_202.143.100.0_22"
     set subnet 202.143.100.0/22
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_211.89.0.0_16"
     set subnet 211.89.0.0/16
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_211.146.0.0_16"
     set subnet 211.146.0.0/16
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_211.148.160.0_19"
     set subnet 211.148.160.0/19
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_211.156.128.0_19"
     set subnet 211.156.128.0/19
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 edit "zzz_ISP_CBN_1_221.129.0.0_16"
     set subnet 221.129.0.0/16
     set allow-routing enable
-    set comment "update-date: 2026-05-09"
+    set comment "update-date: 2026-05-10"
 next
 end
 
