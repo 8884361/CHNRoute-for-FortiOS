@@ -2,7 +2,7 @@ config firewall address6
 edit "zzz_ISP_v6_GWBN_1_2001:4510:400::_40"
     set ip6 2001:4510:400::/40
     set allow-routing enable
-    set comment "update-date: 2026-05-10"
+    set comment "update-date: 2026-05-11"
 next
 end
 
