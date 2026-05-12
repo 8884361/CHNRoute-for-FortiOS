@@ -28,27 +28,24 @@ jobs:
       # 3. 在 main 分支运行脚本（生成文件）
       - run: python3 gen-chnroute.py
 
-      # 4. 切换到 conf 分支（如果不存在则创建）
-      - run: |
-          git fetch origin
-          git checkout conf || git checkout -b conf
-
-      # 5. 从 main 分支取出生成的文件（正确做法）
-      - run: |
-          git checkout main -- fortios_isp_*.conf.txt
-          git checkout main -- .github/temp/*.txt 2>/dev/null || true
-
-      # 6. 提交变更到 conf 分支
+      # 4. 提交到 conf 分支（不切换工作目录）
       - run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add fortios_isp_*.conf.txt .github/temp/*.txt
-          git diff --quiet && git diff --staged --quiet || (
-            git commit -m "chore: Auto-generate routes - $(date -u +'%Y-%m-%d %H:%M:%S')"
-            git push origin conf
-          )
 
-      # 7. 上传 artifacts
+          # 确保 conf 分支存在
+          git fetch origin conf || true
+
+          # 创建临时分支用于提交
+          git checkout -b temp-update
+
+          git add fortios_isp_*.conf.txt .github/temp/*.txt
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: Auto-generate routes - $(date -u +'%Y-%m-%d %H:%M:%S')"
+
+          # 强制推送到 conf 分支（覆盖 conf 分支内容）
+          git push origin temp-update:conf --force
+
+      # 5. 上传 artifacts
       - uses: actions/upload-artifact@v4
         if: always()
         with:
