@@ -13,6 +13,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: conf   # ← checkout conf 分支
 
       - uses: actions/setup-python@v4
         with:
@@ -28,7 +30,7 @@ jobs:
           git add fortios_isp_*.conf.txt
           git diff --quiet && git diff --staged --quiet || (
             git commit -m "chore: Auto-generate routes - $(date -u +'%Y-%m-%d %H:%M:%S')"
-            git push
+            git push origin conf   # ← push 到 conf 分支
           )
 
       - uses: actions/upload-artifact@v4
