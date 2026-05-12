@@ -96,7 +96,7 @@ def generate_config(isp, lines):
         else:
             output.append(f'    set subnet {ip}/{mask}')
         output.append("    set allow-routing enable")
-        output.append(f'    set comment "update-date: {TODAY}"')
+#        output.append(f'    set comment "update-date: {TODAY}"')
         output.append("next")
 
     output.append("end\n")
