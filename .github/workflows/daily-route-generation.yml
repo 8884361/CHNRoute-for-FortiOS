@@ -14,7 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: conf   # ← checkout conf 分支
+         ref: main   # ← checkout main 分支（脚本在这里）
+
 
       - uses: actions/setup-python@v4
         with:
