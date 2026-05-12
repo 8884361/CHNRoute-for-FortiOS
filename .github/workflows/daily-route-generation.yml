@@ -2,7 +2,7 @@ name: Daily CHN Route Generation
 
 on:
   schedule:
-    - cron: "30 16 * * *" # 每天 UTC 16:30 = UTC+8 00:30
+    - cron: '30 16 * * *'
   workflow_dispatch:
 
 jobs:
@@ -14,11 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: conf
+          ref: main   # ← checkout main（脚本在这里）
 
       - uses: actions/setup-python@v4
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
       - run: pip install requests
 
@@ -30,7 +30,7 @@ jobs:
           git add fortios_isp_*.conf.txt .github/temp/*.txt
           git diff --quiet && git diff --staged --quiet || (
             git commit -m "chore: Auto-generate routes - $(date -u +'%Y-%m-%d %H:%M:%S')"
-            git push origin conf
+            git push origin conf   # ← 推到 conf 分支
           )
 
       - uses: actions/upload-artifact@v4
@@ -39,9 +39,3 @@ jobs:
           name: generated-routes
           path: fortios_isp_*.conf.txt
           retention-days: 30
-
-      - run: |
-          echo "## Route Generation Complete" >> $GITHUB_STEP_SUMMARY
-          echo "**Time:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
-          ls -lh fortios_isp_*.conf.txt 2>/dev/null | awk '{print "- " $9 " (" $5 ")"}' >> $GITHUB_STEP_SUMMARY || true
-        if: always()
