@@ -20,7 +20,7 @@ jobs:
 
       # 2. Prepare working directory
       - name: Prepare working directory
-        run: mkdir -p .github/temp/output
+        run: mkdir -p .github/output
 
       # 3. Install Python
       - uses: actions/setup-python@v4
@@ -28,26 +28,20 @@ jobs:
           python-version: '3.11'
 
       - run: pip install requests
-        working-directory: .github/temp
+        working-directory: .github
 
       # 4. Run Python script
       - name: Run generator
-        run: python ../../gen-chnroute.py
-        working-directory: .github/temp
+        run: python ../gen-chnroute.py
+        working-directory: .github
 
-      # ⭐ 5. Copy temp/*.txt to root BEFORE checkout（关键修复点）
-      - name: Copy temp cache to root
-        run: |
-          mkdir -p temp_cache
-          cp .github/temp/*.txt temp_cache/ || true
-
-      # 6. Copy output to root BEFORE checkout
+      # 5. Copy output to root BEFORE checkout
       - name: Copy output to root
         run: |
           mkdir -p output_ready
-          cp .github/temp/output/* output_ready/
+          cp .github/output/*.txt output_ready/
 
-      # 7. Push output_ready/* and temp_cache/* to conf branch
+      # 6. Push output_ready/*.txt to conf branch
       - name: Push to conf branch
         run: |
           git config --local user.email "action@github.com"
@@ -56,18 +50,18 @@ jobs:
           git fetch origin conf || true
           git checkout -b temp-update
 
-          git rm -rf .   # 清空 temp-update 分支
+          # 清空 conf 分支根目录
+          git rm -rf . || true
           git commit -m "cleanup" || true
 
-          cp output_ready/* .
-          cp temp_cache/* . || true
+          # 复制 output 文件到根目录
+          cp output_ready/*.txt .
 
           git add *.txt
-
           git diff --quiet && git diff --staged --quiet || git commit -m "Auto update routes - $(date -u +'%Y-%m-%d %H:%M:%S')"
 
           git push origin temp-update:conf --force
 
-      # 8. Cleanup
+      # 7. Cleanup
       - name: Cleanup
-        run: rm -rf output_ready temp_cache .github/temp/output/*
+        run: rm -rf output_ready .github/output/*

@@ -2,21 +2,14 @@
 import requests
 from datetime import datetime
 from pathlib import Path
-import os
 import ipaddress
 
-
-# 工作目录 = workflow 的 working-directory (.github/temp)
-WORKDIR = Path.cwd()
-
-# 缓存目录 = 工作目录
-TEMP_DIR = WORKDIR
-TEMP_DIR.mkdir(parents=True, exist_ok=True)
-
-# 输出目录 = 工作目录/output
-OUTPUT_DIR = WORKDIR / "output"
+# ================================
+# Working directories
+# ================================
+WORKDIR = Path.cwd()              # = .github
+OUTPUT_DIR = WORKDIR / "output"   # = .github/output
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
 
 # ================================
 # Data sources (gaoyifan)
@@ -53,7 +46,6 @@ OUTPUT_FILES.update({isp: f"fortios_isp_{isp}.conf.txt" for isp in IPv6_URLs})
 CHUNK_SIZE = 600
 TODAY = datetime.now().strftime("%Y-%m-%d")
 
-
 # ================================
 # Fetch raw text
 # ================================
@@ -77,36 +69,19 @@ def is_ipv6(ip_string):
         return False
 
 # ================================
-# Diff detection
-# ================================
-def has_changed(isp, new_content):
-    temp_file = TEMP_DIR / f"{isp}.txt"
-    if temp_file.exists():
-        old_content = temp_file.read_text(encoding="utf-8")
-        if old_content == new_content:
-            return False
-    temp_file.write_text(new_content, encoding="utf-8")
-    return True
-
-# ================================
 # Generate FortiOS config
 # ================================
 def generate_config(isp, lines):
     output = []
     AG = f"zzz_ISPAG_{isp}"
 
-    # Determine IPv6
     is_v6 = is_ipv6(lines[0].split('/')[0]) if lines else False
 
-    if is_v6:
-        output.append("config firewall address6")
-    else:
-        output.append("config firewall address")
+    output.append("config firewall address6" if is_v6 else "config firewall address")
 
     members = []
     member_bg_map = {}
 
-    # Address objects
     for index, line in enumerate(lines):
         ip, mask = line.split('/')
         bg_num = (index // CHUNK_SIZE) + 1
@@ -126,7 +101,6 @@ def generate_config(isp, lines):
 
     output.append("end\n")
 
-    # BG groups
     bg_count = (len(lines) + CHUNK_SIZE - 1) // CHUNK_SIZE
     bg_list = []
 
@@ -146,7 +120,6 @@ def generate_config(isp, lines):
         output.append("    next")
         output.append("end\n")
 
-    # AG group
     output.append("config firewall addrgrp")
     output.append(f'    edit "{AG}"')
     output.append("        unset member")
@@ -171,12 +144,6 @@ def main():
             print(f"  Failed: {isp}")
             continue
 
-        # Diff check
-        if not has_changed(isp, raw_text):
-            print(f"  No change for {isp}, skip.")
-            continue
-
-        # Parse CIDR lines
         lines = [line.strip() for line in raw_text.split("\n") if "/" in line]
 
         config = generate_config(isp, lines)
