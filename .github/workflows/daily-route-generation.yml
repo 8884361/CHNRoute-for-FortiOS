@@ -12,27 +12,37 @@ jobs:
       contents: write
 
     steps:
+      # 1. Checkout main（脚本在 main）
       - uses: actions/checkout@v4
         with:
-          ref: main   # ← checkout main（脚本在这里）
+          ref: main
+          fetch-depth: 0   # 必须，否则无法切换分支
 
+      # 2. 切换到 conf 分支（如果不存在则创建）
+      - run: |
+          git checkout conf || git checkout -b conf
+
+      # 3. 安装 Python
       - uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
       - run: pip install requests
 
+      # 4. 运行脚本（脚本来自 main，但当前分支是 conf）
       - run: python3 gen-chnroute.py
 
+      # 5. 提交变更到 conf 分支
       - run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add fortios_isp_*.conf.txt .github/temp/*.txt
           git diff --quiet && git diff --staged --quiet || (
             git commit -m "chore: Auto-generate routes - $(date -u +'%Y-%m-%d %H:%M:%S')"
-            git push origin conf   # ← 推到 conf 分支
+            git push origin conf
           )
 
+      # 6. 上传 artifacts
       - uses: actions/upload-artifact@v4
         if: always()
         with:
