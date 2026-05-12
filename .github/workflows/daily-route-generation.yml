@@ -12,40 +12,49 @@ jobs:
       contents: write
 
     steps:
+      # 1. Checkout main
       - uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
 
+      # 2. Create working directory
+      - name: Prepare working directory
+        run: mkdir -p .github/temp/output
+
+      # 3. Install Python
       - uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
       - run: pip install requests
+        working-directory: .github/temp
 
-      # 在 main 分支运行脚本
-      - run: python3 gen-chnroute.py
+      # 4. Run Python script using relative path
+      - name: Run generator
+        run: python ../../gen-chnroute.py
+        working-directory: .github/temp
 
-      # 提交到 conf 分支（不切换目录）
-      - run: |
+      # 5. Copy output to root before checkout (关键修复点)
+      - name: Copy output to root
+        run: |
+          mkdir -p output_copy
+          cp .github/temp/output/* output_copy/
+
+      # 6. Push output_copy to conf branch
+      - name: Push to conf branch
+        run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-          # 确保 conf 分支存在
           git fetch origin conf || true
-
-          # 创建临时分支用于提交
           git checkout -b temp-update
 
-          git add fortios_isp_*.conf.txt .github/temp/*.txt
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: Auto-generate routes - $(date -u +'%Y-%m-%d %H:%M:%S')"
+          git add output_copy/*
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto update routes - $(date -u +'%Y-%m-%d %H:%M:%S')"
 
-          # 强制推送到 conf 分支（覆盖 conf 分支内容）
           git push origin temp-update:conf --force
 
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: generated-routes
-          path: fortios_isp_*.conf.txt
-          retention-days: 30
+      # 7. Cleanup
+      - name: Cleanup
+        run: rm -rf output_copy .github/temp/output/*

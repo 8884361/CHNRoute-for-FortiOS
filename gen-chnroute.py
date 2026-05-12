@@ -2,7 +2,21 @@
 import requests
 from datetime import datetime
 from pathlib import Path
+import os
 import ipaddress
+
+
+# 工作目录 = workflow 的 working-directory (.github/temp)
+WORKDIR = Path.cwd()
+
+# 缓存目录 = 工作目录
+TEMP_DIR = WORKDIR
+TEMP_DIR.mkdir(parents=True, exist_ok=True)
+
+# 输出目录 = 工作目录/output
+OUTPUT_DIR = WORKDIR / "output"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
 
 # ================================
 # Data sources (gaoyifan)
@@ -38,9 +52,7 @@ OUTPUT_FILES.update({isp: f"fortios_isp_{isp}.conf.txt" for isp in IPv6_URLs})
 # ================================
 CHUNK_SIZE = 600
 TODAY = datetime.now().strftime("%Y-%m-%d")
-SCRIPT_DIR = Path(__file__).parent
-TEMP_DIR = SCRIPT_DIR / ".github" / "temp"
-TEMP_DIR.mkdir(parents=True, exist_ok=True)
+
 
 # ================================
 # Fetch raw text
@@ -168,7 +180,7 @@ def main():
         lines = [line.strip() for line in raw_text.split("\n") if "/" in line]
 
         config = generate_config(isp, lines)
-        outfile = SCRIPT_DIR / OUTPUT_FILES[isp]
+        outfile = OUTPUT_DIR / OUTPUT_FILES[isp]
         outfile.write_text(config, encoding="utf-8")
 
         print(f"  UPDATED: {outfile} ({len(lines)} routes)")
