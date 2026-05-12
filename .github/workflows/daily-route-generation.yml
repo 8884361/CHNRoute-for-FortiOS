@@ -31,13 +31,16 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
+          # 确保 conf 分支存在
           git fetch origin conf || true
 
+          # 创建临时分支用于提交
           git checkout -b temp-update
 
           git add fortios_isp_*.conf.txt .github/temp/*.txt
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: Auto-generate routes - $(date -u +'%Y-%m-%d %H:%M:%S')"
 
+          # 强制推送到 conf 分支（覆盖 conf 分支内容）
           git push origin temp-update:conf --force
 
       - uses: actions/upload-artifact@v4
