@@ -1,0 +1,223 @@
+config firewall address
+edit "zzz_ISP_DRPENG_1_60.195.252.0_22"
+    set subnet 60.195.252.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_115.182.0.0_19"
+    set subnet 115.182.0.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_115.182.32.0_22"
+    set subnet 115.182.32.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_115.182.40.0_21"
+    set subnet 115.182.40.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_115.182.48.0_20"
+    set subnet 115.182.48.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_115.182.64.0_18"
+    set subnet 115.182.64.0/18
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_115.182.128.0_19"
+    set subnet 115.182.128.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_115.182.160.0_20"
+    set subnet 115.182.160.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_115.182.192.0_22"
+    set subnet 115.182.192.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_115.182.200.0_21"
+    set subnet 115.182.200.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_115.182.208.0_21"
+    set subnet 115.182.208.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_115.182.220.0_22"
+    set subnet 115.182.220.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_115.182.224.0_20"
+    set subnet 115.182.224.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_118.144.64.0_21"
+    set subnet 118.144.64.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_118.144.72.0_22"
+    set subnet 118.144.72.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_118.144.77.0_24"
+    set subnet 118.144.77.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_118.144.78.0_24"
+    set subnet 118.144.78.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_118.144.80.0_20"
+    set subnet 118.144.80.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_118.145.0.0_19"
+    set subnet 118.145.0.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_118.244.192.0_22"
+    set subnet 118.244.192.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_118.244.196.0_24"
+    set subnet 118.244.196.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_118.244.202.0_23"
+    set subnet 118.244.202.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_118.244.205.0_24"
+    set subnet 118.244.205.0/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_118.244.206.0_23"
+    set subnet 118.244.206.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_118.244.208.0_20"
+    set subnet 118.244.208.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_118.244.224.0_20"
+    set subnet 118.244.224.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_122.49.16.0_20"
+    set subnet 122.49.16.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_122.49.32.0_20"
+    set subnet 122.49.32.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_123.196.112.0_20"
+    set subnet 123.196.112.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_124.202.128.0_19"
+    set subnet 124.202.128.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_210.74.0.0_22"
+    set subnet 210.74.0.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_211.147.4.0_22"
+    set subnet 211.147.4.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_211.154.160.0_22"
+    set subnet 211.154.160.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_211.154.168.0_21"
+    set subnet 211.154.168.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_211.155.128.0_19"
+    set subnet 211.155.128.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_218.241.16.0_22"
+    set subnet 218.241.16.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_218.241.24.0_22"
+    set subnet 218.241.24.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_218.241.152.0_21"
+    set subnet 218.241.152.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_219.234.80.0_20"
+    set subnet 219.234.80.0/20
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_219.238.232.0_21"
+    set subnet 219.238.232.0/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_DRPENG_1_219.239.92.0_22"
+    set subnet 219.239.92.0/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+end
+
+config firewall addrgrp
+    edit "zzz_ISPBG_DRPENG_1"
+        unset member
+        set member "zzz_ISP_DRPENG_1_60.195.252.0_22" "zzz_ISP_DRPENG_1_115.182.0.0_19" "zzz_ISP_DRPENG_1_115.182.32.0_22" "zzz_ISP_DRPENG_1_115.182.40.0_21" "zzz_ISP_DRPENG_1_115.182.48.0_20" "zzz_ISP_DRPENG_1_115.182.64.0_18" "zzz_ISP_DRPENG_1_115.182.128.0_19" "zzz_ISP_DRPENG_1_115.182.160.0_20" "zzz_ISP_DRPENG_1_115.182.192.0_22" "zzz_ISP_DRPENG_1_115.182.200.0_21" "zzz_ISP_DRPENG_1_115.182.208.0_21" "zzz_ISP_DRPENG_1_115.182.220.0_22" "zzz_ISP_DRPENG_1_115.182.224.0_20" "zzz_ISP_DRPENG_1_118.144.64.0_21" "zzz_ISP_DRPENG_1_118.144.72.0_22" "zzz_ISP_DRPENG_1_118.144.77.0_24" "zzz_ISP_DRPENG_1_118.144.78.0_24" "zzz_ISP_DRPENG_1_118.144.80.0_20" "zzz_ISP_DRPENG_1_118.145.0.0_19" "zzz_ISP_DRPENG_1_118.244.192.0_22" "zzz_ISP_DRPENG_1_118.244.196.0_24" "zzz_ISP_DRPENG_1_118.244.202.0_23" "zzz_ISP_DRPENG_1_118.244.205.0_24" "zzz_ISP_DRPENG_1_118.244.206.0_23" "zzz_ISP_DRPENG_1_118.244.208.0_20" "zzz_ISP_DRPENG_1_118.244.224.0_20" "zzz_ISP_DRPENG_1_122.49.16.0_20" "zzz_ISP_DRPENG_1_122.49.32.0_20" "zzz_ISP_DRPENG_1_123.196.112.0_20" "zzz_ISP_DRPENG_1_124.202.128.0_19" "zzz_ISP_DRPENG_1_210.74.0.0_22" "zzz_ISP_DRPENG_1_211.147.4.0_22" "zzz_ISP_DRPENG_1_211.154.160.0_22" "zzz_ISP_DRPENG_1_211.154.168.0_21" "zzz_ISP_DRPENG_1_211.155.128.0_19" "zzz_ISP_DRPENG_1_218.241.16.0_22" "zzz_ISP_DRPENG_1_218.241.24.0_22" "zzz_ISP_DRPENG_1_218.241.152.0_21" "zzz_ISP_DRPENG_1_219.234.80.0_20" "zzz_ISP_DRPENG_1_219.238.232.0_21" "zzz_ISP_DRPENG_1_219.239.92.0_22"
+        set allow-routing enable
+    next
+end
+
+config firewall addrgrp
+    edit "zzz_ISPAG_DRPENG"
+        unset member
+        set member "zzz_ISPBG_DRPENG_1"
+        set allow-routing enable
+    next
+end

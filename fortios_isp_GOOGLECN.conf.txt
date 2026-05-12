@@ -1,0 +1,28 @@
+config firewall address
+edit "zzz_ISP_GOOGLECN_1_113.197.104.0_23"
+    set subnet 113.197.104.0/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_GOOGLECN_1_203.208.32.0_19"
+    set subnet 203.208.32.0/19
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+end
+
+config firewall addrgrp
+    edit "zzz_ISPBG_GOOGLECN_1"
+        unset member
+        set member "zzz_ISP_GOOGLECN_1_113.197.104.0_23" "zzz_ISP_GOOGLECN_1_203.208.32.0_19"
+        set allow-routing enable
+    next
+end
+
+config firewall addrgrp
+    edit "zzz_ISPAG_GOOGLECN"
+        unset member
+        set member "zzz_ISPBG_GOOGLECN_1"
+        set allow-routing enable
+    next
+end

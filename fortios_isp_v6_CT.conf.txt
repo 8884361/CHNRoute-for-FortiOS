@@ -1,820 +1,4238 @@
 config firewall address6
+edit "zzz_ISP_v6_CT_1_2001:250:2::_48"
+    set ip6 2001:250:2::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:205::_48"
+    set ip6 2001:250:205::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:206::_47"
+    set ip6 2001:250:206::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:208::_46"
+    set ip6 2001:250:208::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:20c::_48"
+    set ip6 2001:250:20c::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:20f::_48"
+    set ip6 2001:250:20f::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:210::_48"
+    set ip6 2001:250:210::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:212::_48"
+    set ip6 2001:250:212::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:214::_47"
+    set ip6 2001:250:214::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:217::_48"
+    set ip6 2001:250:217::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:218::_46"
+    set ip6 2001:250:218::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:21e::_47"
+    set ip6 2001:250:21e::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:223::_48"
+    set ip6 2001:250:223::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:22b::_48"
+    set ip6 2001:250:22b::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:22d::_48"
+    set ip6 2001:250:22d::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:22e::_48"
+    set ip6 2001:250:22e::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:230::_47"
+    set ip6 2001:250:230::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:234::_48"
+    set ip6 2001:250:234::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:236::_47"
+    set ip6 2001:250:236::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:238::_48"
+    set ip6 2001:250:238::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:23a::_47"
+    set ip6 2001:250:23a::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:23c::_47"
+    set ip6 2001:250:23c::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:248::_48"
+    set ip6 2001:250:248::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:24f::_48"
+    set ip6 2001:250:24f::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:251::_48"
+    set ip6 2001:250:251::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:401::_48"
+    set ip6 2001:250:401::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:402::_47"
+    set ip6 2001:250:402::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:404::_46"
+    set ip6 2001:250:404::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:408::_48"
+    set ip6 2001:250:408::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:40d::_48"
+    set ip6 2001:250:40d::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:40e::_47"
+    set ip6 2001:250:40e::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:800::_46"
+    set ip6 2001:250:800::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:804::_47"
+    set ip6 2001:250:804::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:808::_46"
+    set ip6 2001:250:808::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:80d::_48"
+    set ip6 2001:250:80d::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:80e::_48"
+    set ip6 2001:250:80e::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:810::_47"
+    set ip6 2001:250:810::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:813::_48"
+    set ip6 2001:250:813::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:815::_48"
+    set ip6 2001:250:815::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:817::_48"
+    set ip6 2001:250:817::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:819::_48"
+    set ip6 2001:250:819::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:81a::_48"
+    set ip6 2001:250:81a::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:81c::_46"
+    set ip6 2001:250:81c::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:820::_45"
+    set ip6 2001:250:820::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:828::_46"
+    set ip6 2001:250:828::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:82c::_47"
+    set ip6 2001:250:82c::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:82e::_48"
+    set ip6 2001:250:82e::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:831::_48"
+    set ip6 2001:250:831::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:832::_47"
+    set ip6 2001:250:832::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:835::_48"
+    set ip6 2001:250:835::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:836::_47"
+    set ip6 2001:250:836::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:838::_47"
+    set ip6 2001:250:838::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:83b::_48"
+    set ip6 2001:250:83b::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:83d::_48"
+    set ip6 2001:250:83d::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:83e::_47"
+    set ip6 2001:250:83e::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:840::_45"
+    set ip6 2001:250:840::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:848::_48"
+    set ip6 2001:250:848::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:84a::_48"
+    set ip6 2001:250:84a::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:84c::_48"
+    set ip6 2001:250:84c::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:84e::_47"
+    set ip6 2001:250:84e::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:850::_48"
+    set ip6 2001:250:850::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:852::_47"
+    set ip6 2001:250:852::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:855::_48"
+    set ip6 2001:250:855::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:856::_47"
+    set ip6 2001:250:856::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:858::_47"
+    set ip6 2001:250:858::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:85a::_48"
+    set ip6 2001:250:85a::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:85c::_46"
+    set ip6 2001:250:85c::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:860::_48"
+    set ip6 2001:250:860::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:862::_47"
+    set ip6 2001:250:862::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:865::_48"
+    set ip6 2001:250:865::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:866::_48"
+    set ip6 2001:250:866::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:868::_45"
+    set ip6 2001:250:868::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:870::_47"
+    set ip6 2001:250:870::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:872::_48"
+    set ip6 2001:250:872::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:874::_46"
+    set ip6 2001:250:874::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:878::_45"
+    set ip6 2001:250:878::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:880::_47"
+    set ip6 2001:250:880::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:882::_48"
+    set ip6 2001:250:882::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:884::_48"
+    set ip6 2001:250:884::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:886::_47"
+    set ip6 2001:250:886::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:888::_46"
+    set ip6 2001:250:888::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:88d::_48"
+    set ip6 2001:250:88d::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:88e::_47"
+    set ip6 2001:250:88e::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:891::_48"
+    set ip6 2001:250:891::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:892::_48"
+    set ip6 2001:250:892::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c00::_45"
+    set ip6 2001:250:c00::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c08::_46"
+    set ip6 2001:250:c08::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c0d::_48"
+    set ip6 2001:250:c0d::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c0e::_47"
+    set ip6 2001:250:c0e::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c11::_48"
+    set ip6 2001:250:c11::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c12::_47"
+    set ip6 2001:250:c12::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c14::_46"
+    set ip6 2001:250:c14::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c18::_46"
+    set ip6 2001:250:c18::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c1c::_48"
+    set ip6 2001:250:c1c::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c1e::_47"
+    set ip6 2001:250:c1e::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c20::_45"
+    set ip6 2001:250:c20::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c28::_46"
+    set ip6 2001:250:c28::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c2c::_47"
+    set ip6 2001:250:c2c::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c2f::_48"
+    set ip6 2001:250:c2f::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c30::_45"
+    set ip6 2001:250:c30::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c3b::_48"
+    set ip6 2001:250:c3b::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c3e::_47"
+    set ip6 2001:250:c3e::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:e00::_47"
+    set ip6 2001:250:e00::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:e02::_48"
+    set ip6 2001:250:e02::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:e04::_46"
+    set ip6 2001:250:e04::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:e08::_46"
+    set ip6 2001:250:e08::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:e0c::_48"
+    set ip6 2001:250:e0c::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:e0e::_47"
+    set ip6 2001:250:e0e::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:e10::_44"
+    set ip6 2001:250:e10::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:e20::_47"
+    set ip6 2001:250:e20::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:e22::_48"
+    set ip6 2001:250:e22::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:e24::_46"
+    set ip6 2001:250:e24::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:e28::_47"
+    set ip6 2001:250:e28::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:1400::_46"
+    set ip6 2001:250:1400::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:1404::_47"
+    set ip6 2001:250:1404::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:1406::_48"
+    set ip6 2001:250:1406::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:1408::_45"
+    set ip6 2001:250:1408::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:1410::_44"
+    set ip6 2001:250:1410::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:1420::_45"
+    set ip6 2001:250:1420::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:1428::_48"
+    set ip6 2001:250:1428::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:4038::_48"
+    set ip6 2001:250:4038::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5002::_47"
+    set ip6 2001:250:5002::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5004::_46"
+    set ip6 2001:250:5004::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5008::_45"
+    set ip6 2001:250:5008::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5010::_48"
+    set ip6 2001:250:5010::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5012::_47"
+    set ip6 2001:250:5012::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5014::_46"
+    set ip6 2001:250:5014::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5018::_45"
+    set ip6 2001:250:5018::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5020::_43"
+    set ip6 2001:250:5020::/43
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5040::_46"
+    set ip6 2001:250:5040::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5044::_47"
+    set ip6 2001:250:5044::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5047::_48"
+    set ip6 2001:250:5047::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5048::_45"
+    set ip6 2001:250:5048::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5050::_46"
+    set ip6 2001:250:5050::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5055::_48"
+    set ip6 2001:250:5055::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5056::_47"
+    set ip6 2001:250:5056::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5058::_45"
+    set ip6 2001:250:5058::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5060::_45"
+    set ip6 2001:250:5060::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5068::_46"
+    set ip6 2001:250:5068::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:506c::_47"
+    set ip6 2001:250:506c::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5070::_47"
+    set ip6 2001:250:5070::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5072::_48"
+    set ip6 2001:250:5072::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5074::_46"
+    set ip6 2001:250:5074::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5078::_47"
+    set ip6 2001:250:5078::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:507a::_48"
+    set ip6 2001:250:507a::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:507c::_46"
+    set ip6 2001:250:507c::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5080::_48"
+    set ip6 2001:250:5080::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5083::_48"
+    set ip6 2001:250:5083::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5805::_48"
+    set ip6 2001:250:5805::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5806::_48"
+    set ip6 2001:250:5806::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5816::_48"
+    set ip6 2001:250:5816::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5820::_46"
+    set ip6 2001:250:5820::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5828::_48"
+    set ip6 2001:250:5828::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:582a::_48"
+    set ip6 2001:250:582a::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5831::_48"
+    set ip6 2001:250:5831::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5833::_48"
+    set ip6 2001:250:5833::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5845::_48"
+    set ip6 2001:250:5845::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5846::_47"
+    set ip6 2001:250:5846::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5848::_47"
+    set ip6 2001:250:5848::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:584a::_48"
+    set ip6 2001:250:584a::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5862::_48"
+    set ip6 2001:250:5862::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5864::_48"
+    set ip6 2001:250:5864::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5866::_48"
+    set ip6 2001:250:5866::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5875::_48"
+    set ip6 2001:250:5875::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:587c::_47"
+    set ip6 2001:250:587c::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:5895::_48"
+    set ip6 2001:250:5895::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7000::_47"
+    set ip6 2001:250:7000::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7002::_48"
+    set ip6 2001:250:7002::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7004::_47"
+    set ip6 2001:250:7004::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7006::_48"
+    set ip6 2001:250:7006::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7008::_46"
+    set ip6 2001:250:7008::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:700c::_47"
+    set ip6 2001:250:700c::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:700e::_48"
+    set ip6 2001:250:700e::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7011::_48"
+    set ip6 2001:250:7011::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7012::_47"
+    set ip6 2001:250:7012::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7014::_46"
+    set ip6 2001:250:7014::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:701a::_47"
+    set ip6 2001:250:701a::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:701c::_47"
+    set ip6 2001:250:701c::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:701e::_48"
+    set ip6 2001:250:701e::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7020::_47"
+    set ip6 2001:250:7020::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7023::_48"
+    set ip6 2001:250:7023::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7024::_48"
+    set ip6 2001:250:7024::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7027::_48"
+    set ip6 2001:250:7027::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7028::_45"
+    set ip6 2001:250:7028::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7030::_48"
+    set ip6 2001:250:7030::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7032::_48"
+    set ip6 2001:250:7032::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7034::_46"
+    set ip6 2001:250:7034::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:703a::_48"
+    set ip6 2001:250:703a::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:703c::_47"
+    set ip6 2001:250:703c::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:703e::_48"
+    set ip6 2001:250:703e::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7401::_48"
+    set ip6 2001:250:7401::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7402::_47"
+    set ip6 2001:250:7402::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7404::_46"
+    set ip6 2001:250:7404::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7408::_46"
+    set ip6 2001:250:7408::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:740c::_47"
+    set ip6 2001:250:740c::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:740e::_48"
+    set ip6 2001:250:740e::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7410::_44"
+    set ip6 2001:250:7410::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7420::_44"
+    set ip6 2001:250:7420::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7430::_48"
+    set ip6 2001:250:7430::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7801::_48"
+    set ip6 2001:250:7801::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7802::_47"
+    set ip6 2001:250:7802::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7804::_46"
+    set ip6 2001:250:7804::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7808::_45"
+    set ip6 2001:250:7808::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7810::_46"
+    set ip6 2001:250:7810::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7814::_47"
+    set ip6 2001:250:7814::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7817::_48"
+    set ip6 2001:250:7817::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7818::_45"
+    set ip6 2001:250:7818::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7820::_45"
+    set ip6 2001:250:7820::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7828::_47"
+    set ip6 2001:250:7828::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:782a::_48"
+    set ip6 2001:250:782a::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:782c::_48"
+    set ip6 2001:250:782c::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:782f::_48"
+    set ip6 2001:250:782f::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:7830::_48"
+    set ip6 2001:250:7830::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:a809::_48"
+    set ip6 2001:250:a809::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:c006::_48"
+    set ip6 2001:250:c006::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:250:fe01::_48"
+    set ip6 2001:250:fe01::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
 edit "zzz_ISP_v6_CT_1_2001:c68::_32"
     set ip6 2001:c68::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a0::_48"
+    set ip6 2001:da8:a0::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a3::_48"
+    set ip6 2001:da8:a3::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a6::_48"
+    set ip6 2001:da8:a6::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a8::_46"
+    set ip6 2001:da8:a8::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:ac::_47"
+    set ip6 2001:da8:ac::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:ae::_48"
+    set ip6 2001:da8:ae::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:bc::_48"
+    set ip6 2001:da8:bc::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:ca::_48"
+    set ip6 2001:da8:ca::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:cc::_48"
+    set ip6 2001:da8:cc::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:ce::_47"
+    set ip6 2001:da8:ce::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:201::_48"
+    set ip6 2001:da8:201::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:202::_47"
+    set ip6 2001:da8:202::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:204::_46"
+    set ip6 2001:da8:204::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:208::_48"
+    set ip6 2001:da8:208::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:20a::_47"
+    set ip6 2001:da8:20a::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:20c::_48"
+    set ip6 2001:da8:20c::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:20e::_47"
+    set ip6 2001:da8:20e::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:210::_47"
+    set ip6 2001:da8:210::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:212::_48"
+    set ip6 2001:da8:212::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:214::_47"
+    set ip6 2001:da8:214::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:216::_48"
+    set ip6 2001:da8:216::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:218::_47"
+    set ip6 2001:da8:218::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:21a::_48"
+    set ip6 2001:da8:21a::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:21c::_47"
+    set ip6 2001:da8:21c::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:21f::_48"
+    set ip6 2001:da8:21f::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:222::_48"
+    set ip6 2001:da8:222::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:224::_48"
+    set ip6 2001:da8:224::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:22b::_48"
+    set ip6 2001:da8:22b::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:22d::_48"
+    set ip6 2001:da8:22d::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:230::_45"
+    set ip6 2001:da8:230::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:238::_48"
+    set ip6 2001:da8:238::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:23a::_47"
+    set ip6 2001:da8:23a::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:23d::_48"
+    set ip6 2001:da8:23d::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:23e::_48"
+    set ip6 2001:da8:23e::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:240::_46"
+    set ip6 2001:da8:240::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:244::_48"
+    set ip6 2001:da8:244::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:246::_47"
+    set ip6 2001:da8:246::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:249::_48"
+    set ip6 2001:da8:249::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:24f::_48"
+    set ip6 2001:da8:24f::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:250::_48"
+    set ip6 2001:da8:250::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:252::_47"
+    set ip6 2001:da8:252::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:255::_48"
+    set ip6 2001:da8:255::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:258::_47"
+    set ip6 2001:da8:258::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:25f::_48"
+    set ip6 2001:da8:25f::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:262::_48"
+    set ip6 2001:da8:262::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:264::_47"
+    set ip6 2001:da8:264::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:266::_48"
+    set ip6 2001:da8:266::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:26f::_48"
+    set ip6 2001:da8:26f::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:272::_47"
+    set ip6 2001:da8:272::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:274::_47"
+    set ip6 2001:da8:274::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:278::_47"
+    set ip6 2001:da8:278::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:27b::_48"
+    set ip6 2001:da8:27b::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:27e::_47"
+    set ip6 2001:da8:27e::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:280::_48"
+    set ip6 2001:da8:280::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:da8::_48"
+    set ip6 2001:da8:da8::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:ffc::_47"
+    set ip6 2001:da8:ffc::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:1001::_48"
+    set ip6 2001:da8:1001::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:1002::_47"
+    set ip6 2001:da8:1002::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:1004::_46"
+    set ip6 2001:da8:1004::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:1008::_45"
+    set ip6 2001:da8:1008::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:1010::_44"
+    set ip6 2001:da8:1010::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:1020::_44"
+    set ip6 2001:da8:1020::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:1030::_46"
+    set ip6 2001:da8:1030::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:1034::_47"
+    set ip6 2001:da8:1034::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:1037::_48"
+    set ip6 2001:da8:1037::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:1038::_47"
+    set ip6 2001:da8:1038::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:103a::_48"
+    set ip6 2001:da8:103a::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:103c::_46"
+    set ip6 2001:da8:103c::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:1040::_46"
+    set ip6 2001:da8:1040::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:1044::_47"
+    set ip6 2001:da8:1044::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:300c::_48"
+    set ip6 2001:da8:300c::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:300e::_48"
+    set ip6 2001:da8:300e::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:303a::_48"
+    set ip6 2001:da8:303a::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:304f::_48"
+    set ip6 2001:da8:304f::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:7013::_48"
+    set ip6 2001:da8:7013::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:701f::_48"
+    set ip6 2001:da8:701f::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:702a::_48"
+    set ip6 2001:da8:702a::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:9000::_45"
+    set ip6 2001:da8:9000::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:9008::_46"
+    set ip6 2001:da8:9008::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:900c::_48"
+    set ip6 2001:da8:900c::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:900e::_47"
+    set ip6 2001:da8:900e::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:9010::_48"
+    set ip6 2001:da8:9010::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:9012::_47"
+    set ip6 2001:da8:9012::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:9014::_46"
+    set ip6 2001:da8:9014::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:9018::_46"
+    set ip6 2001:da8:9018::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:901e::_48"
+    set ip6 2001:da8:901e::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a001::_48"
+    set ip6 2001:da8:a001::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a002::_48"
+    set ip6 2001:da8:a002::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a005::_48"
+    set ip6 2001:da8:a005::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a006::_47"
+    set ip6 2001:da8:a006::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a008::_45"
+    set ip6 2001:da8:a008::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a010::_45"
+    set ip6 2001:da8:a010::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a018::_46"
+    set ip6 2001:da8:a018::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a01c::_48"
+    set ip6 2001:da8:a01c::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a01e::_47"
+    set ip6 2001:da8:a01e::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a020::_47"
+    set ip6 2001:da8:a020::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a023::_48"
+    set ip6 2001:da8:a023::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a024::_47"
+    set ip6 2001:da8:a024::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a027::_48"
+    set ip6 2001:da8:a027::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a028::_47"
+    set ip6 2001:da8:a028::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a02a::_48"
+    set ip6 2001:da8:a02a::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a400::_48"
+    set ip6 2001:da8:a400::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a800::_46"
+    set ip6 2001:da8:a800::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a805::_48"
+    set ip6 2001:da8:a805::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a806::_47"
+    set ip6 2001:da8:a806::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a808::_48"
+    set ip6 2001:da8:a808::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a80a::_47"
+    set ip6 2001:da8:a80a::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:a80c::_48"
+    set ip6 2001:da8:a80c::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:aaa9::_48"
+    set ip6 2001:da8:aaa9::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b000::_45"
+    set ip6 2001:da8:b000::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b008::_48"
+    set ip6 2001:da8:b008::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b00a::_47"
+    set ip6 2001:da8:b00a::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b00c::_46"
+    set ip6 2001:da8:b00c::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b011::_48"
+    set ip6 2001:da8:b011::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b012::_48"
+    set ip6 2001:da8:b012::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b800::_47"
+    set ip6 2001:da8:b800::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b803::_48"
+    set ip6 2001:da8:b803::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b804::_47"
+    set ip6 2001:da8:b804::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b807::_48"
+    set ip6 2001:da8:b807::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b808::_47"
+    set ip6 2001:da8:b808::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b80a::_48"
+    set ip6 2001:da8:b80a::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b80d::_48"
+    set ip6 2001:da8:b80d::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b80e::_48"
+    set ip6 2001:da8:b80e::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b813::_48"
+    set ip6 2001:da8:b813::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:b81c::_48"
+    set ip6 2001:da8:b81c::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:c000::_45"
+    set ip6 2001:da8:c000::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:c008::_47"
+    set ip6 2001:da8:c008::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:da8:ff00::_40"
+    set ip6 2001:da8:ff00::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:dc7:2dff::_48"
+    set ip6 2001:dc7:2dff::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:dc7:8888::_48"
+    set ip6 2001:dc7:8888::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:dc7:cd00::_48"
+    set ip6 2001:dc7:cd00::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:dc7:cd02::_47"
+    set ip6 2001:dc7:cd02::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:dc7:cd1a::_48"
+    set ip6 2001:dc7:cd1a::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2001:dd8:1::_48"
     set ip6 2001:dd8:1::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:df0:e540::_48"
+    set ip6 2001:df0:e540::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:4510:400::_40"
+    set ip6 2001:4510:400::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:4510:1480::_41"
+    set ip6 2001:4510:1480::/41
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2001:4511:1480::_41"
+    set ip6 2001:4511:1480::/41
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:5280:f803::_48"
     set ip6 2400:5280:f803::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:5a00::_32"
+    set ip6 2400:5a00::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:1::_48"
+    set ip6 2400:6600:1::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:2::_47"
+    set ip6 2400:6600:2::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:4::_46"
+    set ip6 2400:6600:4::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:8::_45"
+    set ip6 2400:6600:8::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:10::_44"
+    set ip6 2400:6600:10::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:20::_43"
+    set ip6 2400:6600:20::/43
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:40::_42"
+    set ip6 2400:6600:40::/42
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:80::_41"
+    set ip6 2400:6600:80::/41
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:100::_40"
+    set ip6 2400:6600:100::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:200::_39"
+    set ip6 2400:6600:200::/39
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:400::_38"
+    set ip6 2400:6600:400::/38
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:800::_37"
+    set ip6 2400:6600:800::/37
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:1000::_36"
+    set ip6 2400:6600:1000::/36
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:2000::_35"
+    set ip6 2400:6600:2000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:4000::_34"
+    set ip6 2400:6600:4000::/34
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:6600:8000::_33"
+    set ip6 2400:6600:8000::/33
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:6e60:1301::_48"
     set ip6 2400:6e60:1301::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:7100::_32"
+    set ip6 2400:7100::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:73e0::_32"
+    set ip6 2400:73e0::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:75aa::_32"
     set ip6 2400:75aa::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:8200::_32"
+    set ip6 2400:8200::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:89c0:1050::_46"
     set ip6 2400:89c0:1050::/46
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:89c0:1150::_48"
     set ip6 2400:89c0:1150::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:89c0:6000::_48"
     set ip6 2400:89c0:6000::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9020:f010::_47"
+    set ip6 2400:9020:f010::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:8001::_48"
     set ip6 2400:9380:8001::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:8003::_48"
     set ip6 2400:9380:8003::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:8021::_48"
     set ip6 2400:9380:8021::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:8040::_48"
     set ip6 2400:9380:8040::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:8140::_48"
     set ip6 2400:9380:8140::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:8201::_48"
     set ip6 2400:9380:8201::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:8301::_48"
     set ip6 2400:9380:8301::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:9001::_48"
     set ip6 2400:9380:9001::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:9009::_48"
     set ip6 2400:9380:9009::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:9020::_47"
     set ip6 2400:9380:9020::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:9050::_47"
     set ip6 2400:9380:9050::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:9060::_48"
     set ip6 2400:9380:9060::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:9071::_48"
     set ip6 2400:9380:9071::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:9080::_47"
     set ip6 2400:9380:9080::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:90b1::_48"
     set ip6 2400:9380:90b1::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:90b2::_47"
     set ip6 2400:9380:90b2::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:90b4::_46"
     set ip6 2400:9380:90b4::/46
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:90c0::_44"
+    set ip6 2400:9380:90c0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:9121::_48"
     set ip6 2400:9380:9121::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:91c0::_44"
+    set ip6 2400:9380:91c0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:9220::_47"
     set ip6 2400:9380:9220::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:9250::_47"
     set ip6 2400:9380:9250::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:9260::_48"
     set ip6 2400:9380:9260::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:9271::_48"
     set ip6 2400:9380:9271::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:9280::_47"
     set ip6 2400:9380:9280::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:92b1::_48"
     set ip6 2400:9380:92b1::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:92b2::_47"
     set ip6 2400:9380:92b2::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9380:92b4::_46"
     set ip6 2400:9380:92b4::/46
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:92c0::_44"
+    set ip6 2400:9380:92c0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:93c0::_44"
+    set ip6 2400:9380:93c0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:94c0::_44"
+    set ip6 2400:9380:94c0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:95c0::_44"
+    set ip6 2400:9380:95c0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:96c0::_44"
+    set ip6 2400:9380:96c0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:97c0::_44"
+    set ip6 2400:9380:97c0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:98c0::_44"
+    set ip6 2400:9380:98c0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:99c0::_44"
+    set ip6 2400:9380:99c0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:9ac0::_44"
+    set ip6 2400:9380:9ac0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:9bc0::_44"
+    set ip6 2400:9380:9bc0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:9cc0::_44"
+    set ip6 2400:9380:9cc0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:9dc0::_44"
+    set ip6 2400:9380:9dc0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:9ec0::_44"
+    set ip6 2400:9380:9ec0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9380:9fc0::_44"
+    set ip6 2400:9380:9fc0::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:9600:8800::_48"
     set ip6 2400:9600:8800::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:9620::_32"
+    set ip6 2400:9620::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:b620::_48"
+    set ip6 2400:b620::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:b700::_48"
     set ip6 2400:b700::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2400:be00::_48"
     set ip6 2400:be00::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2401:1d40::_48"
-    set ip6 2401:1d40::/48
+edit "zzz_ISP_v6_CT_1_2400:da00::_38"
+    set ip6 2400:da00::/38
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:401::_48"
+    set ip6 2400:da00:401::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:402::_47"
+    set ip6 2400:da00:402::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:405::_48"
+    set ip6 2400:da00:405::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:406::_47"
+    set ip6 2400:da00:406::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:408::_45"
+    set ip6 2400:da00:408::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:410::_44"
+    set ip6 2400:da00:410::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:420::_43"
+    set ip6 2400:da00:420::/43
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:440::_42"
+    set ip6 2400:da00:440::/42
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:480::_41"
+    set ip6 2400:da00:480::/41
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:500::_40"
+    set ip6 2400:da00:500::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:600::_39"
+    set ip6 2400:da00:600::/39
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:800::_37"
+    set ip6 2400:da00:800::/37
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:1000::_36"
+    set ip6 2400:da00:1000::/36
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:2000::_35"
+    set ip6 2400:da00:2000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:4000::_34"
+    set ip6 2400:da00:4000::/34
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:da00:8000::_33"
+    set ip6 2400:da00:8000::/33
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:e680::_32"
+    set ip6 2400:e680::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:ee00::_33"
+    set ip6 2400:ee00::/33
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:ee00:8000::_34"
+    set ip6 2400:ee00:8000::/34
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:ee00:c000::_35"
+    set ip6 2400:ee00:c000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:ee00:e000::_36"
+    set ip6 2400:ee00:e000::/36
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:ee00:f000::_37"
+    set ip6 2400:ee00:f000::/37
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:ee00:f800::_38"
+    set ip6 2400:ee00:f800::/38
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:ee00:fc00::_39"
+    set ip6 2400:ee00:fc00::/39
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:ee00:fe00::_40"
+    set ip6 2400:ee00:fe00::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:ee00:ff00::_41"
+    set ip6 2400:ee00:ff00::/41
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:ee00:ff80::_42"
+    set ip6 2400:ee00:ff80::/42
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:ee00:ffc0::_43"
+    set ip6 2400:ee00:ffc0::/43
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:ee00:ffe0::_45"
+    set ip6 2400:ee00:ffe0::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2400:ee00:ffe8::_46"
+    set ip6 2400:ee00:ffe8::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:800::_32"
+    set ip6 2401:800::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:1160::_32"
+    set ip6 2401:1160::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:1200::_48"
+    set ip6 2401:1200::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:1d40::_47"
+    set ip6 2401:1d40::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2401:1d40:f8::_45"
     set ip6 2401:1d40:f8::/45
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2401:1d40:100::_48"
     set ip6 2401:1d40:100::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2401:1d40:f21::_48"
     set ip6 2401:1d40:f21::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2401:1d40:f22::_47"
     set ip6 2401:1d40:f22::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2401:1d40:f24::_48"
     set ip6 2401:1d40:f24::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2401:1d40:2000::_48"
-    set ip6 2401:1d40:2000::/48
+edit "zzz_ISP_v6_CT_1_2401:1d40:2000::_35"
+    set ip6 2401:1d40:2000::/35
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2401:1d40:2100::_48"
-    set ip6 2401:1d40:2100::/48
+edit "zzz_ISP_v6_CT_1_2401:2780::_32"
+    set ip6 2401:2780::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
-next
-edit "zzz_ISP_v6_CT_1_2401:1d40:2f00::_48"
-    set ip6 2401:1d40:2f00::/48
-    set allow-routing enable
-    set comment "update-date: 2026-05-11"
-next
-edit "zzz_ISP_v6_CT_1_2401:1d40:3100::_47"
-    set ip6 2401:1d40:3100::/47
-    set allow-routing enable
-    set comment "update-date: 2026-05-11"
-next
-edit "zzz_ISP_v6_CT_1_2401:1d40:3f00::_48"
-    set ip6 2401:1d40:3f00::/48
-    set allow-routing enable
-    set comment "update-date: 2026-05-11"
-next
-edit "zzz_ISP_v6_CT_1_2401:1d40:3f02::_48"
-    set ip6 2401:1d40:3f02::/48
-    set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2401:3480::_36"
     set ip6 2401:3480::/36
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2401:3480:2000::_48"
     set ip6 2401:3480:2000::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2401:3480:3000::_36"
     set ip6 2401:3480:3000::/36
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:3800::_32"
+    set ip6 2401:3800::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:3880::_32"
+    set ip6 2401:3880::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:3980::_32"
+    set ip6 2401:3980::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:3a80::_32"
+    set ip6 2401:3a80::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:3b80::_32"
+    set ip6 2401:3b80::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:3c80::_32"
+    set ip6 2401:3c80::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:3d80::_32"
+    set ip6 2401:3d80::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:3e80::_32"
+    set ip6 2401:3e80::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:3f80::_32"
+    set ip6 2401:3f80::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:4180::_32"
+    set ip6 2401:4180::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:4280::_32"
+    set ip6 2401:4280::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:4380::_32"
+    set ip6 2401:4380::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:4480::_32"
+    set ip6 2401:4480::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:4580::_32"
+    set ip6 2401:4580::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:4680::_32"
+    set ip6 2401:4680::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:4780::_32"
+    set ip6 2401:4780::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:4880::_32"
+    set ip6 2401:4880::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:4a80::_32"
+    set ip6 2401:4a80::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2401:5c20:10::_48"
     set ip6 2401:5c20:10::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2401:71c0::_48"
     set ip6 2401:71c0::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:7700::_32"
+    set ip6 2401:7700::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:7d40::_32"
+    set ip6 2401:7d40::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:8d00:12::_48"
+    set ip6 2401:8d00:12::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2401:a140:1::_48"
     set ip6 2401:a140:1::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:b680::_32"
+    set ip6 2401:b680::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2401:be00::_48"
     set ip6 2401:be00::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:ca00::_32"
+    set ip6 2401:ca00::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:ce00:a003::_48"
+    set ip6 2401:ce00:a003::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:ce00:b800::_38"
+    set ip6 2401:ce00:b800::/38
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:ce00:c000::_37"
+    set ip6 2401:ce00:c000::/37
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:ce00:cc00::_38"
+    set ip6 2401:ce00:cc00::/38
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2401:d0e0:3::_48"
     set ip6 2401:d0e0:3::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:d780::_32"
+    set ip6 2401:d780::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:fa00:40::_47"
+    set ip6 2401:fa00:40::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:fa00:44::_48"
+    set ip6 2401:fa00:44::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:fa00:46::_47"
+    set ip6 2401:fa00:46::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:fa00:48::_48"
+    set ip6 2401:fa00:48::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:fa00:58::_48"
+    set ip6 2401:fa00:58::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2401:fa00:5f::_48"
+    set ip6 2401:fa00:5f::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:840:d000::_48"
+    set ip6 2402:840:d000::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:840:e000::_46"
+    set ip6 2402:840:e000::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:840:f000::_38"
+    set ip6 2402:840:f000::/38
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2402:c60::_48"
     set ip6 2402:c60::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:2e60::_39"
+    set ip6 2402:2e60::/39
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:34e0::_32"
+    set ip6 2402:34e0::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2402:36e0::_44"
     set ip6 2402:36e0::/44
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2402:4e00::_32"
-    set ip6 2402:4e00::/32
+edit "zzz_ISP_v6_CT_1_2402:4440:9000::_39"
+    set ip6 2402:4440:9000::/39
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4440:9200::_48"
+    set ip6 2402:4440:9200::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4440:9400::_48"
+    set ip6 2402:4440:9400::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4440:9600::_48"
+    set ip6 2402:4440:9600::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4440:9800::_48"
+    set ip6 2402:4440:9800::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4440:9810::_48"
+    set ip6 2402:4440:9810::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4440:9900::_48"
+    set ip6 2402:4440:9900::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4440:9a00::_48"
+    set ip6 2402:4440:9a00::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4440:9b00::_48"
+    set ip6 2402:4440:9b00::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4440:9c00::_48"
+    set ip6 2402:4440:9c00::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4440:9d00::_48"
+    set ip6 2402:4440:9d00::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4440:9e00::_48"
+    set ip6 2402:4440:9e00::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4440:a000::_39"
+    set ip6 2402:4440:a000::/39
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4440:a800::_46"
+    set ip6 2402:4440:a800::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4440:a810::_46"
+    set ip6 2402:4440:a810::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4e00:1800::_40"
+    set ip6 2402:4e00:1800::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4e00:4070::_44"
+    set ip6 2402:4e00:4070::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4e00:8000::_47"
+    set ip6 2402:4e00:8000::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:4e00:c020::_44"
+    set ip6 2402:4e00:c020::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:5e40::_32"
+    set ip6 2402:5e40::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2402:5ec0::_32"
     set ip6 2402:5ec0::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:6f40:3::_48"
+    set ip6 2402:6f40:3::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:6fc0::_48"
+    set ip6 2402:6fc0::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:7040::_32"
+    set ip6 2402:7040::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:7d80::_48"
+    set ip6 2402:7d80::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:7d80:8888::_48"
+    set ip6 2402:7d80:8888::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2402:92c0::_48"
     set ip6 2402:92c0::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2402:db40:5100::_48"
     set ip6 2402:db40:5100::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2402:db40:5f00::_46"
     set ip6 2402:db40:5f00::/46
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:e7c0:400::_42"
+    set ip6 2402:e7c0:400::/42
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:e7c0:800::_42"
+    set ip6 2402:e7c0:800::/42
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2402:f140:ff00::_46"
     set ip6 2402:f140:ff00::/46
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2402:f140:ff04::_48"
     set ip6 2402:f140:ff04::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2402:f8c0::_42"
-    set ip6 2402:f8c0::/42
+edit "zzz_ISP_v6_CT_1_2402:f8c0::_48"
+    set ip6 2402:f8c0::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:f8c0:2::_47"
+    set ip6 2402:f8c0:2::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:f8c0:4::_46"
+    set ip6 2402:f8c0:4::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:f8c0:8::_45"
+    set ip6 2402:f8c0:8::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:f8c0:10::_44"
+    set ip6 2402:f8c0:10::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2402:f8c0:20::_43"
+    set ip6 2402:f8c0:20::/43
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2403:600::_32"
+    set ip6 2403:600::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2403:1b80::_48"
+    set ip6 2403:1b80::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:1ec0:1200::_48"
     set ip6 2403:1ec0:1200::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:1ec0:1400::_48"
     set ip6 2403:1ec0:1400::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:1ec0:1600::_48"
     set ip6 2403:1ec0:1600::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:1ec0:1610::_48"
     set ip6 2403:1ec0:1610::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2403:2040::_48"
+    set ip6 2403:2040::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2403:2b40::_32"
+    set ip6 2403:2b40::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2403:3140::_32"
+    set ip6 2403:3140::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:4280::_47"
     set ip6 2403:4280::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:5c80::_48"
     set ip6 2403:5c80::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:8080:101::_48"
     set ip6 2403:8080:101::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:9b00:2400::_48"
     set ip6 2403:9b00:2400::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:a100::_48"
     set ip6 2403:a100::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:a140:10::_48"
     set ip6 2403:a140:10::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:a140:100::_40"
     set ip6 2403:a140:100::/40
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:a200:a1ff::_48"
     set ip6 2403:a200:a1ff::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:a200:a2ff::_48"
     set ip6 2403:a200:a2ff::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:a200:a3ff::_48"
     set ip6 2403:a200:a3ff::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:c980::_32"
     set ip6 2403:c980::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2403:f4c0::_48"
     set ip6 2403:f4c0::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2404:1c80::_32"
     set ip6 2404:1c80::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2404:3700::_48"
     set ip6 2404:3700::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2404:6380::_48"
     set ip6 2404:6380::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 edit "zzz_ISP_v6_CT_1_2404:6380:1000::_48"
     set ip6 2404:6380:1000::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2405:1480:1000::_48"
+edit "zzz_ISP_v6_CT_1_2404:7180:a010::_48"
+    set ip6 2404:7180:a010::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2404:7180:aa10::_48"
+    set ip6 2404:7180:aa10::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2404:7180:b010::_48"
+    set ip6 2404:7180:b010::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2404:7180:c011::_48"
+    set ip6 2404:7180:c011::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2404:7180:c012::_48"
+    set ip6 2404:7180:c012::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2404:7180:f010::_48"
+    set ip6 2404:7180:f010::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2404:7240::_34"
+    set ip6 2404:7240::/34
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2404:7240:4000::_35"
+    set ip6 2404:7240:4000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2404:7240:6001::_48"
+    set ip6 2404:7240:6001::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2404:7240:6002::_47"
+    set ip6 2404:7240:6002::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2404:7240:6004::_46"
+    set ip6 2404:7240:6004::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2404:7240:6008::_45"
+    set ip6 2404:7240:6008::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2404:7240:6010::_44"
+    set ip6 2404:7240:6010::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2404:7240:6020::_43"
+    set ip6 2404:7240:6020::/43
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2404:7240:6040::_42"
+    set ip6 2404:7240:6040::/42
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_1_2404:7240:6080::_41"
+    set ip6 2404:7240:6080::/41
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7240:6100::_40"
+    set ip6 2404:7240:6100::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7240:6200::_39"
+    set ip6 2404:7240:6200::/39
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7240:6400::_38"
+    set ip6 2404:7240:6400::/38
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7240:6800::_37"
+    set ip6 2404:7240:6800::/37
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7240:7000::_36"
+    set ip6 2404:7240:7000::/36
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7600::_40"
+    set ip6 2404:7600::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7600:102::_47"
+    set ip6 2404:7600:102::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7600:104::_46"
+    set ip6 2404:7600:104::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7600:108::_45"
+    set ip6 2404:7600:108::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7600:110::_44"
+    set ip6 2404:7600:110::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7600:120::_43"
+    set ip6 2404:7600:120::/43
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7600:140::_42"
+    set ip6 2404:7600:140::/42
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7600:180::_41"
+    set ip6 2404:7600:180::/41
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7600:200::_39"
+    set ip6 2404:7600:200::/39
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7600:400::_38"
+    set ip6 2404:7600:400::/38
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7600:800::_37"
+    set ip6 2404:7600:800::/37
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7600:1000::_36"
+    set ip6 2404:7600:1000::/36
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7600:2000::_35"
+    set ip6 2404:7600:2000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7600:4000::_34"
+    set ip6 2404:7600:4000::/34
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:7600:8000::_33"
+    set ip6 2404:7600:8000::/33
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2404:e8c0::_32"
+    set ip6 2404:e8c0::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2405:1480:1000::_48"
     set ip6 2405:1480:1000::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2405:1480:2000::_48"
+edit "zzz_ISP_v6_CT_2_2405:1480:2000::_48"
     set ip6 2405:1480:2000::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2405:1480:3000::_48"
+edit "zzz_ISP_v6_CT_2_2405:1480:3000::_48"
     set ip6 2405:1480:3000::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2405:7040:6000::_48"
+edit "zzz_ISP_v6_CT_2_2405:7040:6000::_48"
     set ip6 2405:7040:6000::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2406:1080::_48"
+edit "zzz_ISP_v6_CT_2_2405:8280::_32"
+    set ip6 2405:8280::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2405:8a40::_32"
+    set ip6 2405:8a40::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2406:1080::_48"
     set ip6 2406:1080::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2406:2700::_32"
+edit "zzz_ISP_v6_CT_2_2406:1e40:f012::_47"
+    set ip6 2406:1e40:f012::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2406:2700::_32"
     set ip6 2406:2700::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2406:4d00::_48"
+edit "zzz_ISP_v6_CT_2_2406:3640:1::_48"
+    set ip6 2406:3640:1::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2406:4d00::_48"
     set ip6 2406:4d00::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2406:cf00::_48"
+edit "zzz_ISP_v6_CT_2_2406:8880::_48"
+    set ip6 2406:8880::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2406:cf00::_48"
     set ip6 2406:cf00::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2406:cf00:1000::_43"
+edit "zzz_ISP_v6_CT_2_2406:cf00:1000::_43"
     set ip6 2406:cf00:1000::/43
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2406:d440:210::_44"
+edit "zzz_ISP_v6_CT_2_2406:d440:100::_44"
+    set ip6 2406:d440:100::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2406:d440:210::_44"
     set ip6 2406:d440:210::/44
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2406:d440:ff00::_48"
+edit "zzz_ISP_v6_CT_2_2406:d440:ff00::_48"
     set ip6 2406:d440:ff00::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2407:6c40:1100::_48"
+edit "zzz_ISP_v6_CT_2_2406:e3c0::_36"
+    set ip6 2406:e3c0::/36
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2406:e3c0:1000::_37"
+    set ip6 2406:e3c0:1000::/37
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2406:e3c0:2000::_35"
+    set ip6 2406:e3c0:2000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2406:e3c0:4000::_34"
+    set ip6 2406:e3c0:4000::/34
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2406:e3c0:8000::_33"
+    set ip6 2406:e3c0:8000::/33
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2407:4980::_32"
+    set ip6 2407:4980::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2407:5380::_32"
+    set ip6 2407:5380::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2407:6c40:1100::_48"
     set ip6 2407:6c40:1100::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2407:8f40:2::_48"
+edit "zzz_ISP_v6_CT_2_2407:8f40:2::_48"
     set ip6 2407:8f40:2::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2407:b380:8000::_48"
+edit "zzz_ISP_v6_CT_2_2407:9f00::_32"
+    set ip6 2407:9f00::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2407:b380:8000::_48"
     set ip6 2407:b380:8000::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2407:c080:1800::_37"
+edit "zzz_ISP_v6_CT_2_2407:c080:1730::_44"
+    set ip6 2407:c080:1730::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2407:c080:1800::_37"
     set ip6 2407:c080:1800::/37
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2409:27fa::_48"
+edit "zzz_ISP_v6_CT_2_2407:d9c0::_32"
+    set ip6 2407:d9c0::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2409:27fa::_48"
     set ip6 2409:27fa::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2409:27fa:f000::_48"
+edit "zzz_ISP_v6_CT_2_2409:27fa:f000::_48"
     set ip6 2409:27fa:f000::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2409:27fb::_48"
+edit "zzz_ISP_v6_CT_2_2409:27fb::_48"
     set ip6 2409:27fb::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2409:27fc::_48"
+edit "zzz_ISP_v6_CT_2_2409:27fc::_48"
     set ip6 2409:27fc::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_240a:2001:1811::_48"
+edit "zzz_ISP_v6_CT_2_240a:2001:1811::_48"
     set ip6 240a:2001:1811::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_240a:2001:1861::_48"
+edit "zzz_ISP_v6_CT_2_240a:2001:1861::_48"
     set ip6 240a:2001:1861::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_240a:6001::_48"
+edit "zzz_ISP_v6_CT_2_240a:4002:1b00::_40"
+    set ip6 240a:4002:1b00::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4010:8000::_33"
+    set ip6 240a:4010:8000::/33
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4080:8000::_35"
+    set ip6 240a:4080:8000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4084:2000::_35"
+    set ip6 240a:4084:2000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4088:a000::_35"
+    set ip6 240a:4088:a000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:408c:2000::_35"
+    set ip6 240a:408c:2000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4090:8000::_34"
+    set ip6 240a:4090:8000::/34
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4093::_35"
+    set ip6 240a:4093::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4094:2000::_35"
+    set ip6 240a:4094:2000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:409c:2000::_35"
+    set ip6 240a:409c:2000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:40a4:2000::_35"
+    set ip6 240a:40a4:2000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:40a8:8000::_35"
+    set ip6 240a:40a8:8000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:40ac:2000::_35"
+    set ip6 240a:40ac:2000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:40c0:8200::_48"
+    set ip6 240a:40c0:8200::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:40c0:8240::_48"
+    set ip6 240a:40c0:8240::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:40c3:c200::_48"
+    set ip6 240a:40c3:c200::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:40c3:c240::_48"
+    set ip6 240a:40c3:c240::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4172::_31"
+    set ip6 240a:4172::/31
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4180::_31"
+    set ip6 240a:4180::/31
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:41b0::_34"
+    set ip6 240a:41b0::/34
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:41b8:8800::_40"
+    set ip6 240a:41b8:8800::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:41b8:a000::_40"
+    set ip6 240a:41b8:a000::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:41b8:d400::_40"
+    set ip6 240a:41b8:d400::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:41b8:e400::_40"
+    set ip6 240a:41b8:e400::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:41d6::_31"
+    set ip6 240a:41d6::/31
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:41f2::_31"
+    set ip6 240a:41f2::/31
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4208::_30"
+    set ip6 240a:4208::/30
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4224:9000::_44"
+    set ip6 240a:4224:9000::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4224:a000::_44"
+    set ip6 240a:4224:a000::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4224:c000::_44"
+    set ip6 240a:4224:c000::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4224:d000::_44"
+    set ip6 240a:4224:d000::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4224:e000::_44"
+    set ip6 240a:4224:e000::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4225:1000::_44"
+    set ip6 240a:4225:1000::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4225:3000::_44"
+    set ip6 240a:4225:3000::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4230::_31"
+    set ip6 240a:4230::/31
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:4242::_31"
+    set ip6 240a:4242::/31
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240a:6001::_48"
     set ip6 240a:6001::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_240c:409f::_46"
-    set ip6 240c:409f::/46
+edit "zzz_ISP_v6_CT_2_240a:c0c0::_32"
+    set ip6 240a:c0c0::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_240c:409f:2000::_46"
-    set ip6 240c:409f:2000::/46
+edit "zzz_ISP_v6_CT_2_240c:4000::_22"
+    set ip6 240c:4000::/22
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_240c:409f:3000::_45"
-    set ip6 240c:409f:3000::/45
+edit "zzz_ISP_v6_CT_2_240c:c001::_32"
+    set ip6 240c:c001::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_240c:409f:4000::_46"
-    set ip6 240c:409f:4000::/46
+edit "zzz_ISP_v6_CT_2_240c:c017::_32"
+    set ip6 240c:c017::/32
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_240e::_20"
-    set ip6 240e::/20
+edit "zzz_ISP_v6_CT_2_240c:c018::_31"
+    set ip6 240c:c018::/31
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2605:9d80:8001::_48"
+edit "zzz_ISP_v6_CT_2_240c:c02f::_32"
+    set ip6 240c:c02f::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c035::_32"
+    set ip6 240c:c035::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a1::_32"
+    set ip6 240c:c0a1::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8::_35"
+    set ip6 240c:c0a8::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:2000::_36"
+    set ip6 240c:c0a8:2000::/36
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:3000::_37"
+    set ip6 240c:c0a8:3000::/37
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:3800::_38"
+    set ip6 240c:c0a8:3800::/38
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:3c00::_41"
+    set ip6 240c:c0a8:3c00::/41
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:3c80::_47"
+    set ip6 240c:c0a8:3c80::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:3c83::_48"
+    set ip6 240c:c0a8:3c83::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:3c84::_46"
+    set ip6 240c:c0a8:3c84::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:3c88::_45"
+    set ip6 240c:c0a8:3c88::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:3c90::_44"
+    set ip6 240c:c0a8:3c90::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:3ca0::_43"
+    set ip6 240c:c0a8:3ca0::/43
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:3cc0::_42"
+    set ip6 240c:c0a8:3cc0::/42
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:3d00::_40"
+    set ip6 240c:c0a8:3d00::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:3e00::_39"
+    set ip6 240c:c0a8:3e00::/39
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:4000::_36"
+    set ip6 240c:c0a8:4000::/36
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5000::_37"
+    set ip6 240c:c0a8:5000::/37
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5800::_38"
+    set ip6 240c:c0a8:5800::/38
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5c00::_43"
+    set ip6 240c:c0a8:5c00::/43
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5c20::_46"
+    set ip6 240c:c0a8:5c20::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5c24::_47"
+    set ip6 240c:c0a8:5c24::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5c27::_48"
+    set ip6 240c:c0a8:5c27::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5c28::_45"
+    set ip6 240c:c0a8:5c28::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5c30::_44"
+    set ip6 240c:c0a8:5c30::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5c40::_45"
+    set ip6 240c:c0a8:5c40::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5c48::_48"
+    set ip6 240c:c0a8:5c48::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5c4a::_47"
+    set ip6 240c:c0a8:5c4a::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5c4c::_46"
+    set ip6 240c:c0a8:5c4c::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5c50::_44"
+    set ip6 240c:c0a8:5c50::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5c60::_43"
+    set ip6 240c:c0a8:5c60::/43
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5c80::_41"
+    set ip6 240c:c0a8:5c80::/41
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5d00::_40"
+    set ip6 240c:c0a8:5d00::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:5e00::_39"
+    set ip6 240c:c0a8:5e00::/39
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:6000::_35"
+    set ip6 240c:c0a8:6000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:8000::_36"
+    set ip6 240c:c0a8:8000::/36
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:9000::_37"
+    set ip6 240c:c0a8:9000::/37
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:9800::_38"
+    set ip6 240c:c0a8:9800::/38
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:9c00::_48"
+    set ip6 240c:c0a8:9c00::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:9c02::_47"
+    set ip6 240c:c0a8:9c02::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:9c04::_46"
+    set ip6 240c:c0a8:9c04::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:9c08::_45"
+    set ip6 240c:c0a8:9c08::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:9c10::_44"
+    set ip6 240c:c0a8:9c10::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:9c20::_43"
+    set ip6 240c:c0a8:9c20::/43
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:9c40::_42"
+    set ip6 240c:c0a8:9c40::/42
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:9c80::_41"
+    set ip6 240c:c0a8:9c80::/41
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:9d00::_40"
+    set ip6 240c:c0a8:9d00::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:9e00::_39"
+    set ip6 240c:c0a8:9e00::/39
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:a000::_35"
+    set ip6 240c:c0a8:a000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a8:c000::_34"
+    set ip6 240c:c0a8:c000::/34
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c0a9:1000::_40"
+    set ip6 240c:c0a9:1000::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c220::_31"
+    set ip6 240c:c220::/31
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c246::_32"
+    set ip6 240c:c246::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c341::_32"
+    set ip6 240c:c341::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c406::_32"
+    set ip6 240c:c406::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c410::_32"
+    set ip6 240c:c410::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c586::_32"
+    set ip6 240c:c586::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c602::_31"
+    set ip6 240c:c602::/31
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c604::_32"
+    set ip6 240c:c604::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c608::_32"
+    set ip6 240c:c608::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:c64c::_32"
+    set ip6 240c:c64c::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:ca02::_31"
+    set ip6 240c:ca02::/31
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:ca05::_32"
+    set ip6 240c:ca05::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:ca07::_32"
+    set ip6 240c:ca07::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:ca0c::_32"
+    set ip6 240c:ca0c::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240c:ca23::_32"
+    set ip6 240c:ca23::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e::_21"
+    set ip6 240e::/21
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:800::_24"
+    set ip6 240e:800::/24
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:900::_26"
+    set ip6 240e:900::/26
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:940::_27"
+    set ip6 240e:940::/27
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:960::_28"
+    set ip6 240e:960::/28
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:970::_29"
+    set ip6 240e:970::/29
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:978::_30"
+    set ip6 240e:978::/30
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97c::_32"
+    set ip6 240e:97c::/32
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d::_33"
+    set ip6 240e:97d::/33
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d:8001::_48"
+    set ip6 240e:97d:8001::/48
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d:8002::_47"
+    set ip6 240e:97d:8002::/47
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d:8004::_46"
+    set ip6 240e:97d:8004::/46
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d:8008::_45"
+    set ip6 240e:97d:8008::/45
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d:8010::_44"
+    set ip6 240e:97d:8010::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d:8020::_43"
+    set ip6 240e:97d:8020::/43
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d:8040::_42"
+    set ip6 240e:97d:8040::/42
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d:8080::_41"
+    set ip6 240e:97d:8080::/41
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d:8100::_40"
+    set ip6 240e:97d:8100::/40
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d:8200::_39"
+    set ip6 240e:97d:8200::/39
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d:8400::_38"
+    set ip6 240e:97d:8400::/38
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d:8800::_37"
+    set ip6 240e:97d:8800::/37
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d:9000::_36"
+    set ip6 240e:97d:9000::/36
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d:a000::_35"
+    set ip6 240e:97d:a000::/35
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97d:c000::_34"
+    set ip6 240e:97d:c000::/34
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:97e::_31"
+    set ip6 240e:97e::/31
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:980::_25"
+    set ip6 240e:980::/25
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:a00::_23"
+    set ip6 240e:a00::/23
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_240e:c00::_22"
+    set ip6 240e:c00::/22
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2605:9d80:8001::_48"
     set ip6 2605:9d80:8001::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2605:9d80:8011::_48"
+edit "zzz_ISP_v6_CT_2_2605:9d80:8011::_48"
     set ip6 2605:9d80:8011::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2605:9d80:8021::_48"
+edit "zzz_ISP_v6_CT_2_2605:9d80:8021::_48"
     set ip6 2605:9d80:8021::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2605:9d80:8031::_48"
+edit "zzz_ISP_v6_CT_2_2605:9d80:8031::_48"
     set ip6 2605:9d80:8031::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2605:9d80:8041::_48"
+edit "zzz_ISP_v6_CT_2_2605:9d80:8041::_48"
     set ip6 2605:9d80:8041::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2605:9d80:8081::_48"
+edit "zzz_ISP_v6_CT_2_2605:9d80:8081::_48"
     set ip6 2605:9d80:8081::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2605:9d80:9003::_48"
+edit "zzz_ISP_v6_CT_2_2605:9d80:9003::_48"
     set ip6 2605:9d80:9003::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2605:9d80:9013::_48"
+edit "zzz_ISP_v6_CT_2_2605:9d80:9013::_48"
     set ip6 2605:9d80:9013::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2605:9d80:9023::_48"
+edit "zzz_ISP_v6_CT_2_2605:9d80:9023::_48"
     set ip6 2605:9d80:9023::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2605:9d80:9033::_48"
+edit "zzz_ISP_v6_CT_2_2605:9d80:9033::_48"
     set ip6 2605:9d80:9033::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2605:9d80:9042::_48"
+edit "zzz_ISP_v6_CT_2_2605:9d80:9042::_48"
     set ip6 2605:9d80:9042::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2605:9d80:9071::_48"
+edit "zzz_ISP_v6_CT_2_2605:9d80:9071::_48"
     set ip6 2605:9d80:9071::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2605:9d80:9092::_48"
+edit "zzz_ISP_v6_CT_2_2605:9d80:9092::_48"
     set ip6 2605:9d80:9092::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2804:1e48:9001::_48"
+edit "zzz_ISP_v6_CT_2_2804:1e48:9001::_48"
     set ip6 2804:1e48:9001::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2804:1e48:9002::_48"
+edit "zzz_ISP_v6_CT_2_2804:1e48:9002::_48"
     set ip6 2804:1e48:9002::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:8010::_47"
+edit "zzz_ISP_v6_CT_2_2a00:8a05::_44"
+    set ip6 2a00:8a05::/44
+    set allow-routing enable
+    set comment "update-date: 2026-05-12"
+next
+edit "zzz_ISP_v6_CT_2_2a04:f580:8010::_47"
     set ip6 2a04:f580:8010::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:8090::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:8090::_48"
     set ip6 2a04:f580:8090::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:8210::_47"
+edit "zzz_ISP_v6_CT_2_2a04:f580:8210::_47"
     set ip6 2a04:f580:8210::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:8290::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:8290::_48"
     set ip6 2a04:f580:8290::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9010::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9010::_48"
     set ip6 2a04:f580:9010::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9012::_47"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9012::_47"
     set ip6 2a04:f580:9012::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9020::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9020::_48"
     set ip6 2a04:f580:9020::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9030::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9030::_48"
     set ip6 2a04:f580:9030::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9040::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9040::_48"
     set ip6 2a04:f580:9040::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9050::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9050::_48"
     set ip6 2a04:f580:9050::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9060::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9060::_48"
     set ip6 2a04:f580:9060::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9070::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9070::_48"
     set ip6 2a04:f580:9070::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9080::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9080::_48"
     set ip6 2a04:f580:9080::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9210::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9210::_48"
     set ip6 2a04:f580:9210::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9212::_47"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9212::_47"
     set ip6 2a04:f580:9212::/47
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9220::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9220::_48"
     set ip6 2a04:f580:9220::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9230::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9230::_48"
     set ip6 2a04:f580:9230::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9240::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9240::_48"
     set ip6 2a04:f580:9240::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9250::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9250::_48"
     set ip6 2a04:f580:9250::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9260::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9260::_48"
     set ip6 2a04:f580:9260::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9270::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9270::_48"
     set ip6 2a04:f580:9270::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9280::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9280::_48"
     set ip6 2a04:f580:9280::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2a04:f580:9290::_48"
+edit "zzz_ISP_v6_CT_2_2a04:f580:9290::_48"
     set ip6 2a04:f580:9290::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2c0f:f7a8:8011::_48"
+edit "zzz_ISP_v6_CT_2_2c0f:f7a8:8011::_48"
     set ip6 2c0f:f7a8:8011::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2c0f:f7a8:8050::_48"
+edit "zzz_ISP_v6_CT_2_2c0f:f7a8:8050::_48"
     set ip6 2c0f:f7a8:8050::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2c0f:f7a8:805f::_48"
+edit "zzz_ISP_v6_CT_2_2c0f:f7a8:805f::_48"
     set ip6 2c0f:f7a8:805f::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2c0f:f7a8:8150::_48"
+edit "zzz_ISP_v6_CT_2_2c0f:f7a8:8150::_48"
     set ip6 2c0f:f7a8:8150::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2c0f:f7a8:815f::_48"
+edit "zzz_ISP_v6_CT_2_2c0f:f7a8:815f::_48"
     set ip6 2c0f:f7a8:815f::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2c0f:f7a8:8211::_48"
+edit "zzz_ISP_v6_CT_2_2c0f:f7a8:8211::_48"
     set ip6 2c0f:f7a8:8211::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2c0f:f7a8:9020::_48"
+edit "zzz_ISP_v6_CT_2_2c0f:f7a8:9020::_48"
     set ip6 2c0f:f7a8:9020::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2c0f:f7a8:9041::_48"
+edit "zzz_ISP_v6_CT_2_2c0f:f7a8:9041::_48"
     set ip6 2c0f:f7a8:9041::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2c0f:f7a8:9211::_48"
+edit "zzz_ISP_v6_CT_2_2c0f:f7a8:9211::_48"
     set ip6 2c0f:f7a8:9211::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
-edit "zzz_ISP_v6_CT_1_2c0f:f7a8:9220::_48"
+edit "zzz_ISP_v6_CT_2_2c0f:f7a8:9220::_48"
     set ip6 2c0f:f7a8:9220::/48
     set allow-routing enable
-    set comment "update-date: 2026-05-11"
+    set comment "update-date: 2026-05-12"
 next
 end
 
 config firewall addrgrp
     edit "zzz_ISPBG_v6_CT_1"
         unset member
-        set member "zzz_ISP_v6_CT_1_2001:c68::_32" "zzz_ISP_v6_CT_1_2001:dd8:1::_48" "zzz_ISP_v6_CT_1_2400:5280:f803::_48" "zzz_ISP_v6_CT_1_2400:6e60:1301::_48" "zzz_ISP_v6_CT_1_2400:75aa::_32" "zzz_ISP_v6_CT_1_2400:89c0:1050::_46" "zzz_ISP_v6_CT_1_2400:89c0:1150::_48" "zzz_ISP_v6_CT_1_2400:89c0:6000::_48" "zzz_ISP_v6_CT_1_2400:9380:8001::_48" "zzz_ISP_v6_CT_1_2400:9380:8003::_48" "zzz_ISP_v6_CT_1_2400:9380:8021::_48" "zzz_ISP_v6_CT_1_2400:9380:8040::_48" "zzz_ISP_v6_CT_1_2400:9380:8140::_48" "zzz_ISP_v6_CT_1_2400:9380:8201::_48" "zzz_ISP_v6_CT_1_2400:9380:8301::_48" "zzz_ISP_v6_CT_1_2400:9380:9001::_48" "zzz_ISP_v6_CT_1_2400:9380:9009::_48" "zzz_ISP_v6_CT_1_2400:9380:9020::_47" "zzz_ISP_v6_CT_1_2400:9380:9050::_47" "zzz_ISP_v6_CT_1_2400:9380:9060::_48" "zzz_ISP_v6_CT_1_2400:9380:9071::_48" "zzz_ISP_v6_CT_1_2400:9380:9080::_47" "zzz_ISP_v6_CT_1_2400:9380:90b1::_48" "zzz_ISP_v6_CT_1_2400:9380:90b2::_47" "zzz_ISP_v6_CT_1_2400:9380:90b4::_46" "zzz_ISP_v6_CT_1_2400:9380:9121::_48" "zzz_ISP_v6_CT_1_2400:9380:9220::_47" "zzz_ISP_v6_CT_1_2400:9380:9250::_47" "zzz_ISP_v6_CT_1_2400:9380:9260::_48" "zzz_ISP_v6_CT_1_2400:9380:9271::_48" "zzz_ISP_v6_CT_1_2400:9380:9280::_47" "zzz_ISP_v6_CT_1_2400:9380:92b1::_48" "zzz_ISP_v6_CT_1_2400:9380:92b2::_47" "zzz_ISP_v6_CT_1_2400:9380:92b4::_46" "zzz_ISP_v6_CT_1_2400:9600:8800::_48" "zzz_ISP_v6_CT_1_2400:b700::_48" "zzz_ISP_v6_CT_1_2400:be00::_48" "zzz_ISP_v6_CT_1_2401:1d40::_48" "zzz_ISP_v6_CT_1_2401:1d40:f8::_45" "zzz_ISP_v6_CT_1_2401:1d40:100::_48" "zzz_ISP_v6_CT_1_2401:1d40:f21::_48" "zzz_ISP_v6_CT_1_2401:1d40:f22::_47" "zzz_ISP_v6_CT_1_2401:1d40:f24::_48" "zzz_ISP_v6_CT_1_2401:1d40:2000::_48" "zzz_ISP_v6_CT_1_2401:1d40:2100::_48" "zzz_ISP_v6_CT_1_2401:1d40:2f00::_48" "zzz_ISP_v6_CT_1_2401:1d40:3100::_47" "zzz_ISP_v6_CT_1_2401:1d40:3f00::_48" "zzz_ISP_v6_CT_1_2401:1d40:3f02::_48" "zzz_ISP_v6_CT_1_2401:3480::_36" "zzz_ISP_v6_CT_1_2401:3480:2000::_48" "zzz_ISP_v6_CT_1_2401:3480:3000::_36" "zzz_ISP_v6_CT_1_2401:5c20:10::_48" "zzz_ISP_v6_CT_1_2401:71c0::_48" "zzz_ISP_v6_CT_1_2401:a140:1::_48" "zzz_ISP_v6_CT_1_2401:be00::_48" "zzz_ISP_v6_CT_1_2401:d0e0:3::_48" "zzz_ISP_v6_CT_1_2402:c60::_48" "zzz_ISP_v6_CT_1_2402:36e0::_44" "zzz_ISP_v6_CT_1_2402:4e00::_32" "zzz_ISP_v6_CT_1_2402:5ec0::_32" "zzz_ISP_v6_CT_1_2402:92c0::_48" "zzz_ISP_v6_CT_1_2402:db40:5100::_48" "zzz_ISP_v6_CT_1_2402:db40:5f00::_46" "zzz_ISP_v6_CT_1_2402:f140:ff00::_46" "zzz_ISP_v6_CT_1_2402:f140:ff04::_48" "zzz_ISP_v6_CT_1_2402:f8c0::_42" "zzz_ISP_v6_CT_1_2403:1ec0:1200::_48" "zzz_ISP_v6_CT_1_2403:1ec0:1400::_48" "zzz_ISP_v6_CT_1_2403:1ec0:1600::_48" "zzz_ISP_v6_CT_1_2403:1ec0:1610::_48" "zzz_ISP_v6_CT_1_2403:4280::_47" "zzz_ISP_v6_CT_1_2403:5c80::_48" "zzz_ISP_v6_CT_1_2403:8080:101::_48" "zzz_ISP_v6_CT_1_2403:9b00:2400::_48" "zzz_ISP_v6_CT_1_2403:a100::_48" "zzz_ISP_v6_CT_1_2403:a140:10::_48" "zzz_ISP_v6_CT_1_2403:a140:100::_40" "zzz_ISP_v6_CT_1_2403:a200:a1ff::_48" "zzz_ISP_v6_CT_1_2403:a200:a2ff::_48" "zzz_ISP_v6_CT_1_2403:a200:a3ff::_48" "zzz_ISP_v6_CT_1_2403:c980::_32" "zzz_ISP_v6_CT_1_2403:f4c0::_48" "zzz_ISP_v6_CT_1_2404:1c80::_32" "zzz_ISP_v6_CT_1_2404:3700::_48" "zzz_ISP_v6_CT_1_2404:6380::_48" "zzz_ISP_v6_CT_1_2404:6380:1000::_48" "zzz_ISP_v6_CT_1_2405:1480:1000::_48" "zzz_ISP_v6_CT_1_2405:1480:2000::_48" "zzz_ISP_v6_CT_1_2405:1480:3000::_48" "zzz_ISP_v6_CT_1_2405:7040:6000::_48" "zzz_ISP_v6_CT_1_2406:1080::_48" "zzz_ISP_v6_CT_1_2406:2700::_32" "zzz_ISP_v6_CT_1_2406:4d00::_48" "zzz_ISP_v6_CT_1_2406:cf00::_48" "zzz_ISP_v6_CT_1_2406:cf00:1000::_43" "zzz_ISP_v6_CT_1_2406:d440:210::_44" "zzz_ISP_v6_CT_1_2406:d440:ff00::_48" "zzz_ISP_v6_CT_1_2407:6c40:1100::_48" "zzz_ISP_v6_CT_1_2407:8f40:2::_48" "zzz_ISP_v6_CT_1_2407:b380:8000::_48" "zzz_ISP_v6_CT_1_2407:c080:1800::_37" "zzz_ISP_v6_CT_1_2409:27fa::_48" "zzz_ISP_v6_CT_1_2409:27fa:f000::_48" "zzz_ISP_v6_CT_1_2409:27fb::_48" "zzz_ISP_v6_CT_1_2409:27fc::_48" "zzz_ISP_v6_CT_1_240a:2001:1811::_48" "zzz_ISP_v6_CT_1_240a:2001:1861::_48" "zzz_ISP_v6_CT_1_240a:6001::_48" "zzz_ISP_v6_CT_1_240c:409f::_46" "zzz_ISP_v6_CT_1_240c:409f:2000::_46" "zzz_ISP_v6_CT_1_240c:409f:3000::_45" "zzz_ISP_v6_CT_1_240c:409f:4000::_46" "zzz_ISP_v6_CT_1_240e::_20" "zzz_ISP_v6_CT_1_2605:9d80:8001::_48" "zzz_ISP_v6_CT_1_2605:9d80:8011::_48" "zzz_ISP_v6_CT_1_2605:9d80:8021::_48" "zzz_ISP_v6_CT_1_2605:9d80:8031::_48" "zzz_ISP_v6_CT_1_2605:9d80:8041::_48" "zzz_ISP_v6_CT_1_2605:9d80:8081::_48" "zzz_ISP_v6_CT_1_2605:9d80:9003::_48" "zzz_ISP_v6_CT_1_2605:9d80:9013::_48" "zzz_ISP_v6_CT_1_2605:9d80:9023::_48" "zzz_ISP_v6_CT_1_2605:9d80:9033::_48" "zzz_ISP_v6_CT_1_2605:9d80:9042::_48" "zzz_ISP_v6_CT_1_2605:9d80:9071::_48" "zzz_ISP_v6_CT_1_2605:9d80:9092::_48" "zzz_ISP_v6_CT_1_2804:1e48:9001::_48" "zzz_ISP_v6_CT_1_2804:1e48:9002::_48" "zzz_ISP_v6_CT_1_2a04:f580:8010::_47" "zzz_ISP_v6_CT_1_2a04:f580:8090::_48" "zzz_ISP_v6_CT_1_2a04:f580:8210::_47" "zzz_ISP_v6_CT_1_2a04:f580:8290::_48" "zzz_ISP_v6_CT_1_2a04:f580:9010::_48" "zzz_ISP_v6_CT_1_2a04:f580:9012::_47" "zzz_ISP_v6_CT_1_2a04:f580:9020::_48" "zzz_ISP_v6_CT_1_2a04:f580:9030::_48" "zzz_ISP_v6_CT_1_2a04:f580:9040::_48" "zzz_ISP_v6_CT_1_2a04:f580:9050::_48" "zzz_ISP_v6_CT_1_2a04:f580:9060::_48" "zzz_ISP_v6_CT_1_2a04:f580:9070::_48" "zzz_ISP_v6_CT_1_2a04:f580:9080::_48" "zzz_ISP_v6_CT_1_2a04:f580:9210::_48" "zzz_ISP_v6_CT_1_2a04:f580:9212::_47" "zzz_ISP_v6_CT_1_2a04:f580:9220::_48" "zzz_ISP_v6_CT_1_2a04:f580:9230::_48" "zzz_ISP_v6_CT_1_2a04:f580:9240::_48" "zzz_ISP_v6_CT_1_2a04:f580:9250::_48" "zzz_ISP_v6_CT_1_2a04:f580:9260::_48" "zzz_ISP_v6_CT_1_2a04:f580:9270::_48" "zzz_ISP_v6_CT_1_2a04:f580:9280::_48" "zzz_ISP_v6_CT_1_2a04:f580:9290::_48" "zzz_ISP_v6_CT_1_2c0f:f7a8:8011::_48" "zzz_ISP_v6_CT_1_2c0f:f7a8:8050::_48" "zzz_ISP_v6_CT_1_2c0f:f7a8:805f::_48" "zzz_ISP_v6_CT_1_2c0f:f7a8:8150::_48" "zzz_ISP_v6_CT_1_2c0f:f7a8:815f::_48" "zzz_ISP_v6_CT_1_2c0f:f7a8:8211::_48" "zzz_ISP_v6_CT_1_2c0f:f7a8:9020::_48" "zzz_ISP_v6_CT_1_2c0f:f7a8:9041::_48" "zzz_ISP_v6_CT_1_2c0f:f7a8:9211::_48" "zzz_ISP_v6_CT_1_2c0f:f7a8:9220::_48"
+        set member "zzz_ISP_v6_CT_1_2001:250:2::_48" "zzz_ISP_v6_CT_1_2001:250:205::_48" "zzz_ISP_v6_CT_1_2001:250:206::_47" "zzz_ISP_v6_CT_1_2001:250:208::_46" "zzz_ISP_v6_CT_1_2001:250:20c::_48" "zzz_ISP_v6_CT_1_2001:250:20f::_48" "zzz_ISP_v6_CT_1_2001:250:210::_48" "zzz_ISP_v6_CT_1_2001:250:212::_48" "zzz_ISP_v6_CT_1_2001:250:214::_47" "zzz_ISP_v6_CT_1_2001:250:217::_48" "zzz_ISP_v6_CT_1_2001:250:218::_46" "zzz_ISP_v6_CT_1_2001:250:21e::_47" "zzz_ISP_v6_CT_1_2001:250:223::_48" "zzz_ISP_v6_CT_1_2001:250:22b::_48" "zzz_ISP_v6_CT_1_2001:250:22d::_48" "zzz_ISP_v6_CT_1_2001:250:22e::_48" "zzz_ISP_v6_CT_1_2001:250:230::_47" "zzz_ISP_v6_CT_1_2001:250:234::_48" "zzz_ISP_v6_CT_1_2001:250:236::_47" "zzz_ISP_v6_CT_1_2001:250:238::_48" "zzz_ISP_v6_CT_1_2001:250:23a::_47" "zzz_ISP_v6_CT_1_2001:250:23c::_47" "zzz_ISP_v6_CT_1_2001:250:248::_48" "zzz_ISP_v6_CT_1_2001:250:24f::_48" "zzz_ISP_v6_CT_1_2001:250:251::_48" "zzz_ISP_v6_CT_1_2001:250:401::_48" "zzz_ISP_v6_CT_1_2001:250:402::_47" "zzz_ISP_v6_CT_1_2001:250:404::_46" "zzz_ISP_v6_CT_1_2001:250:408::_48" "zzz_ISP_v6_CT_1_2001:250:40d::_48" "zzz_ISP_v6_CT_1_2001:250:40e::_47" "zzz_ISP_v6_CT_1_2001:250:800::_46" "zzz_ISP_v6_CT_1_2001:250:804::_47" "zzz_ISP_v6_CT_1_2001:250:808::_46" "zzz_ISP_v6_CT_1_2001:250:80d::_48" "zzz_ISP_v6_CT_1_2001:250:80e::_48" "zzz_ISP_v6_CT_1_2001:250:810::_47" "zzz_ISP_v6_CT_1_2001:250:813::_48" "zzz_ISP_v6_CT_1_2001:250:815::_48" "zzz_ISP_v6_CT_1_2001:250:817::_48" "zzz_ISP_v6_CT_1_2001:250:819::_48" "zzz_ISP_v6_CT_1_2001:250:81a::_48" "zzz_ISP_v6_CT_1_2001:250:81c::_46" "zzz_ISP_v6_CT_1_2001:250:820::_45" "zzz_ISP_v6_CT_1_2001:250:828::_46" "zzz_ISP_v6_CT_1_2001:250:82c::_47" "zzz_ISP_v6_CT_1_2001:250:82e::_48" "zzz_ISP_v6_CT_1_2001:250:831::_48" "zzz_ISP_v6_CT_1_2001:250:832::_47" "zzz_ISP_v6_CT_1_2001:250:835::_48" "zzz_ISP_v6_CT_1_2001:250:836::_47" "zzz_ISP_v6_CT_1_2001:250:838::_47" "zzz_ISP_v6_CT_1_2001:250:83b::_48" "zzz_ISP_v6_CT_1_2001:250:83d::_48" "zzz_ISP_v6_CT_1_2001:250:83e::_47" "zzz_ISP_v6_CT_1_2001:250:840::_45" "zzz_ISP_v6_CT_1_2001:250:848::_48" "zzz_ISP_v6_CT_1_2001:250:84a::_48" "zzz_ISP_v6_CT_1_2001:250:84c::_48" "zzz_ISP_v6_CT_1_2001:250:84e::_47" "zzz_ISP_v6_CT_1_2001:250:850::_48" "zzz_ISP_v6_CT_1_2001:250:852::_47" "zzz_ISP_v6_CT_1_2001:250:855::_48" "zzz_ISP_v6_CT_1_2001:250:856::_47" "zzz_ISP_v6_CT_1_2001:250:858::_47" "zzz_ISP_v6_CT_1_2001:250:85a::_48" "zzz_ISP_v6_CT_1_2001:250:85c::_46" "zzz_ISP_v6_CT_1_2001:250:860::_48" "zzz_ISP_v6_CT_1_2001:250:862::_47" "zzz_ISP_v6_CT_1_2001:250:865::_48" "zzz_ISP_v6_CT_1_2001:250:866::_48" "zzz_ISP_v6_CT_1_2001:250:868::_45" "zzz_ISP_v6_CT_1_2001:250:870::_47" "zzz_ISP_v6_CT_1_2001:250:872::_48" "zzz_ISP_v6_CT_1_2001:250:874::_46" "zzz_ISP_v6_CT_1_2001:250:878::_45" "zzz_ISP_v6_CT_1_2001:250:880::_47" "zzz_ISP_v6_CT_1_2001:250:882::_48" "zzz_ISP_v6_CT_1_2001:250:884::_48" "zzz_ISP_v6_CT_1_2001:250:886::_47" "zzz_ISP_v6_CT_1_2001:250:888::_46" "zzz_ISP_v6_CT_1_2001:250:88d::_48" "zzz_ISP_v6_CT_1_2001:250:88e::_47" "zzz_ISP_v6_CT_1_2001:250:891::_48" "zzz_ISP_v6_CT_1_2001:250:892::_48" "zzz_ISP_v6_CT_1_2001:250:c00::_45" "zzz_ISP_v6_CT_1_2001:250:c08::_46" "zzz_ISP_v6_CT_1_2001:250:c0d::_48" "zzz_ISP_v6_CT_1_2001:250:c0e::_47" "zzz_ISP_v6_CT_1_2001:250:c11::_48" "zzz_ISP_v6_CT_1_2001:250:c12::_47" "zzz_ISP_v6_CT_1_2001:250:c14::_46" "zzz_ISP_v6_CT_1_2001:250:c18::_46" "zzz_ISP_v6_CT_1_2001:250:c1c::_48" "zzz_ISP_v6_CT_1_2001:250:c1e::_47" "zzz_ISP_v6_CT_1_2001:250:c20::_45" "zzz_ISP_v6_CT_1_2001:250:c28::_46" "zzz_ISP_v6_CT_1_2001:250:c2c::_47" "zzz_ISP_v6_CT_1_2001:250:c2f::_48" "zzz_ISP_v6_CT_1_2001:250:c30::_45" "zzz_ISP_v6_CT_1_2001:250:c3b::_48" "zzz_ISP_v6_CT_1_2001:250:c3e::_47" "zzz_ISP_v6_CT_1_2001:250:e00::_47" "zzz_ISP_v6_CT_1_2001:250:e02::_48" "zzz_ISP_v6_CT_1_2001:250:e04::_46" "zzz_ISP_v6_CT_1_2001:250:e08::_46" "zzz_ISP_v6_CT_1_2001:250:e0c::_48" "zzz_ISP_v6_CT_1_2001:250:e0e::_47" "zzz_ISP_v6_CT_1_2001:250:e10::_44" "zzz_ISP_v6_CT_1_2001:250:e20::_47" "zzz_ISP_v6_CT_1_2001:250:e22::_48" "zzz_ISP_v6_CT_1_2001:250:e24::_46" "zzz_ISP_v6_CT_1_2001:250:e28::_47" "zzz_ISP_v6_CT_1_2001:250:1400::_46" "zzz_ISP_v6_CT_1_2001:250:1404::_47" "zzz_ISP_v6_CT_1_2001:250:1406::_48" "zzz_ISP_v6_CT_1_2001:250:1408::_45" "zzz_ISP_v6_CT_1_2001:250:1410::_44" "zzz_ISP_v6_CT_1_2001:250:1420::_45" "zzz_ISP_v6_CT_1_2001:250:1428::_48" "zzz_ISP_v6_CT_1_2001:250:4038::_48" "zzz_ISP_v6_CT_1_2001:250:5002::_47" "zzz_ISP_v6_CT_1_2001:250:5004::_46" "zzz_ISP_v6_CT_1_2001:250:5008::_45" "zzz_ISP_v6_CT_1_2001:250:5010::_48" "zzz_ISP_v6_CT_1_2001:250:5012::_47" "zzz_ISP_v6_CT_1_2001:250:5014::_46" "zzz_ISP_v6_CT_1_2001:250:5018::_45" "zzz_ISP_v6_CT_1_2001:250:5020::_43" "zzz_ISP_v6_CT_1_2001:250:5040::_46" "zzz_ISP_v6_CT_1_2001:250:5044::_47" "zzz_ISP_v6_CT_1_2001:250:5047::_48" "zzz_ISP_v6_CT_1_2001:250:5048::_45" "zzz_ISP_v6_CT_1_2001:250:5050::_46" "zzz_ISP_v6_CT_1_2001:250:5055::_48" "zzz_ISP_v6_CT_1_2001:250:5056::_47" "zzz_ISP_v6_CT_1_2001:250:5058::_45" "zzz_ISP_v6_CT_1_2001:250:5060::_45" "zzz_ISP_v6_CT_1_2001:250:5068::_46" "zzz_ISP_v6_CT_1_2001:250:506c::_47" "zzz_ISP_v6_CT_1_2001:250:5070::_47" "zzz_ISP_v6_CT_1_2001:250:5072::_48" "zzz_ISP_v6_CT_1_2001:250:5074::_46" "zzz_ISP_v6_CT_1_2001:250:5078::_47" "zzz_ISP_v6_CT_1_2001:250:507a::_48" "zzz_ISP_v6_CT_1_2001:250:507c::_46" "zzz_ISP_v6_CT_1_2001:250:5080::_48" "zzz_ISP_v6_CT_1_2001:250:5083::_48" "zzz_ISP_v6_CT_1_2001:250:5805::_48" "zzz_ISP_v6_CT_1_2001:250:5806::_48" "zzz_ISP_v6_CT_1_2001:250:5816::_48" "zzz_ISP_v6_CT_1_2001:250:5820::_46" "zzz_ISP_v6_CT_1_2001:250:5828::_48" "zzz_ISP_v6_CT_1_2001:250:582a::_48" "zzz_ISP_v6_CT_1_2001:250:5831::_48" "zzz_ISP_v6_CT_1_2001:250:5833::_48" "zzz_ISP_v6_CT_1_2001:250:5845::_48" "zzz_ISP_v6_CT_1_2001:250:5846::_47" "zzz_ISP_v6_CT_1_2001:250:5848::_47" "zzz_ISP_v6_CT_1_2001:250:584a::_48" "zzz_ISP_v6_CT_1_2001:250:5862::_48" "zzz_ISP_v6_CT_1_2001:250:5864::_48" "zzz_ISP_v6_CT_1_2001:250:5866::_48" "zzz_ISP_v6_CT_1_2001:250:5875::_48" "zzz_ISP_v6_CT_1_2001:250:587c::_47" "zzz_ISP_v6_CT_1_2001:250:5895::_48" "zzz_ISP_v6_CT_1_2001:250:7000::_47" "zzz_ISP_v6_CT_1_2001:250:7002::_48" "zzz_ISP_v6_CT_1_2001:250:7004::_47" "zzz_ISP_v6_CT_1_2001:250:7006::_48" "zzz_ISP_v6_CT_1_2001:250:7008::_46" "zzz_ISP_v6_CT_1_2001:250:700c::_47" "zzz_ISP_v6_CT_1_2001:250:700e::_48" "zzz_ISP_v6_CT_1_2001:250:7011::_48" "zzz_ISP_v6_CT_1_2001:250:7012::_47" "zzz_ISP_v6_CT_1_2001:250:7014::_46" "zzz_ISP_v6_CT_1_2001:250:701a::_47" "zzz_ISP_v6_CT_1_2001:250:701c::_47" "zzz_ISP_v6_CT_1_2001:250:701e::_48" "zzz_ISP_v6_CT_1_2001:250:7020::_47" "zzz_ISP_v6_CT_1_2001:250:7023::_48" "zzz_ISP_v6_CT_1_2001:250:7024::_48" "zzz_ISP_v6_CT_1_2001:250:7027::_48" "zzz_ISP_v6_CT_1_2001:250:7028::_45" "zzz_ISP_v6_CT_1_2001:250:7030::_48" "zzz_ISP_v6_CT_1_2001:250:7032::_48" "zzz_ISP_v6_CT_1_2001:250:7034::_46" "zzz_ISP_v6_CT_1_2001:250:703a::_48" "zzz_ISP_v6_CT_1_2001:250:703c::_47" "zzz_ISP_v6_CT_1_2001:250:703e::_48" "zzz_ISP_v6_CT_1_2001:250:7401::_48" "zzz_ISP_v6_CT_1_2001:250:7402::_47" "zzz_ISP_v6_CT_1_2001:250:7404::_46" "zzz_ISP_v6_CT_1_2001:250:7408::_46" "zzz_ISP_v6_CT_1_2001:250:740c::_47" "zzz_ISP_v6_CT_1_2001:250:740e::_48" "zzz_ISP_v6_CT_1_2001:250:7410::_44" "zzz_ISP_v6_CT_1_2001:250:7420::_44" "zzz_ISP_v6_CT_1_2001:250:7430::_48" "zzz_ISP_v6_CT_1_2001:250:7801::_48" "zzz_ISP_v6_CT_1_2001:250:7802::_47" "zzz_ISP_v6_CT_1_2001:250:7804::_46" "zzz_ISP_v6_CT_1_2001:250:7808::_45" "zzz_ISP_v6_CT_1_2001:250:7810::_46" "zzz_ISP_v6_CT_1_2001:250:7814::_47" "zzz_ISP_v6_CT_1_2001:250:7817::_48" "zzz_ISP_v6_CT_1_2001:250:7818::_45" "zzz_ISP_v6_CT_1_2001:250:7820::_45" "zzz_ISP_v6_CT_1_2001:250:7828::_47" "zzz_ISP_v6_CT_1_2001:250:782a::_48" "zzz_ISP_v6_CT_1_2001:250:782c::_48" "zzz_ISP_v6_CT_1_2001:250:782f::_48" "zzz_ISP_v6_CT_1_2001:250:7830::_48" "zzz_ISP_v6_CT_1_2001:250:a809::_48" "zzz_ISP_v6_CT_1_2001:250:c006::_48" "zzz_ISP_v6_CT_1_2001:250:fe01::_48" "zzz_ISP_v6_CT_1_2001:c68::_32" "zzz_ISP_v6_CT_1_2001:da8:a0::_48" "zzz_ISP_v6_CT_1_2001:da8:a3::_48" "zzz_ISP_v6_CT_1_2001:da8:a6::_48" "zzz_ISP_v6_CT_1_2001:da8:a8::_46" "zzz_ISP_v6_CT_1_2001:da8:ac::_47" "zzz_ISP_v6_CT_1_2001:da8:ae::_48" "zzz_ISP_v6_CT_1_2001:da8:bc::_48" "zzz_ISP_v6_CT_1_2001:da8:ca::_48" "zzz_ISP_v6_CT_1_2001:da8:cc::_48" "zzz_ISP_v6_CT_1_2001:da8:ce::_47" "zzz_ISP_v6_CT_1_2001:da8:201::_48" "zzz_ISP_v6_CT_1_2001:da8:202::_47" "zzz_ISP_v6_CT_1_2001:da8:204::_46" "zzz_ISP_v6_CT_1_2001:da8:208::_48" "zzz_ISP_v6_CT_1_2001:da8:20a::_47" "zzz_ISP_v6_CT_1_2001:da8:20c::_48" "zzz_ISP_v6_CT_1_2001:da8:20e::_47" "zzz_ISP_v6_CT_1_2001:da8:210::_47" "zzz_ISP_v6_CT_1_2001:da8:212::_48" "zzz_ISP_v6_CT_1_2001:da8:214::_47" "zzz_ISP_v6_CT_1_2001:da8:216::_48" "zzz_ISP_v6_CT_1_2001:da8:218::_47" "zzz_ISP_v6_CT_1_2001:da8:21a::_48" "zzz_ISP_v6_CT_1_2001:da8:21c::_47" "zzz_ISP_v6_CT_1_2001:da8:21f::_48" "zzz_ISP_v6_CT_1_2001:da8:222::_48" "zzz_ISP_v6_CT_1_2001:da8:224::_48" "zzz_ISP_v6_CT_1_2001:da8:22b::_48" "zzz_ISP_v6_CT_1_2001:da8:22d::_48" "zzz_ISP_v6_CT_1_2001:da8:230::_45" "zzz_ISP_v6_CT_1_2001:da8:238::_48" "zzz_ISP_v6_CT_1_2001:da8:23a::_47" "zzz_ISP_v6_CT_1_2001:da8:23d::_48" "zzz_ISP_v6_CT_1_2001:da8:23e::_48" "zzz_ISP_v6_CT_1_2001:da8:240::_46" "zzz_ISP_v6_CT_1_2001:da8:244::_48" "zzz_ISP_v6_CT_1_2001:da8:246::_47" "zzz_ISP_v6_CT_1_2001:da8:249::_48" "zzz_ISP_v6_CT_1_2001:da8:24f::_48" "zzz_ISP_v6_CT_1_2001:da8:250::_48" "zzz_ISP_v6_CT_1_2001:da8:252::_47" "zzz_ISP_v6_CT_1_2001:da8:255::_48" "zzz_ISP_v6_CT_1_2001:da8:258::_47" "zzz_ISP_v6_CT_1_2001:da8:25f::_48" "zzz_ISP_v6_CT_1_2001:da8:262::_48" "zzz_ISP_v6_CT_1_2001:da8:264::_47" "zzz_ISP_v6_CT_1_2001:da8:266::_48" "zzz_ISP_v6_CT_1_2001:da8:26f::_48" "zzz_ISP_v6_CT_1_2001:da8:272::_47" "zzz_ISP_v6_CT_1_2001:da8:274::_47" "zzz_ISP_v6_CT_1_2001:da8:278::_47" "zzz_ISP_v6_CT_1_2001:da8:27b::_48" "zzz_ISP_v6_CT_1_2001:da8:27e::_47" "zzz_ISP_v6_CT_1_2001:da8:280::_48" "zzz_ISP_v6_CT_1_2001:da8:da8::_48" "zzz_ISP_v6_CT_1_2001:da8:ffc::_47" "zzz_ISP_v6_CT_1_2001:da8:1001::_48" "zzz_ISP_v6_CT_1_2001:da8:1002::_47" "zzz_ISP_v6_CT_1_2001:da8:1004::_46" "zzz_ISP_v6_CT_1_2001:da8:1008::_45" "zzz_ISP_v6_CT_1_2001:da8:1010::_44" "zzz_ISP_v6_CT_1_2001:da8:1020::_44" "zzz_ISP_v6_CT_1_2001:da8:1030::_46" "zzz_ISP_v6_CT_1_2001:da8:1034::_47" "zzz_ISP_v6_CT_1_2001:da8:1037::_48" "zzz_ISP_v6_CT_1_2001:da8:1038::_47" "zzz_ISP_v6_CT_1_2001:da8:103a::_48" "zzz_ISP_v6_CT_1_2001:da8:103c::_46" "zzz_ISP_v6_CT_1_2001:da8:1040::_46" "zzz_ISP_v6_CT_1_2001:da8:1044::_47" "zzz_ISP_v6_CT_1_2001:da8:300c::_48" "zzz_ISP_v6_CT_1_2001:da8:300e::_48" "zzz_ISP_v6_CT_1_2001:da8:303a::_48" "zzz_ISP_v6_CT_1_2001:da8:304f::_48" "zzz_ISP_v6_CT_1_2001:da8:7013::_48" "zzz_ISP_v6_CT_1_2001:da8:701f::_48" "zzz_ISP_v6_CT_1_2001:da8:702a::_48" "zzz_ISP_v6_CT_1_2001:da8:9000::_45" "zzz_ISP_v6_CT_1_2001:da8:9008::_46" "zzz_ISP_v6_CT_1_2001:da8:900c::_48" "zzz_ISP_v6_CT_1_2001:da8:900e::_47" "zzz_ISP_v6_CT_1_2001:da8:9010::_48" "zzz_ISP_v6_CT_1_2001:da8:9012::_47" "zzz_ISP_v6_CT_1_2001:da8:9014::_46" "zzz_ISP_v6_CT_1_2001:da8:9018::_46" "zzz_ISP_v6_CT_1_2001:da8:901e::_48" "zzz_ISP_v6_CT_1_2001:da8:a001::_48" "zzz_ISP_v6_CT_1_2001:da8:a002::_48" "zzz_ISP_v6_CT_1_2001:da8:a005::_48" "zzz_ISP_v6_CT_1_2001:da8:a006::_47" "zzz_ISP_v6_CT_1_2001:da8:a008::_45" "zzz_ISP_v6_CT_1_2001:da8:a010::_45" "zzz_ISP_v6_CT_1_2001:da8:a018::_46" "zzz_ISP_v6_CT_1_2001:da8:a01c::_48" "zzz_ISP_v6_CT_1_2001:da8:a01e::_47" "zzz_ISP_v6_CT_1_2001:da8:a020::_47" "zzz_ISP_v6_CT_1_2001:da8:a023::_48" "zzz_ISP_v6_CT_1_2001:da8:a024::_47" "zzz_ISP_v6_CT_1_2001:da8:a027::_48" "zzz_ISP_v6_CT_1_2001:da8:a028::_47" "zzz_ISP_v6_CT_1_2001:da8:a02a::_48" "zzz_ISP_v6_CT_1_2001:da8:a400::_48" "zzz_ISP_v6_CT_1_2001:da8:a800::_46" "zzz_ISP_v6_CT_1_2001:da8:a805::_48" "zzz_ISP_v6_CT_1_2001:da8:a806::_47" "zzz_ISP_v6_CT_1_2001:da8:a808::_48" "zzz_ISP_v6_CT_1_2001:da8:a80a::_47" "zzz_ISP_v6_CT_1_2001:da8:a80c::_48" "zzz_ISP_v6_CT_1_2001:da8:aaa9::_48" "zzz_ISP_v6_CT_1_2001:da8:b000::_45" "zzz_ISP_v6_CT_1_2001:da8:b008::_48" "zzz_ISP_v6_CT_1_2001:da8:b00a::_47" "zzz_ISP_v6_CT_1_2001:da8:b00c::_46" "zzz_ISP_v6_CT_1_2001:da8:b011::_48" "zzz_ISP_v6_CT_1_2001:da8:b012::_48" "zzz_ISP_v6_CT_1_2001:da8:b800::_47" "zzz_ISP_v6_CT_1_2001:da8:b803::_48" "zzz_ISP_v6_CT_1_2001:da8:b804::_47" "zzz_ISP_v6_CT_1_2001:da8:b807::_48" "zzz_ISP_v6_CT_1_2001:da8:b808::_47" "zzz_ISP_v6_CT_1_2001:da8:b80a::_48" "zzz_ISP_v6_CT_1_2001:da8:b80d::_48" "zzz_ISP_v6_CT_1_2001:da8:b80e::_48" "zzz_ISP_v6_CT_1_2001:da8:b813::_48" "zzz_ISP_v6_CT_1_2001:da8:b81c::_48" "zzz_ISP_v6_CT_1_2001:da8:c000::_45" "zzz_ISP_v6_CT_1_2001:da8:c008::_47" "zzz_ISP_v6_CT_1_2001:da8:ff00::_40" "zzz_ISP_v6_CT_1_2001:dc7:2dff::_48" "zzz_ISP_v6_CT_1_2001:dc7:8888::_48" "zzz_ISP_v6_CT_1_2001:dc7:cd00::_48" "zzz_ISP_v6_CT_1_2001:dc7:cd02::_47" "zzz_ISP_v6_CT_1_2001:dc7:cd1a::_48" "zzz_ISP_v6_CT_1_2001:dd8:1::_48" "zzz_ISP_v6_CT_1_2001:df0:e540::_48" "zzz_ISP_v6_CT_1_2001:4510:400::_40" "zzz_ISP_v6_CT_1_2001:4510:1480::_41" "zzz_ISP_v6_CT_1_2001:4511:1480::_41" "zzz_ISP_v6_CT_1_2400:5280:f803::_48" "zzz_ISP_v6_CT_1_2400:5a00::_32" "zzz_ISP_v6_CT_1_2400:6600:1::_48" "zzz_ISP_v6_CT_1_2400:6600:2::_47" "zzz_ISP_v6_CT_1_2400:6600:4::_46" "zzz_ISP_v6_CT_1_2400:6600:8::_45" "zzz_ISP_v6_CT_1_2400:6600:10::_44" "zzz_ISP_v6_CT_1_2400:6600:20::_43" "zzz_ISP_v6_CT_1_2400:6600:40::_42" "zzz_ISP_v6_CT_1_2400:6600:80::_41" "zzz_ISP_v6_CT_1_2400:6600:100::_40" "zzz_ISP_v6_CT_1_2400:6600:200::_39" "zzz_ISP_v6_CT_1_2400:6600:400::_38" "zzz_ISP_v6_CT_1_2400:6600:800::_37" "zzz_ISP_v6_CT_1_2400:6600:1000::_36" "zzz_ISP_v6_CT_1_2400:6600:2000::_35" "zzz_ISP_v6_CT_1_2400:6600:4000::_34" "zzz_ISP_v6_CT_1_2400:6600:8000::_33" "zzz_ISP_v6_CT_1_2400:6e60:1301::_48" "zzz_ISP_v6_CT_1_2400:7100::_32" "zzz_ISP_v6_CT_1_2400:73e0::_32" "zzz_ISP_v6_CT_1_2400:75aa::_32" "zzz_ISP_v6_CT_1_2400:8200::_32" "zzz_ISP_v6_CT_1_2400:89c0:1050::_46" "zzz_ISP_v6_CT_1_2400:89c0:1150::_48" "zzz_ISP_v6_CT_1_2400:89c0:6000::_48" "zzz_ISP_v6_CT_1_2400:9020:f010::_47" "zzz_ISP_v6_CT_1_2400:9380:8001::_48" "zzz_ISP_v6_CT_1_2400:9380:8003::_48" "zzz_ISP_v6_CT_1_2400:9380:8021::_48" "zzz_ISP_v6_CT_1_2400:9380:8040::_48" "zzz_ISP_v6_CT_1_2400:9380:8140::_48" "zzz_ISP_v6_CT_1_2400:9380:8201::_48" "zzz_ISP_v6_CT_1_2400:9380:8301::_48" "zzz_ISP_v6_CT_1_2400:9380:9001::_48" "zzz_ISP_v6_CT_1_2400:9380:9009::_48" "zzz_ISP_v6_CT_1_2400:9380:9020::_47" "zzz_ISP_v6_CT_1_2400:9380:9050::_47" "zzz_ISP_v6_CT_1_2400:9380:9060::_48" "zzz_ISP_v6_CT_1_2400:9380:9071::_48" "zzz_ISP_v6_CT_1_2400:9380:9080::_47" "zzz_ISP_v6_CT_1_2400:9380:90b1::_48" "zzz_ISP_v6_CT_1_2400:9380:90b2::_47" "zzz_ISP_v6_CT_1_2400:9380:90b4::_46" "zzz_ISP_v6_CT_1_2400:9380:90c0::_44" "zzz_ISP_v6_CT_1_2400:9380:9121::_48" "zzz_ISP_v6_CT_1_2400:9380:91c0::_44" "zzz_ISP_v6_CT_1_2400:9380:9220::_47" "zzz_ISP_v6_CT_1_2400:9380:9250::_47" "zzz_ISP_v6_CT_1_2400:9380:9260::_48" "zzz_ISP_v6_CT_1_2400:9380:9271::_48" "zzz_ISP_v6_CT_1_2400:9380:9280::_47" "zzz_ISP_v6_CT_1_2400:9380:92b1::_48" "zzz_ISP_v6_CT_1_2400:9380:92b2::_47" "zzz_ISP_v6_CT_1_2400:9380:92b4::_46" "zzz_ISP_v6_CT_1_2400:9380:92c0::_44" "zzz_ISP_v6_CT_1_2400:9380:93c0::_44" "zzz_ISP_v6_CT_1_2400:9380:94c0::_44" "zzz_ISP_v6_CT_1_2400:9380:95c0::_44" "zzz_ISP_v6_CT_1_2400:9380:96c0::_44" "zzz_ISP_v6_CT_1_2400:9380:97c0::_44" "zzz_ISP_v6_CT_1_2400:9380:98c0::_44" "zzz_ISP_v6_CT_1_2400:9380:99c0::_44" "zzz_ISP_v6_CT_1_2400:9380:9ac0::_44" "zzz_ISP_v6_CT_1_2400:9380:9bc0::_44" "zzz_ISP_v6_CT_1_2400:9380:9cc0::_44" "zzz_ISP_v6_CT_1_2400:9380:9dc0::_44" "zzz_ISP_v6_CT_1_2400:9380:9ec0::_44" "zzz_ISP_v6_CT_1_2400:9380:9fc0::_44" "zzz_ISP_v6_CT_1_2400:9600:8800::_48" "zzz_ISP_v6_CT_1_2400:9620::_32" "zzz_ISP_v6_CT_1_2400:b620::_48" "zzz_ISP_v6_CT_1_2400:b700::_48" "zzz_ISP_v6_CT_1_2400:be00::_48" "zzz_ISP_v6_CT_1_2400:da00::_38" "zzz_ISP_v6_CT_1_2400:da00:401::_48" "zzz_ISP_v6_CT_1_2400:da00:402::_47" "zzz_ISP_v6_CT_1_2400:da00:405::_48" "zzz_ISP_v6_CT_1_2400:da00:406::_47" "zzz_ISP_v6_CT_1_2400:da00:408::_45" "zzz_ISP_v6_CT_1_2400:da00:410::_44" "zzz_ISP_v6_CT_1_2400:da00:420::_43" "zzz_ISP_v6_CT_1_2400:da00:440::_42" "zzz_ISP_v6_CT_1_2400:da00:480::_41" "zzz_ISP_v6_CT_1_2400:da00:500::_40" "zzz_ISP_v6_CT_1_2400:da00:600::_39" "zzz_ISP_v6_CT_1_2400:da00:800::_37" "zzz_ISP_v6_CT_1_2400:da00:1000::_36" "zzz_ISP_v6_CT_1_2400:da00:2000::_35" "zzz_ISP_v6_CT_1_2400:da00:4000::_34" "zzz_ISP_v6_CT_1_2400:da00:8000::_33" "zzz_ISP_v6_CT_1_2400:e680::_32" "zzz_ISP_v6_CT_1_2400:ee00::_33" "zzz_ISP_v6_CT_1_2400:ee00:8000::_34" "zzz_ISP_v6_CT_1_2400:ee00:c000::_35" "zzz_ISP_v6_CT_1_2400:ee00:e000::_36" "zzz_ISP_v6_CT_1_2400:ee00:f000::_37" "zzz_ISP_v6_CT_1_2400:ee00:f800::_38" "zzz_ISP_v6_CT_1_2400:ee00:fc00::_39" "zzz_ISP_v6_CT_1_2400:ee00:fe00::_40" "zzz_ISP_v6_CT_1_2400:ee00:ff00::_41" "zzz_ISP_v6_CT_1_2400:ee00:ff80::_42" "zzz_ISP_v6_CT_1_2400:ee00:ffc0::_43" "zzz_ISP_v6_CT_1_2400:ee00:ffe0::_45" "zzz_ISP_v6_CT_1_2400:ee00:ffe8::_46" "zzz_ISP_v6_CT_1_2401:800::_32" "zzz_ISP_v6_CT_1_2401:1160::_32" "zzz_ISP_v6_CT_1_2401:1200::_48" "zzz_ISP_v6_CT_1_2401:1d40::_47" "zzz_ISP_v6_CT_1_2401:1d40:f8::_45" "zzz_ISP_v6_CT_1_2401:1d40:100::_48" "zzz_ISP_v6_CT_1_2401:1d40:f21::_48" "zzz_ISP_v6_CT_1_2401:1d40:f22::_47" "zzz_ISP_v6_CT_1_2401:1d40:f24::_48" "zzz_ISP_v6_CT_1_2401:1d40:2000::_35" "zzz_ISP_v6_CT_1_2401:2780::_32" "zzz_ISP_v6_CT_1_2401:3480::_36" "zzz_ISP_v6_CT_1_2401:3480:2000::_48" "zzz_ISP_v6_CT_1_2401:3480:3000::_36" "zzz_ISP_v6_CT_1_2401:3800::_32" "zzz_ISP_v6_CT_1_2401:3880::_32" "zzz_ISP_v6_CT_1_2401:3980::_32" "zzz_ISP_v6_CT_1_2401:3a80::_32" "zzz_ISP_v6_CT_1_2401:3b80::_32" "zzz_ISP_v6_CT_1_2401:3c80::_32" "zzz_ISP_v6_CT_1_2401:3d80::_32" "zzz_ISP_v6_CT_1_2401:3e80::_32" "zzz_ISP_v6_CT_1_2401:3f80::_32" "zzz_ISP_v6_CT_1_2401:4180::_32" "zzz_ISP_v6_CT_1_2401:4280::_32" "zzz_ISP_v6_CT_1_2401:4380::_32" "zzz_ISP_v6_CT_1_2401:4480::_32" "zzz_ISP_v6_CT_1_2401:4580::_32" "zzz_ISP_v6_CT_1_2401:4680::_32" "zzz_ISP_v6_CT_1_2401:4780::_32" "zzz_ISP_v6_CT_1_2401:4880::_32" "zzz_ISP_v6_CT_1_2401:4a80::_32" "zzz_ISP_v6_CT_1_2401:5c20:10::_48" "zzz_ISP_v6_CT_1_2401:71c0::_48" "zzz_ISP_v6_CT_1_2401:7700::_32" "zzz_ISP_v6_CT_1_2401:7d40::_32" "zzz_ISP_v6_CT_1_2401:8d00:12::_48" "zzz_ISP_v6_CT_1_2401:a140:1::_48" "zzz_ISP_v6_CT_1_2401:b680::_32" "zzz_ISP_v6_CT_1_2401:be00::_48" "zzz_ISP_v6_CT_1_2401:ca00::_32" "zzz_ISP_v6_CT_1_2401:ce00:a003::_48" "zzz_ISP_v6_CT_1_2401:ce00:b800::_38" "zzz_ISP_v6_CT_1_2401:ce00:c000::_37" "zzz_ISP_v6_CT_1_2401:ce00:cc00::_38" "zzz_ISP_v6_CT_1_2401:d0e0:3::_48" "zzz_ISP_v6_CT_1_2401:d780::_32" "zzz_ISP_v6_CT_1_2401:fa00:40::_47" "zzz_ISP_v6_CT_1_2401:fa00:44::_48" "zzz_ISP_v6_CT_1_2401:fa00:46::_47" "zzz_ISP_v6_CT_1_2401:fa00:48::_48" "zzz_ISP_v6_CT_1_2401:fa00:58::_48" "zzz_ISP_v6_CT_1_2401:fa00:5f::_48" "zzz_ISP_v6_CT_1_2402:840:d000::_48" "zzz_ISP_v6_CT_1_2402:840:e000::_46" "zzz_ISP_v6_CT_1_2402:840:f000::_38" "zzz_ISP_v6_CT_1_2402:c60::_48" "zzz_ISP_v6_CT_1_2402:2e60::_39" "zzz_ISP_v6_CT_1_2402:34e0::_32" "zzz_ISP_v6_CT_1_2402:36e0::_44" "zzz_ISP_v6_CT_1_2402:4440:9000::_39" "zzz_ISP_v6_CT_1_2402:4440:9200::_48" "zzz_ISP_v6_CT_1_2402:4440:9400::_48" "zzz_ISP_v6_CT_1_2402:4440:9600::_48" "zzz_ISP_v6_CT_1_2402:4440:9800::_48" "zzz_ISP_v6_CT_1_2402:4440:9810::_48" "zzz_ISP_v6_CT_1_2402:4440:9900::_48" "zzz_ISP_v6_CT_1_2402:4440:9a00::_48" "zzz_ISP_v6_CT_1_2402:4440:9b00::_48" "zzz_ISP_v6_CT_1_2402:4440:9c00::_48" "zzz_ISP_v6_CT_1_2402:4440:9d00::_48" "zzz_ISP_v6_CT_1_2402:4440:9e00::_48" "zzz_ISP_v6_CT_1_2402:4440:a000::_39" "zzz_ISP_v6_CT_1_2402:4440:a800::_46" "zzz_ISP_v6_CT_1_2402:4440:a810::_46" "zzz_ISP_v6_CT_1_2402:4e00:1800::_40" "zzz_ISP_v6_CT_1_2402:4e00:4070::_44" "zzz_ISP_v6_CT_1_2402:4e00:8000::_47" "zzz_ISP_v6_CT_1_2402:4e00:c020::_44" "zzz_ISP_v6_CT_1_2402:5e40::_32" "zzz_ISP_v6_CT_1_2402:5ec0::_32" "zzz_ISP_v6_CT_1_2402:6f40:3::_48" "zzz_ISP_v6_CT_1_2402:6fc0::_48" "zzz_ISP_v6_CT_1_2402:7040::_32" "zzz_ISP_v6_CT_1_2402:7d80::_48" "zzz_ISP_v6_CT_1_2402:7d80:8888::_48" "zzz_ISP_v6_CT_1_2402:92c0::_48" "zzz_ISP_v6_CT_1_2402:db40:5100::_48" "zzz_ISP_v6_CT_1_2402:db40:5f00::_46" "zzz_ISP_v6_CT_1_2402:e7c0:400::_42" "zzz_ISP_v6_CT_1_2402:e7c0:800::_42" "zzz_ISP_v6_CT_1_2402:f140:ff00::_46" "zzz_ISP_v6_CT_1_2402:f140:ff04::_48" "zzz_ISP_v6_CT_1_2402:f8c0::_48" "zzz_ISP_v6_CT_1_2402:f8c0:2::_47" "zzz_ISP_v6_CT_1_2402:f8c0:4::_46" "zzz_ISP_v6_CT_1_2402:f8c0:8::_45" "zzz_ISP_v6_CT_1_2402:f8c0:10::_44" "zzz_ISP_v6_CT_1_2402:f8c0:20::_43" "zzz_ISP_v6_CT_1_2403:600::_32" "zzz_ISP_v6_CT_1_2403:1b80::_48" "zzz_ISP_v6_CT_1_2403:1ec0:1200::_48" "zzz_ISP_v6_CT_1_2403:1ec0:1400::_48" "zzz_ISP_v6_CT_1_2403:1ec0:1600::_48" "zzz_ISP_v6_CT_1_2403:1ec0:1610::_48" "zzz_ISP_v6_CT_1_2403:2040::_48" "zzz_ISP_v6_CT_1_2403:2b40::_32" "zzz_ISP_v6_CT_1_2403:3140::_32" "zzz_ISP_v6_CT_1_2403:4280::_47" "zzz_ISP_v6_CT_1_2403:5c80::_48" "zzz_ISP_v6_CT_1_2403:8080:101::_48" "zzz_ISP_v6_CT_1_2403:9b00:2400::_48" "zzz_ISP_v6_CT_1_2403:a100::_48" "zzz_ISP_v6_CT_1_2403:a140:10::_48" "zzz_ISP_v6_CT_1_2403:a140:100::_40" "zzz_ISP_v6_CT_1_2403:a200:a1ff::_48" "zzz_ISP_v6_CT_1_2403:a200:a2ff::_48" "zzz_ISP_v6_CT_1_2403:a200:a3ff::_48" "zzz_ISP_v6_CT_1_2403:c980::_32" "zzz_ISP_v6_CT_1_2403:f4c0::_48" "zzz_ISP_v6_CT_1_2404:1c80::_32" "zzz_ISP_v6_CT_1_2404:3700::_48" "zzz_ISP_v6_CT_1_2404:6380::_48" "zzz_ISP_v6_CT_1_2404:6380:1000::_48" "zzz_ISP_v6_CT_1_2404:7180:a010::_48" "zzz_ISP_v6_CT_1_2404:7180:aa10::_48" "zzz_ISP_v6_CT_1_2404:7180:b010::_48" "zzz_ISP_v6_CT_1_2404:7180:c011::_48" "zzz_ISP_v6_CT_1_2404:7180:c012::_48" "zzz_ISP_v6_CT_1_2404:7180:f010::_48" "zzz_ISP_v6_CT_1_2404:7240::_34" "zzz_ISP_v6_CT_1_2404:7240:4000::_35" "zzz_ISP_v6_CT_1_2404:7240:6001::_48" "zzz_ISP_v6_CT_1_2404:7240:6002::_47" "zzz_ISP_v6_CT_1_2404:7240:6004::_46" "zzz_ISP_v6_CT_1_2404:7240:6008::_45" "zzz_ISP_v6_CT_1_2404:7240:6010::_44" "zzz_ISP_v6_CT_1_2404:7240:6020::_43" "zzz_ISP_v6_CT_1_2404:7240:6040::_42" "zzz_ISP_v6_CT_1_2404:7240:6080::_41"
+        set allow-routing enable
+    next
+end
+
+config firewall addrgrp
+    edit "zzz_ISPBG_v6_CT_2"
+        unset member
+        set member "zzz_ISP_v6_CT_2_2404:7240:6100::_40" "zzz_ISP_v6_CT_2_2404:7240:6200::_39" "zzz_ISP_v6_CT_2_2404:7240:6400::_38" "zzz_ISP_v6_CT_2_2404:7240:6800::_37" "zzz_ISP_v6_CT_2_2404:7240:7000::_36" "zzz_ISP_v6_CT_2_2404:7600::_40" "zzz_ISP_v6_CT_2_2404:7600:102::_47" "zzz_ISP_v6_CT_2_2404:7600:104::_46" "zzz_ISP_v6_CT_2_2404:7600:108::_45" "zzz_ISP_v6_CT_2_2404:7600:110::_44" "zzz_ISP_v6_CT_2_2404:7600:120::_43" "zzz_ISP_v6_CT_2_2404:7600:140::_42" "zzz_ISP_v6_CT_2_2404:7600:180::_41" "zzz_ISP_v6_CT_2_2404:7600:200::_39" "zzz_ISP_v6_CT_2_2404:7600:400::_38" "zzz_ISP_v6_CT_2_2404:7600:800::_37" "zzz_ISP_v6_CT_2_2404:7600:1000::_36" "zzz_ISP_v6_CT_2_2404:7600:2000::_35" "zzz_ISP_v6_CT_2_2404:7600:4000::_34" "zzz_ISP_v6_CT_2_2404:7600:8000::_33" "zzz_ISP_v6_CT_2_2404:e8c0::_32" "zzz_ISP_v6_CT_2_2405:1480:1000::_48" "zzz_ISP_v6_CT_2_2405:1480:2000::_48" "zzz_ISP_v6_CT_2_2405:1480:3000::_48" "zzz_ISP_v6_CT_2_2405:7040:6000::_48" "zzz_ISP_v6_CT_2_2405:8280::_32" "zzz_ISP_v6_CT_2_2405:8a40::_32" "zzz_ISP_v6_CT_2_2406:1080::_48" "zzz_ISP_v6_CT_2_2406:1e40:f012::_47" "zzz_ISP_v6_CT_2_2406:2700::_32" "zzz_ISP_v6_CT_2_2406:3640:1::_48" "zzz_ISP_v6_CT_2_2406:4d00::_48" "zzz_ISP_v6_CT_2_2406:8880::_48" "zzz_ISP_v6_CT_2_2406:cf00::_48" "zzz_ISP_v6_CT_2_2406:cf00:1000::_43" "zzz_ISP_v6_CT_2_2406:d440:100::_44" "zzz_ISP_v6_CT_2_2406:d440:210::_44" "zzz_ISP_v6_CT_2_2406:d440:ff00::_48" "zzz_ISP_v6_CT_2_2406:e3c0::_36" "zzz_ISP_v6_CT_2_2406:e3c0:1000::_37" "zzz_ISP_v6_CT_2_2406:e3c0:2000::_35" "zzz_ISP_v6_CT_2_2406:e3c0:4000::_34" "zzz_ISP_v6_CT_2_2406:e3c0:8000::_33" "zzz_ISP_v6_CT_2_2407:4980::_32" "zzz_ISP_v6_CT_2_2407:5380::_32" "zzz_ISP_v6_CT_2_2407:6c40:1100::_48" "zzz_ISP_v6_CT_2_2407:8f40:2::_48" "zzz_ISP_v6_CT_2_2407:9f00::_32" "zzz_ISP_v6_CT_2_2407:b380:8000::_48" "zzz_ISP_v6_CT_2_2407:c080:1730::_44" "zzz_ISP_v6_CT_2_2407:c080:1800::_37" "zzz_ISP_v6_CT_2_2407:d9c0::_32" "zzz_ISP_v6_CT_2_2409:27fa::_48" "zzz_ISP_v6_CT_2_2409:27fa:f000::_48" "zzz_ISP_v6_CT_2_2409:27fb::_48" "zzz_ISP_v6_CT_2_2409:27fc::_48" "zzz_ISP_v6_CT_2_240a:2001:1811::_48" "zzz_ISP_v6_CT_2_240a:2001:1861::_48" "zzz_ISP_v6_CT_2_240a:4002:1b00::_40" "zzz_ISP_v6_CT_2_240a:4010:8000::_33" "zzz_ISP_v6_CT_2_240a:4080:8000::_35" "zzz_ISP_v6_CT_2_240a:4084:2000::_35" "zzz_ISP_v6_CT_2_240a:4088:a000::_35" "zzz_ISP_v6_CT_2_240a:408c:2000::_35" "zzz_ISP_v6_CT_2_240a:4090:8000::_34" "zzz_ISP_v6_CT_2_240a:4093::_35" "zzz_ISP_v6_CT_2_240a:4094:2000::_35" "zzz_ISP_v6_CT_2_240a:409c:2000::_35" "zzz_ISP_v6_CT_2_240a:40a4:2000::_35" "zzz_ISP_v6_CT_2_240a:40a8:8000::_35" "zzz_ISP_v6_CT_2_240a:40ac:2000::_35" "zzz_ISP_v6_CT_2_240a:40c0:8200::_48" "zzz_ISP_v6_CT_2_240a:40c0:8240::_48" "zzz_ISP_v6_CT_2_240a:40c3:c200::_48" "zzz_ISP_v6_CT_2_240a:40c3:c240::_48" "zzz_ISP_v6_CT_2_240a:4172::_31" "zzz_ISP_v6_CT_2_240a:4180::_31" "zzz_ISP_v6_CT_2_240a:41b0::_34" "zzz_ISP_v6_CT_2_240a:41b8:8800::_40" "zzz_ISP_v6_CT_2_240a:41b8:a000::_40" "zzz_ISP_v6_CT_2_240a:41b8:d400::_40" "zzz_ISP_v6_CT_2_240a:41b8:e400::_40" "zzz_ISP_v6_CT_2_240a:41d6::_31" "zzz_ISP_v6_CT_2_240a:41f2::_31" "zzz_ISP_v6_CT_2_240a:4208::_30" "zzz_ISP_v6_CT_2_240a:4224:9000::_44" "zzz_ISP_v6_CT_2_240a:4224:a000::_44" "zzz_ISP_v6_CT_2_240a:4224:c000::_44" "zzz_ISP_v6_CT_2_240a:4224:d000::_44" "zzz_ISP_v6_CT_2_240a:4224:e000::_44" "zzz_ISP_v6_CT_2_240a:4225:1000::_44" "zzz_ISP_v6_CT_2_240a:4225:3000::_44" "zzz_ISP_v6_CT_2_240a:4230::_31" "zzz_ISP_v6_CT_2_240a:4242::_31" "zzz_ISP_v6_CT_2_240a:6001::_48" "zzz_ISP_v6_CT_2_240a:c0c0::_32" "zzz_ISP_v6_CT_2_240c:4000::_22" "zzz_ISP_v6_CT_2_240c:c001::_32" "zzz_ISP_v6_CT_2_240c:c017::_32" "zzz_ISP_v6_CT_2_240c:c018::_31" "zzz_ISP_v6_CT_2_240c:c02f::_32" "zzz_ISP_v6_CT_2_240c:c035::_32" "zzz_ISP_v6_CT_2_240c:c0a1::_32" "zzz_ISP_v6_CT_2_240c:c0a8::_35" "zzz_ISP_v6_CT_2_240c:c0a8:2000::_36" "zzz_ISP_v6_CT_2_240c:c0a8:3000::_37" "zzz_ISP_v6_CT_2_240c:c0a8:3800::_38" "zzz_ISP_v6_CT_2_240c:c0a8:3c00::_41" "zzz_ISP_v6_CT_2_240c:c0a8:3c80::_47" "zzz_ISP_v6_CT_2_240c:c0a8:3c83::_48" "zzz_ISP_v6_CT_2_240c:c0a8:3c84::_46" "zzz_ISP_v6_CT_2_240c:c0a8:3c88::_45" "zzz_ISP_v6_CT_2_240c:c0a8:3c90::_44" "zzz_ISP_v6_CT_2_240c:c0a8:3ca0::_43" "zzz_ISP_v6_CT_2_240c:c0a8:3cc0::_42" "zzz_ISP_v6_CT_2_240c:c0a8:3d00::_40" "zzz_ISP_v6_CT_2_240c:c0a8:3e00::_39" "zzz_ISP_v6_CT_2_240c:c0a8:4000::_36" "zzz_ISP_v6_CT_2_240c:c0a8:5000::_37" "zzz_ISP_v6_CT_2_240c:c0a8:5800::_38" "zzz_ISP_v6_CT_2_240c:c0a8:5c00::_43" "zzz_ISP_v6_CT_2_240c:c0a8:5c20::_46" "zzz_ISP_v6_CT_2_240c:c0a8:5c24::_47" "zzz_ISP_v6_CT_2_240c:c0a8:5c27::_48" "zzz_ISP_v6_CT_2_240c:c0a8:5c28::_45" "zzz_ISP_v6_CT_2_240c:c0a8:5c30::_44" "zzz_ISP_v6_CT_2_240c:c0a8:5c40::_45" "zzz_ISP_v6_CT_2_240c:c0a8:5c48::_48" "zzz_ISP_v6_CT_2_240c:c0a8:5c4a::_47" "zzz_ISP_v6_CT_2_240c:c0a8:5c4c::_46" "zzz_ISP_v6_CT_2_240c:c0a8:5c50::_44" "zzz_ISP_v6_CT_2_240c:c0a8:5c60::_43" "zzz_ISP_v6_CT_2_240c:c0a8:5c80::_41" "zzz_ISP_v6_CT_2_240c:c0a8:5d00::_40" "zzz_ISP_v6_CT_2_240c:c0a8:5e00::_39" "zzz_ISP_v6_CT_2_240c:c0a8:6000::_35" "zzz_ISP_v6_CT_2_240c:c0a8:8000::_36" "zzz_ISP_v6_CT_2_240c:c0a8:9000::_37" "zzz_ISP_v6_CT_2_240c:c0a8:9800::_38" "zzz_ISP_v6_CT_2_240c:c0a8:9c00::_48" "zzz_ISP_v6_CT_2_240c:c0a8:9c02::_47" "zzz_ISP_v6_CT_2_240c:c0a8:9c04::_46" "zzz_ISP_v6_CT_2_240c:c0a8:9c08::_45" "zzz_ISP_v6_CT_2_240c:c0a8:9c10::_44" "zzz_ISP_v6_CT_2_240c:c0a8:9c20::_43" "zzz_ISP_v6_CT_2_240c:c0a8:9c40::_42" "zzz_ISP_v6_CT_2_240c:c0a8:9c80::_41" "zzz_ISP_v6_CT_2_240c:c0a8:9d00::_40" "zzz_ISP_v6_CT_2_240c:c0a8:9e00::_39" "zzz_ISP_v6_CT_2_240c:c0a8:a000::_35" "zzz_ISP_v6_CT_2_240c:c0a8:c000::_34" "zzz_ISP_v6_CT_2_240c:c0a9:1000::_40" "zzz_ISP_v6_CT_2_240c:c220::_31" "zzz_ISP_v6_CT_2_240c:c246::_32" "zzz_ISP_v6_CT_2_240c:c341::_32" "zzz_ISP_v6_CT_2_240c:c406::_32" "zzz_ISP_v6_CT_2_240c:c410::_32" "zzz_ISP_v6_CT_2_240c:c586::_32" "zzz_ISP_v6_CT_2_240c:c602::_31" "zzz_ISP_v6_CT_2_240c:c604::_32" "zzz_ISP_v6_CT_2_240c:c608::_32" "zzz_ISP_v6_CT_2_240c:c64c::_32" "zzz_ISP_v6_CT_2_240c:ca02::_31" "zzz_ISP_v6_CT_2_240c:ca05::_32" "zzz_ISP_v6_CT_2_240c:ca07::_32" "zzz_ISP_v6_CT_2_240c:ca0c::_32" "zzz_ISP_v6_CT_2_240c:ca23::_32" "zzz_ISP_v6_CT_2_240e::_21" "zzz_ISP_v6_CT_2_240e:800::_24" "zzz_ISP_v6_CT_2_240e:900::_26" "zzz_ISP_v6_CT_2_240e:940::_27" "zzz_ISP_v6_CT_2_240e:960::_28" "zzz_ISP_v6_CT_2_240e:970::_29" "zzz_ISP_v6_CT_2_240e:978::_30" "zzz_ISP_v6_CT_2_240e:97c::_32" "zzz_ISP_v6_CT_2_240e:97d::_33" "zzz_ISP_v6_CT_2_240e:97d:8001::_48" "zzz_ISP_v6_CT_2_240e:97d:8002::_47" "zzz_ISP_v6_CT_2_240e:97d:8004::_46" "zzz_ISP_v6_CT_2_240e:97d:8008::_45" "zzz_ISP_v6_CT_2_240e:97d:8010::_44" "zzz_ISP_v6_CT_2_240e:97d:8020::_43" "zzz_ISP_v6_CT_2_240e:97d:8040::_42" "zzz_ISP_v6_CT_2_240e:97d:8080::_41" "zzz_ISP_v6_CT_2_240e:97d:8100::_40" "zzz_ISP_v6_CT_2_240e:97d:8200::_39" "zzz_ISP_v6_CT_2_240e:97d:8400::_38" "zzz_ISP_v6_CT_2_240e:97d:8800::_37" "zzz_ISP_v6_CT_2_240e:97d:9000::_36" "zzz_ISP_v6_CT_2_240e:97d:a000::_35" "zzz_ISP_v6_CT_2_240e:97d:c000::_34" "zzz_ISP_v6_CT_2_240e:97e::_31" "zzz_ISP_v6_CT_2_240e:980::_25" "zzz_ISP_v6_CT_2_240e:a00::_23" "zzz_ISP_v6_CT_2_240e:c00::_22" "zzz_ISP_v6_CT_2_2605:9d80:8001::_48" "zzz_ISP_v6_CT_2_2605:9d80:8011::_48" "zzz_ISP_v6_CT_2_2605:9d80:8021::_48" "zzz_ISP_v6_CT_2_2605:9d80:8031::_48" "zzz_ISP_v6_CT_2_2605:9d80:8041::_48" "zzz_ISP_v6_CT_2_2605:9d80:8081::_48" "zzz_ISP_v6_CT_2_2605:9d80:9003::_48" "zzz_ISP_v6_CT_2_2605:9d80:9013::_48" "zzz_ISP_v6_CT_2_2605:9d80:9023::_48" "zzz_ISP_v6_CT_2_2605:9d80:9033::_48" "zzz_ISP_v6_CT_2_2605:9d80:9042::_48" "zzz_ISP_v6_CT_2_2605:9d80:9071::_48" "zzz_ISP_v6_CT_2_2605:9d80:9092::_48" "zzz_ISP_v6_CT_2_2804:1e48:9001::_48" "zzz_ISP_v6_CT_2_2804:1e48:9002::_48" "zzz_ISP_v6_CT_2_2a00:8a05::_44" "zzz_ISP_v6_CT_2_2a04:f580:8010::_47" "zzz_ISP_v6_CT_2_2a04:f580:8090::_48" "zzz_ISP_v6_CT_2_2a04:f580:8210::_47" "zzz_ISP_v6_CT_2_2a04:f580:8290::_48" "zzz_ISP_v6_CT_2_2a04:f580:9010::_48" "zzz_ISP_v6_CT_2_2a04:f580:9012::_47" "zzz_ISP_v6_CT_2_2a04:f580:9020::_48" "zzz_ISP_v6_CT_2_2a04:f580:9030::_48" "zzz_ISP_v6_CT_2_2a04:f580:9040::_48" "zzz_ISP_v6_CT_2_2a04:f580:9050::_48" "zzz_ISP_v6_CT_2_2a04:f580:9060::_48" "zzz_ISP_v6_CT_2_2a04:f580:9070::_48" "zzz_ISP_v6_CT_2_2a04:f580:9080::_48" "zzz_ISP_v6_CT_2_2a04:f580:9210::_48" "zzz_ISP_v6_CT_2_2a04:f580:9212::_47" "zzz_ISP_v6_CT_2_2a04:f580:9220::_48" "zzz_ISP_v6_CT_2_2a04:f580:9230::_48" "zzz_ISP_v6_CT_2_2a04:f580:9240::_48" "zzz_ISP_v6_CT_2_2a04:f580:9250::_48" "zzz_ISP_v6_CT_2_2a04:f580:9260::_48" "zzz_ISP_v6_CT_2_2a04:f580:9270::_48" "zzz_ISP_v6_CT_2_2a04:f580:9280::_48" "zzz_ISP_v6_CT_2_2a04:f580:9290::_48" "zzz_ISP_v6_CT_2_2c0f:f7a8:8011::_48" "zzz_ISP_v6_CT_2_2c0f:f7a8:8050::_48" "zzz_ISP_v6_CT_2_2c0f:f7a8:805f::_48" "zzz_ISP_v6_CT_2_2c0f:f7a8:8150::_48" "zzz_ISP_v6_CT_2_2c0f:f7a8:815f::_48" "zzz_ISP_v6_CT_2_2c0f:f7a8:8211::_48" "zzz_ISP_v6_CT_2_2c0f:f7a8:9020::_48" "zzz_ISP_v6_CT_2_2c0f:f7a8:9041::_48" "zzz_ISP_v6_CT_2_2c0f:f7a8:9211::_48" "zzz_ISP_v6_CT_2_2c0f:f7a8:9220::_48"
         set allow-routing enable
     next
 end
@@ -822,7 +4240,7 @@ end
 config firewall addrgrp
     edit "zzz_ISPAG_v6_CT"
         unset member
-        set member "zzz_ISPBG_v6_CT_1"
+        set member "zzz_ISPBG_v6_CT_1" "zzz_ISPBG_v6_CT_2"
         set allow-routing enable
     next
 end
