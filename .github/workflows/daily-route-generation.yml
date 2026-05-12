@@ -2,7 +2,7 @@ name: Daily CHN Route Generation
 
 on:
   schedule:
-    - cron: '30 16 * * *'   # 每天 UTC 16:30 = UTC+8 00:30
+    - cron: "30 16 * * *" # 每天 UTC 16:30 = UTC+8 00:30
   workflow_dispatch:
 
 jobs:
@@ -14,12 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-         ref: main   # ← checkout main 分支（脚本在这里）
-
+          ref: conf
 
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - run: pip install requests
 
