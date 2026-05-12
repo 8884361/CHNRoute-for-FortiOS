@@ -18,7 +18,7 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      # 2. Create working directory
+      # 2. Prepare working directory
       - name: Prepare working directory
         run: mkdir -p .github/temp/output
 
@@ -30,18 +30,18 @@ jobs:
       - run: pip install requests
         working-directory: .github/temp
 
-      # 4. Run Python script using relative path
+      # 4. Run Python script
       - name: Run generator
         run: python ../../gen-chnroute.py
         working-directory: .github/temp
 
-      # 5. Copy output to root before checkout (关键修复点)
+      # 5. Copy output to root BEFORE checkout
       - name: Copy output to root
         run: |
-          mkdir -p output_copy
-          cp .github/temp/output/* output_copy/
+          mkdir -p output_ready
+          cp .github/temp/output/* output_ready/
 
-      # 6. Push output_copy to conf branch
+      # 6. Push output_ready/* to conf branch
       - name: Push to conf branch
         run: |
           git config --local user.email "action@github.com"
@@ -50,11 +50,16 @@ jobs:
           git fetch origin conf || true
           git checkout -b temp-update
 
-          git add output_copy/*
+          git rm -rf .   # 清空 temp-update 分支
+          git commit -m "cleanup" || true
+
+          cp output_ready/* .
+          git add *.txt
+
           git diff --quiet && git diff --staged --quiet || git commit -m "Auto update routes - $(date -u +'%Y-%m-%d %H:%M:%S')"
 
           git push origin temp-update:conf --force
 
       # 7. Cleanup
       - name: Cleanup
-        run: rm -rf output_copy .github/temp/output/*
+        run: rm -rf output_ready .github/temp/output/*
