@@ -25,7 +25,7 @@ jobs:
 
       - run: pip install requests
 
-      # 3. 在 main 分支运行脚本（必须）
+      # 3. 在 main 分支运行脚本（生成文件）
       - run: python3 gen-chnroute.py
 
       # 4. 切换到 conf 分支（如果不存在则创建）
@@ -33,10 +33,10 @@ jobs:
           git fetch origin
           git checkout conf || git checkout -b conf
 
-      # 5. 把 main 生成的文件复制到 conf 分支
+      # 5. 从 main 分支取出生成的文件（正确做法）
       - run: |
-          cp -f ../CHNRoute-for-FortiOS/fortios_isp_*.conf.txt .
-          cp -f ../CHNRoute-for-FortiOS/.github/temp/*.txt .github/temp/ 2>/dev/null || true
+          git checkout main -- fortios_isp_*.conf.txt
+          git checkout main -- .github/temp/*.txt 2>/dev/null || true
 
       # 6. 提交变更到 conf 分支
       - run: |
