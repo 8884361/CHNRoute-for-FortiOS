@@ -23,8 +23,10 @@ jobs:
 
       - run: pip install requests
 
+      # 在 main 分支运行脚本
       - run: python3 gen-chnroute.py
 
+      # 提交到 conf 分支（不切换目录）
       - run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
