@@ -35,13 +35,19 @@ jobs:
         run: python ../../gen-chnroute.py
         working-directory: .github/temp
 
-      # 5. Copy output to root BEFORE checkout
+      # ⭐ 5. Copy temp/*.txt to root BEFORE checkout（关键修复点）
+      - name: Copy temp cache to root
+        run: |
+          mkdir -p temp_cache
+          cp .github/temp/*.txt temp_cache/ || true
+
+      # 6. Copy output to root BEFORE checkout
       - name: Copy output to root
         run: |
           mkdir -p output_ready
           cp .github/temp/output/* output_ready/
 
-      # 6. Push output_ready/* to conf branch
+      # 7. Push output_ready/* and temp_cache/* to conf branch
       - name: Push to conf branch
         run: |
           git config --local user.email "action@github.com"
@@ -54,12 +60,14 @@ jobs:
           git commit -m "cleanup" || true
 
           cp output_ready/* .
+          cp temp_cache/* . || true
+
           git add *.txt
 
           git diff --quiet && git diff --staged --quiet || git commit -m "Auto update routes - $(date -u +'%Y-%m-%d %H:%M:%S')"
 
           git push origin temp-update:conf --force
 
-      # 7. Cleanup
+      # 8. Cleanup
       - name: Cleanup
-        run: rm -rf output_ready .github/temp/output/*
+        run: rm -rf output_ready temp_cache .github/temp/output/*
