@@ -16,23 +16,29 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 0   # 必须，否则无法切换分支
+          fetch-depth: 0
 
-      # 2. 切换到 conf 分支（如果不存在则创建）
-      - run: |
-          git checkout conf || git checkout -b conf
-
-      # 3. 安装 Python
+      # 2. 安装 Python
       - uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
       - run: pip install requests
 
-      # 4. 运行脚本（脚本来自 main，但当前分支是 conf）
+      # 3. 在 main 分支运行脚本（必须）
       - run: python3 gen-chnroute.py
 
-      # 5. 提交变更到 conf 分支
+      # 4. 切换到 conf 分支（如果不存在则创建）
+      - run: |
+          git fetch origin
+          git checkout conf || git checkout -b conf
+
+      # 5. 把 main 生成的文件复制到 conf 分支
+      - run: |
+          cp -f ../CHNRoute-for-FortiOS/fortios_isp_*.conf.txt .
+          cp -f ../CHNRoute-for-FortiOS/.github/temp/*.txt .github/temp/ 2>/dev/null || true
+
+      # 6. 提交变更到 conf 分支
       - run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -42,7 +48,7 @@ jobs:
             git push origin conf
           )
 
-      # 6. 上传 artifacts
+      # 7. 上传 artifacts
       - uses: actions/upload-artifact@v4
         if: always()
         with:
