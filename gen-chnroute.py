@@ -22,6 +22,7 @@ URLs = {
     "CSTNET": "https://gaoyifan.github.io/china-operator-ip/cstnet.txt",
     "DRPENG": "https://gaoyifan.github.io/china-operator-ip/drpeng.txt",
     "GOOGLECN": "https://gaoyifan.github.io/china-operator-ip/googlecn.txt",
+    "CHINA": "https://gaoyifan.github.io/china-operator-ip/china.txt",
 }
 
 IPv6_URLs = {
@@ -32,6 +33,7 @@ IPv6_URLs = {
     "v6_CSTNET": "https://gaoyifan.github.io/china-operator-ip/cstnet6.txt",
     "v6_DRPENG": "https://gaoyifan.github.io/china-operator-ip/drpeng6.txt",
     "v6_GOOGLECN": "https://gaoyifan.github.io/china-operator-ip/googlecn6.txt",
+    "v6_CHINA": "https://gaoyifan.github.io/china-operator-ip/china6.txt",
 }
 
 # ================================
