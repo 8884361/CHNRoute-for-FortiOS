@@ -1,0 +1,50 @@
+config firewall address6
+edit "zzz_ISP_v6_CSTNET_1_2001:cc0::_32"
+    set ip6 2001:cc0::/32
+    set allow-routing enable
+next
+edit "zzz_ISP_v6_CSTNET_1_2001:dcc:501::_48"
+    set ip6 2001:dcc:501::/48
+    set allow-routing enable
+next
+edit "zzz_ISP_v6_CSTNET_1_2400:9580::_48"
+    set ip6 2400:9580::/48
+    set allow-routing enable
+next
+edit "zzz_ISP_v6_CSTNET_1_2400:dd00::_28"
+    set ip6 2400:dd00::/28
+    set allow-routing enable
+next
+edit "zzz_ISP_v6_CSTNET_1_2401:8d00:3::_48"
+    set ip6 2401:8d00:3::/48
+    set allow-routing enable
+next
+edit "zzz_ISP_v6_CSTNET_1_2401:8d00:7::_48"
+    set ip6 2401:8d00:7::/48
+    set allow-routing enable
+next
+edit "zzz_ISP_v6_CSTNET_1_2401:8d00:12::_48"
+    set ip6 2401:8d00:12::/48
+    set allow-routing enable
+next
+edit "zzz_ISP_v6_CSTNET_1_2401:de00::_32"
+    set ip6 2401:de00::/32
+    set allow-routing enable
+next
+end
+
+config firewall addrgrp
+    edit "zzz_ISPBG_v6_CSTNET_1"
+        unset member
+        set member "zzz_ISP_v6_CSTNET_1_2001:cc0::_32" "zzz_ISP_v6_CSTNET_1_2001:dcc:501::_48" "zzz_ISP_v6_CSTNET_1_2400:9580::_48" "zzz_ISP_v6_CSTNET_1_2400:dd00::_28" "zzz_ISP_v6_CSTNET_1_2401:8d00:3::_48" "zzz_ISP_v6_CSTNET_1_2401:8d00:7::_48" "zzz_ISP_v6_CSTNET_1_2401:8d00:12::_48" "zzz_ISP_v6_CSTNET_1_2401:de00::_32"
+        set allow-routing enable
+    next
+end
+
+config firewall addrgrp
+    edit "zzz_ISPAG_v6_CSTNET"
+        unset member
+        set member "zzz_ISPBG_v6_CSTNET_1"
+        set allow-routing enable
+    next
+end

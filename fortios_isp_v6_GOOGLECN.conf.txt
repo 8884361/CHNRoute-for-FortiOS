@@ -1,0 +1,26 @@
+config firewall address6
+edit "zzz_ISP_v6_GOOGLECN_1_2401:3800::_32"
+    set ip6 2401:3800::/32
+    set allow-routing enable
+next
+edit "zzz_ISP_v6_GOOGLECN_1_2401:fa00:40::_43"
+    set ip6 2401:fa00:40::/43
+    set allow-routing enable
+next
+end
+
+config firewall addrgrp
+    edit "zzz_ISPBG_v6_GOOGLECN_1"
+        unset member
+        set member "zzz_ISP_v6_GOOGLECN_1_2401:3800::_32" "zzz_ISP_v6_GOOGLECN_1_2401:fa00:40::_43"
+        set allow-routing enable
+    next
+end
+
+config firewall addrgrp
+    edit "zzz_ISPAG_v6_GOOGLECN"
+        unset member
+        set member "zzz_ISPBG_v6_GOOGLECN_1"
+        set allow-routing enable
+    next
+end
